@@ -6,9 +6,9 @@
 * [功能简介](usdpdc/1.0.x/release_notes)
 * 规划及安装
 
-  * 部署规划
-  * 安装部署
-  * 首次创建
+  * [部署规划](usdpdc/1.0.x/plan&create/deploy_plan)
+  * [安装部署](usdpdc/1.0.x/plan&create/install)
+  * [首次创建](usdpdc/1.0.x/plan&create/first_create)
 * 控制台操作
 * 集群新增
   * 节点管理
@@ -21,7 +21,14 @@
   * 各服务部署规则
   * 各服务WebUIs账号
 * 开发指南
+   * [HDFS-开发指南](/USDP/developer/hdfs)
+   * [Hive-开发指南](/USDP/developer/hive)
+   * [HBase-开发指南](/USDP/developer/hbase)
+   * [Ranger-开发指南](/USDP/developer/ranger/README)
+   * [Atlas开发指南](/USDP/developer/atlas)
 * 任务调度
+   * [调度服务-UDS](/USDP/schedule/uds)
+   * [调度服务-Airflow](/USDP/schedule/airflow)
 * [常见问题](usdpdc/1.0.x/FAQ)
 * [更多USDP版本](/usdpdc/general/version_list)
 
