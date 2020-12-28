@@ -2,12 +2,11 @@
 
 
 
-
 * [产品概述](usdpdc/1.0.x/README)
-* [功能说明](usdpdc/1.0.x/release_notes)
-* 规划与部署
+* [功能简介](usdpdc/1.0.x/release_notes)
+* 规划及创建
 
-  * 规划部署
+  * 部署规划
   * 安装部署
   * 首次创建
   * 集群新增
@@ -22,7 +21,9 @@
 
   * 各服务部署规则
   * 各服务WebUIs账号
+
 * 开发指南
 * 任务调度
 * [常见问题](usdpdc/1.0.x/FAQ)
+* [更多USDP版本](/usdpdc/general/version_list)
 
