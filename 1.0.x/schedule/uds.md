@@ -20,13 +20,13 @@ UCloud Data Studio（简称 UDS），是 UCloud 推出的是一款轻量级、�
 
 ## 1. 开始UDS服务
 
-点击 USDP 控制台左侧导航菜单 <kbd>服务管理</kbd> - <kbd>调度类</kbd> - <kbd>UDS</kbd> ，进入UDS详情页，点击 <kbd>Web UIs</kbd> 即可打开当前集群的 UDS 任务管理服务控制台。
+点击 USDP 控制台左侧导航菜单 <kbd>服务管理</kbd> - <kbd>调度类</kbd> - <kbd>UDS</kbd> ，进入UDS详情页。
 
-![](../../images/1.0.x/schedule/uds/uds入口.png)
+![1](../../images/1.0.x/schedule/uds/uds入口.png)
 
+点击 <kbd>Web UIs</kbd> 即可打开当前集群的 UDS 任务管理服务控制台。
 
-
-![](../../images/1.0.x/schedule/uds/uds_login.png)
+![2](../../images/1.0.x/schedule/uds/uds_login.png)
 
 UDS管理员账号，参考《操作指南-各服务Web UIs登录口令》文档。
 
