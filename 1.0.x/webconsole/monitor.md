@@ -10,7 +10,7 @@
 
 首次登录需要设置admin用户名的登录密码。如下所示：
 
-![](../images/webconsole/node/node_usdp_console_login.png)
+![](../../images/1.0.x/webconsole/node/node_usdp_console_login.png)
 
 
 
@@ -18,14 +18,14 @@
 
 在USDP控制台左侧导航栏 “监控管理” - “监控图表”，打开集群服务监控 Grafana 页面，并登陆。如下图所示：
 
-![](../images/webconsole/monitor/service_grafana_ui_details.png)
+![](../../images/1.0.x/webconsole/monitor/service_grafana_ui_details.png)
 
 > 默认登陆口令请参考 [各服务WebUIs账号](/usdpdc/1.0.x/cluster_notes/login)，请登陆后及时修改密码！
 >
 
 - 登陆后进入Grafana首页，如下图所示：
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana.png)
 
 
 
@@ -37,37 +37,37 @@
 
 ### 3.1 查看HDFS服务监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_hdfs.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_hdfs.png)
 
 
 
 ### 3.2 查看YARN服务监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_yarn.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_yarn.png)
 
 
 
 ### 3.3 查看HIVE服务监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_hive.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_hive.png)
 
 
 
 ### 3.4 查看HBASE服务监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_hbase.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_hbase.png)
 
 
 
 ### 3.5 查看ZOOKEEPER服务监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_zookeeper.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_zookeeper.png)
 
 
 
 ### 3.6 查看集群节点JVM监控图表
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_jvm.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_jvm.png)
 
 
 
@@ -75,7 +75,7 @@
 
 将USDP自身的集群管理服务也作为独立的监控图表，便于用户查看维护。
 
-![](../images/webconsole/monitor/usdp_console_cluster_monitor_grafana_usdp.png)
+![](../../images/1.0.x/webconsole/monitor/usdp_console_cluster_monitor_grafana_usdp.png)
 
 
 

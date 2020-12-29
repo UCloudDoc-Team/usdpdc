@@ -9,12 +9,11 @@
 在浏览器中打开 USDP Web Console：http://<your_master1_ip>
 
 首次登录需要设置admin用户名的登录密码。如下所示：
-![](/images/测试用图.jpg)
-![](../images/webconsole/node/node_usdp_console_login.png)
+![](../../images/1.0.x/webconsole/node/node_usdp_console_login.png)
 
 点击USDP控制台左侧导航菜单 <kbd>节点管理</kbd> ，即可查看当前集群的所有节点列表信息。
 
-![](../images/webconsole/node/node_usdp_nodemanager.png)
+![](../../images/1.0.x/webconsole/node/node_usdp_nodemanager.png)
 
 在此，可针对该集群的所有节点实现管理操作，如各节点上组件部署情况查询和管理、节点资源监控、节点资源监控图表、节点运行查看等操作，点击下方链接前往查阅。
 
@@ -24,11 +23,11 @@
 
 在当前集群的所有节点列表信息页面，已针对单个节点上部署的大数据服务组件进行统计，如下图所示：
 
-![](../images/webconsole/node/usdp_console_node_component_count.png)
+![](../../images/1.0.x/webconsole/node/usdp_console_node_component_count.png)
 
 点击统计数字，即可在弹出的对话框中查看到该接节点上所有已部署的组件及组件运行状态，方便集中的、滚动查看。如下图所示：
 
-![](../images/webconsole/node/usdp_console_node_component_show.png)
+![](../../images/1.0.x/webconsole/node/usdp_console_node_component_show.png)
 
 
 
@@ -36,11 +35,11 @@
 
 在当前集群的所有节点列表信息页面，点击“节点域名”中单个节点域名快捷方式，进入该节点的详情概览页面。如下图所示：
 
-![](../images/webconsole/node/usdp_console_node_single_entrance.png)
+![](../../images/1.0.x/webconsole/node/usdp_console_node_single_entrance.png)
 
 在节点“概览”页面，已针对当前节点的系统监控指标实现图表展示，如下图所示：
 
-![](../images/webconsole/node/usdp_console_node_single_details.png)
+![](../../images/1.0.x/webconsole/node/usdp_console_node_single_details.png)
 
 > 概览页支持按既定的时间范围查看当前节点的性能表现，支持自定时间范围。可选的有：
 >
@@ -61,5 +60,5 @@
 
 点击切换至 <kbd>组件管理</kbd> 标签页，USDP已将该节点上所以已部署的组件列表展示出来，为便于查找组件，该页面支持按“组件名称”、“所属服务”进行搜索。在当前页面中，可查看已部署的各个组件的“组件名称”、“所属服务”、“组件状态”，亦可对单个组件进行操作“启动”、“停止”、“重启”、“删除”等控制，如下图所示：
 
-![](../images/webconsole/node/usdp_console_node_component_management.png)
+![](../../images/1.0.x/webconsole/node/usdp_console_node_component_management.png)
 

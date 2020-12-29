@@ -8,7 +8,7 @@
 
 但USDP服务安装成功并且周次打开USDP Web Console时，系统会提示用户，需要导入新的许可证后，方可正常使用USDP Web Console。如下图所示：
 
-![](../images/webconsole/license/导入license.png)
+![](../../images/1.0.x/webconsole/license/导入license.png)
 
 
 
@@ -16,7 +16,7 @@
 
 当点击上图 <kbd>导入许可证</kbd> 按钮，即会弹出 “导入许可证” 对话框，USDP系统会自动识别您集群的服务器节点硬件信息，如下图所示，用户可复制该 “硬件识别码” 字符串后联系客户经理来获取 许可证。
 
-![](../images/webconsole/license/导入license01.png)
+![](../../images/1.0.x/webconsole/license/导入license01.png)
 
 !> 许可证 文件是一个压缩包，无需解压。
 
@@ -26,7 +26,7 @@
 
 USDP License是有有效期限制的，当有效期即将到期前，用户登录控制时，系统即会提醒用户联系客户经理更新License。如下图所示：
 
-![](../images/webconsole/license/license提示.png)
+![](../../images/1.0.x/webconsole/license/license提示.png)
 
 !> 当系统提示许可证有效期即将到期时，建议用户尽快联系客户经理获得新的许可证，避免到期后无法正常使用USDP Web Console的问题。
 
@@ -38,12 +38,12 @@ USDP License是有有效期限制的，当有效期即将到期前，用户登�
 
 - 点击 USDP Web Console 页面右上角 用户名“admin”，在展开的下拉菜单中，选择 <kbd>系统设置</kbd> 。如下图所示：
 
-![](../images/webconsole/license/2020-12-2210.53.28.png)
+![](../../images/1.0.x/webconsole/license/2020-12-2210.53.28.png)
 
 - 点击左侧导航栏 <kbd>许可证管理</kbd> 页面右侧即会展示当前USDP的许可证相关的详细信息。如下图所示：
 
-![](../images/webconsole/license/2020-12-2210.55.33.png)
+![](../../images/1.0.x/webconsole/license/2020-12-2210.55.33.png)
 
 - 此时若需要更新许可证，点击右下角的 <kbd>更新许可证</kbd> 按钮，并在下图中 “导入许可证” 对话框中导入新的许可证文件即可。
 
-![](../images/webconsole/license/2020-12-2210.59.35.png)
+![](../../images/1.0.x/webconsole/license/2020-12-2210.59.35.png)
