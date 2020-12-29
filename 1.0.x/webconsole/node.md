@@ -9,7 +9,7 @@
 在浏览器中打开 USDP Web Console：http://<your_master1_ip>
 
 首次登录需要设置admin用户名的登录密码。如下所示：
-![](../../images/1.0.x/webconsole/node/node_usdp_console_login.png)
+![](/images/1.0.x/webconsole/node/node_usdp_console_login.png)
 
 点击USDP控制台左侧导航菜单 <kbd>节点管理</kbd> ，即可查看当前集群的所有节点列表信息。
 
