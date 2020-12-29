@@ -14,7 +14,7 @@
   * [服务管理](usdpdc/1.0.x/webconsole/service)
   * [监控管理](usdpdc/1.0.x/webconsole/monitor)
   * [告警管理](usdpdc/1.0.x/webconsole/alarm)
-  * [License管理](usdpdc/1.0.x/webconsole/license)
+  * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
   * [各服务部署规则](usdpdc/1.0.x/cluster_notes/rule)
   * [各服务WebUIs账号](usdpdc/1.0.x/cluster_notes/login)
