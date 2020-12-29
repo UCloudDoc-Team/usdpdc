@@ -19,11 +19,11 @@
   * [各服务部署规则](usdpdc/1.0.x/cluster_notes/rule)
   * [各服务WebUIs账号](usdpdc/1.0.x/cluster_notes/login)
 * 开发指南
-   * [HDFS-开发指南](usdpdc/1.0.x/)
-   * [Hive-开发指南](usdpdc/1.0.x/)
-   * [HBase-开发指南](usdpdc/1.0.x/)
-   * [Ranger-开发指南](usdpdc/1.0.x/)
-   * [Atlas开发指南](usdpdc/1.0.x/)
+   * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
+   * [Hive-开发指南](usdpdc/1.0.x/developer/hive)
+   * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
+   * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
+   * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
 * 任务调度
    * [调度服务-UDS](usdpdc/1.0.x/)
    * [调度服务-Airflow](usdpdc/1.0.x/)

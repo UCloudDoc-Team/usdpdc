@@ -6,9 +6,11 @@
 
 ## 1. 浏览器访问USDP管理控制台
 
-在浏览器中打开 USDP Web Console：http://<your_master1_ip>
-
-首次登录需要设置admin用户名的登录密码。如下所示：
+在浏览器中打开 USDP Web Console：
+~~~URL
+http://<your_master1_ip>
+~~~
+如下所示：
 
 ![](../../images/1.0.x/webconsole/node/node_usdp_console_login.png)
 
