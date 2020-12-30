@@ -16,5 +16,5 @@
 
 ![](../../images/1.0.x/webconsole/clusters/2020123035003.png)
 
-此时，即可进入创建新集群的向导流程中，接下来，您可参考 [通过向导创建大数据集群](/usdpdc/1.0.x/plan&create/first_create?id=3.1向导-选择软件版本) 章节。
+此时，即可进入创建新集群的向导流程中，接下来，您可参考 [通过向导创建大数据集群](usdpdc/1.0.x/plan&create/first_create?id=3.1向导-选择软件版本) 章节。
 
