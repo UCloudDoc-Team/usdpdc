@@ -10,7 +10,7 @@
   * [首次创建](usdpdc/1.0.x/plan&create/first_create)
 * 控制台操作
   * [USDP 多集群管理](usdpdc/1.0.x/webconsole/clusters)
-  * 集群管理
+  * 单集群管理
     * [集群节点管理](usdpdc/1.0.x/webconsole/node)
     * [集群服务管理](usdpdc/1.0.x/webconsole/service)
     * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
