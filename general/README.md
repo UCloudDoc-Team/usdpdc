@@ -36,5 +36,5 @@ USDP 的底层资源为您所独享，集群位于独立的虚拟私有网络中
 
 
 
-关于更多版本，请查看 [USDP私有化版本列表](/usdpdc/1.0.x/version_list)
+关于更多版本，请查看 [USDP私有化版本列表](/usdpdc/general/version_list)
 
