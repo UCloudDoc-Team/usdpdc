@@ -161,7 +161,11 @@ datasource:
 bin/start-udp-server.sh 
 ~~~
 
-大约等待 10 秒左右，即可通过浏览器访问 USDP控制台：
+执行该启动命令后，大约需等待 10 秒左右时间。
+
+### 5.3 访问USDP管理控制台
+
+浏览器中访问 USDP控制台：
 
 ~~~shell
 http://<your_host_ip>
@@ -169,7 +173,7 @@ http://<your_host_ip>
 
 ?> 提示：<your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
 
-USDP控制台，首次登录需要设置admin用户名的登录密码。如下图所示：
+进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
 ![](../../images/1.0.x/plan&create/install/输入登录信息.png)
 
