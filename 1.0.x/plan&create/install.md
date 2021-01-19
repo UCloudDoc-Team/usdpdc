@@ -199,28 +199,3 @@ http://<your_host_ip>
 
 至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/1.0.x/plan&create/first_create)。
 
-## 6. 新增节点前的修复步骤
-
-当集群部署完毕后，如需要新增节点，同样需要准备好部署环境，对于新增节点环境修复，我们也提供一键式修复，需要做如下步骤：
-
-### 6.1 检查your.properties 配置的信息
-
-检查 your.properties 文件的参数项 host.single.info.Path，即新增节点信息存放的绝对路径。对于该配置文件其他参数项无需改动。
-
-     host.single.info.Path=/opt/usdp-srv/usdp/repair/host_single_info.txt
-
-### 6.2 配置host_single_info.txt文件
-
-与4.1节中的全量修复类似， 文件中每行为一个节点信息，从左至右依次为：内网IP，节点密码，SSH端口号，即将自动修改生效的主机名。具体示例如下：
-
-~~~shell
-      127.0.0.1 your-node-root-password 22 udp01
-      127.0.0.1 your-node-root-password 22 udp02
-      127.0.0.1 your-node-root-password 22 udp03
-~~~
-修改完上述配置文件，即可进入 repair 目录执行如下修复命令
-
-
-      bash repair.sh  initSingle  /opt/usdp-srv/usdp/repair/your.properties
-
-?> 注意：</br> 1. 在host_single_info.txt文件中，仅需配置每次新增的节点信息即可，若存在已修复过的节点信息时，在下次运行“repair.sh  initSingle”指令前，请清除。</br> 2. jdk 安装在 /opt/module 下面，不允许随意删除，否则 java 环境失效。
