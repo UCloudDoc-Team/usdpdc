@@ -71,7 +71,7 @@
 
   文件中每行为一个节点信息，从左至右依次为：内网IP，节点密码，SSH端口号，即将自动修改生效的主机名。
 
-  `提示：在全量初始化部署过程中，host_single_info.txt 暂无须修改。`
+  ?> 提示：在全量初始化部署过程中，host_single_info.txt 暂无须修改。
 
 * your.properties
 
@@ -167,13 +167,13 @@ bin/start-udp-server.sh
 http://<your_host_ip>
 ~~~
 
-`提示：<your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。`
+?> 提示：<your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
 
 USDP控制台，首次登录需要设置admin用户名的登录密码。如下图所示：
 
 ![](../../images/1.0.x/plan&create/install/输入登录信息.png)
 
-> *提示：集群部署完成后，可在USDP控制台中，更改admin管理员的密码。*
+?> 提示：集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.4 获取并导入LICENSE
 
@@ -185,7 +185,7 @@ USDP控制台，首次登录需要设置admin用户名的登录密码。如下�
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
-> *提示：License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。*
+?> 提示：License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。
 
 关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
 
@@ -217,7 +217,4 @@ USDP控制台，首次登录需要设置admin用户名的登录密码。如下�
 
       bash repair.sh  initSingle  /opt/usdp-srv/usdp/repair/your.properties
 
-> 注意：
->
-> 1. 在host_single_info.txt文件中，仅需配置每次新增的节点信息即可，若存在已修复过的节点信息时，在下次运行“repair.sh  initSingle”指令前，请清除。
-> 2. jdk 安装在 /opt/module 下面，不允许随意删除，否则 java 环境失效。
+?> 注意：</br> 1. 在host_single_info.txt文件中，仅需配置每次新增的节点信息即可，若存在已修复过的节点信息时，在下次运行“repair.sh  initSingle”指令前，请清除。</br> 2. jdk 安装在 /opt/module 下面，不允许随意删除，否则 java 环境失效。
