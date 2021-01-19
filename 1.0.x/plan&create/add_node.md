@@ -33,7 +33,7 @@
 
 ## 2. 新增大数据集群
 
-此处，看参考 [新增大数据集群](usdpdc/1.0.x/webconsole/clusters?id=_1-新增大数据集群)
+USDP支持对多个大数据集群进行管理，可前往参考 [新增大数据集群](usdpdc/1.0.x/webconsole/clusters?id=_1-新增大数据集群)。
 
 
 
