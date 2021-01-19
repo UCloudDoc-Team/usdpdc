@@ -161,31 +161,49 @@ datasource:
 bin/start-udp-server.sh 
 ~~~
 
-大约等待 10 秒左右，即可通过浏览器访问 USDP：http://<your_host_ip>
+大约等待 10 秒左右，即可通过浏览器访问 USDP控制台：
 
-`提示：<your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果为内网，则需要自行搭建 VPN，或通过内网互通的Windows机器的浏览器来访问该IP。`
+~~~shell
+http://<your_host_ip>
+~~~
+
+`提示：<your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。`
+
+USDP控制台，首次登录需要设置admin用户名的登录密码。如下图所示：
+
+![](../../images/1.0.x/plan&create/install/输入登录信息.png)
+
+> *提示：集群部署完成后，可在USDP控制台中，更改admin管理员的密码。*
+
+### 5.4 获取并导入LICENSE
+
+![](../../images/1.0.x/webconsole/license/导入license.png)
+
+点击 <kbd>导入许可证</kbd> 按钮，在 “导入许可证” 对话框中，将 “硬件识别码” 字符串、集群节点数量信息，发送给UCloud客户经理来获得license许可文件。
+
+![](../../images/1.0.x/webconsole/license/导入license01.png)
+
+获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
+
+> *提示：License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。*
+
+关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
 
 
 
-## 6. 构建大数据集群
+至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/1.0.x/plan&create/first_create)。
 
-启动 USDP 服务之后，即可通过 WebUI 的方式，进行图形化界面操作，方便简单的完成您所需要的大数据集群的构建工作。
-
-后续操作可以参看如何 [通过USDP创建第一个大数据集群](/usdpdc/1.0.x/plan&create/first_create)。
-
-
-
-## 7. 新增节点前的修复步骤
+## 6. 新增节点前的修复步骤
 
 当集群部署完毕后，如需要新增节点，同样需要准备好部署环境，对于新增节点环境修复，我们也提供一键式修复，需要做如下步骤：
 
-### 7.1 检查your.properties 配置的信息
+### 6.1 检查your.properties 配置的信息
 
 检查 your.properties 文件的参数项 host.single.info.Path，即新增节点信息存放的绝对路径。对于该配置文件其他参数项无需改动。
 
      host.single.info.Path=/opt/usdp-srv/usdp/repair/host_single_info.txt
 
-### 7.2 配置host_single_info.txt文件
+### 6.2 配置host_single_info.txt文件
 
 与4.1节中的全量修复类似， 文件中每行为一个节点信息，从左至右依次为：内网IP，节点密码，SSH端口号，即将自动修改生效的主机名。具体示例如下：
 

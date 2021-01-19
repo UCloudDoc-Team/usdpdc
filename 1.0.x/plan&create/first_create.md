@@ -8,27 +8,15 @@
 
 在浏览器中打开 USDP Web Console：http://<your_master1_ip>
 
-首次登录需要设置admin用户名的登录密码。如下所示：
-
-![](../../images/1.0.x/plan&create/first_create/输入登录信息.png)
-
-> *提示：集群部署完成后，可在USDP控制台中，更改admin管理员的密码。*
+如下所示：
 
 
 
-## 2. 获取并导入LICENSE
-
-![](../../images/1.0.x/webconsole/license/导入license.png)
-
-点击 <kbd>导入许可证</kbd> 按钮，在 “导入许可证” 对话框中，将 “硬件识别码” 字符串、节点个数信息，发送给UCloud客户经理来获得license许可文件。
-
-![](../../images/1.0.x/webconsole/license/导入license01.png)
-
-获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
 
 
-关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
+
+
 
 
 
