@@ -8,6 +8,7 @@
   * [资源规划](usdpdc/1.0.x/plan&create/deploy_plan)
   * [部署流程](usdpdc/1.0.x/plan&create/install)
   * [首次创建](usdpdc/1.0.x/plan&create/first_create)
+  * [扩展节点](usdpdc/1.0.x/plan&create/add_node)
 * 控制台操作
   * [USDP 多集群管理](usdpdc/1.0.x/webconsole/clusters)
   * 单集群管理

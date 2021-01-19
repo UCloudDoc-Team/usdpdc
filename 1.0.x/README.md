@@ -57,6 +57,7 @@ UCloud提供了友好且易于部署的管理服务，用户可一键式操作�
 * [资源规划](usdpdc/1.0.x/plan&create/deploy_plan)
 * [部署流程](usdpdc/1.0.x/plan&create/install)
 * [首次创建](usdpdc/1.0.x/plan&create/first_create)
+* [扩展节点](usdpdc/1.0.x/plan&create/add_node)
 
 
 
