@@ -185,9 +185,11 @@ USDP控制台，首次登录需要设置admin用户名的登录密码。如下�
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
-?> 提示：License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。
+?> 提示：License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
 
-关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
+若License文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
+
+![](../../images/1.0.x/plan&create/install/创建集群.png)
 
 
 
