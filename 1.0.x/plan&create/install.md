@@ -156,13 +156,15 @@ bin/start-udp-server.sh
 
 执行该启动命令后，大约需等待 10 秒左右时间。
 
+### 5.3 使用crontab定时检测USDP服务
+
 为crontab添加start-udp-server.sh 每分钟定时检测，参考如下：
 
 ~~~shell
 */1 * * * *  source /etc/profile;sh /opt/usdp-srv/usdp/bin/start-udp-server.sh >/dev/null 2>&1
 ~~~
 
-### 5.3 访问USDP管理控制台
+### 5.4 访问USDP管理控制台
 
 浏览器中访问 USDP控制台：
 
@@ -178,7 +180,7 @@ http://<your_host_ip>
 
 ?> 提示：集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
-### 5.4 获取并导入LICENSE
+### 5.5 获取并导入LICENSE
 
 ![](../../images/1.0.x/webconsole/license/导入license.png)
 
