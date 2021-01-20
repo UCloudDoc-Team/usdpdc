@@ -105,6 +105,8 @@
   > - 第 9 行：``host_single_info.txt`` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
+?> your.properties 文件中各IP地址的天线，可在 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 参考部署模式。
+
 ### 4.2 执行修复
 
 完成上述步骤后，执行如下命令即可开始一键修复任务。
