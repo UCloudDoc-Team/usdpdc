@@ -156,6 +156,12 @@ bin/start-udp-server.sh
 
 执行该启动命令后，大约需等待 10 秒左右时间。
 
+为crontab添加start-udp-server.sh 每分钟定时检测，参考如下：
+
+~~~shell
+*/1 * * * *  source /etc/profile;sh /opt/usdp-srv/usdp/bin/start-udp-server.sh >/dev/null 2>&1
+~~~
+
 ### 5.3 访问USDP管理控制台
 
 浏览器中访问 USDP控制台：
