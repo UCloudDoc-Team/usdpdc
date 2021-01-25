@@ -4,17 +4,13 @@
 
 
 
-
-
-用户可根据自身需求，选择参考以下三类部署方案：
+**用户可根据自身需求，选择参考以下三类部署方案：**
 
 [1. 最小规模部署](usdpdc/1.0.x/plan&create/deploy_plan?id=_1-最小规模部署)
 
 [2. 单集群多节点规划](usdpdc/1.0.x/plan&create/deploy_plan?id=_2-多节点规划)
 
 [3. 多集群多节点规划（集群间网络互通可独立控制）](usdpdc/1.0.x/plan&create/deploy_plan?id=_3-多集群规划)
-
-
 
 
 
