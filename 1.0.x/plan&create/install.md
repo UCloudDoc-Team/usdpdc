@@ -197,9 +197,11 @@ http://<your_host_ip>
 
 ![](../../images/1.0.x/webconsole/license/导入license.png)
 
-点击 <kbd>导入许可证</kbd> 按钮，在 “导入许可证” 对话框中，将 “硬件识别码” 字符串、集群节点数量信息，发送给UCloud客户经理来获得license许可文件。
+点击 <kbd>导入许可证</kbd> 按钮，USDP将自动是被服务器的硬件识别码，并显示在弹出的对话框中，如下图所示：
 
 ![](../../images/1.0.x/webconsole/license/导入license01.png)
+
+请将对话框中的 `硬件识别码` 字符串，及您计划通过USDP管理的`服务器节点数量`，联系并告知UCloud客户经理，其会协助您获得License许可文件。
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
