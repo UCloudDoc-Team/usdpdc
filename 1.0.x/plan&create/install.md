@@ -20,7 +20,7 @@
 
 通过给定地址，下载 USDP 离线安装包，得到 ``usdp-01-master-privatization-1.0.0.0.tar.gz`` 文件；
 
-?> 提示：</br>- USDP 离线安装包文件，大约 17 GB；</br>- 建议将该安装包存储至数据盘中，避免该安装包占用过多系统盘空间；</br>- 使用tar指令解压时，可使用"-C"指定解压到 `/opt/usdp-srv/` 目录；
+?> **提示：**</br>- USDP 离线安装包文件，大约 17 GB；</br>- 建议将该安装包存储至数据盘中，避免该安装包占用过多系统盘空间；</br>- 使用tar指令解压时，可使用"-C"指定解压到 `/opt/usdp-srv/` 目录；
 
 
 
@@ -66,7 +66,7 @@
 
   文件中每行为一个节点信息，从左至右依次为：“内网IP”、“节点root用户密码”、“SSH端口号”、节点“完全限定域名”（主机名）。
 
-  ?> 提示：当执行完4.2步骤后，节点“完全限定域名”（主机名）将被生效，无需再手动为每个节点配置主机名。</br>在全量初始化部署过程中，host_single_info.txt 暂无须修改。
+  ?> **提示：**</br>- 当执行完4.2步骤后，节点“完全限定域名”（主机名）将被生效，无需再手动为每个节点配置主机名；</br>- 在全量初始化部署过程中，host_single_info.txt 暂无须修改；
 
 * your.properties
 
@@ -107,7 +107,7 @@
   > - 第 9 行：`host_single_info.txt` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
-?> 提示：</br>对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
+?> **提示：**</br>对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
 
 ### 4.2 执行修复
 
@@ -157,7 +157,7 @@ datasource:
     password: ucloud.cn
 ```
 
-?> 提示：</br>- 将默认值 `udp01` 替换为your.properties中的 “mysql.ip”的值(IP地址)，或者是该IP对应的主机名（host_all_info.txt中的“完全限定域名”）；</br>- 将默认值 `1qaz!QAZ` 替换为your.properties中的 “mysql.password”的值；
+?> **提示：**</br>- 将默认值 `udp01` 替换为your.properties中的 “mysql.ip”的值(IP地址)，或者是该IP对应的主机名（host_all_info.txt中的“完全限定域名”）；</br>- 将默认值 `1qaz!QAZ` 替换为your.properties中的 “mysql.password”的值；
 
 ### 5.2 启动 USDP
 
@@ -185,13 +185,13 @@ bin/start-udp-server.sh
 http://<your_host_ip>
 ~~~
 
-?> 提示：</br><your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
+?> **提示：**</br><your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
 ![](../../images/1.0.x/plan&create/install/输入登录信息.png)
 
-?> 提示：</br>集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
+?> **提示：**</br>集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.5 获取并导入LICENSE
 
@@ -203,7 +203,7 @@ http://<your_host_ip>
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
-?> 提示：</br>License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
+?> **提示：**</br>License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
 
 若License文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
 
