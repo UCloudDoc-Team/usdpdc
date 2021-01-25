@@ -54,7 +54,7 @@
 
 在开始运行一键修复脚本之前，您需要提前配置 `/opt/usdp-srv/usdp/repair` 目录下的相关文件如下：
 
-* host_all_info.txt
+* **host_all_info.txt**
 
   示例如下：
 
@@ -68,7 +68,7 @@
 
   ?> **提示：**</br>- 当执行完4.2步骤后，节点“完全限定域名”（主机名）将被生效，无需再手动为每个节点配置主机名；</br>- 在全量初始化部署过程中，host_single_info.txt 暂无须修改；
 
-* your.properties
+* **your.properties**
 
   示例如下：
 
