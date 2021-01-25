@@ -107,7 +107,7 @@
   > - 第 9 行：`host_single_info.txt` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
-?> **提示：**</br>对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
+?> **提示：**</br>- 对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
 
 ### 4.2 执行修复
 
@@ -185,13 +185,13 @@ bin/start-udp-server.sh
 http://<your_host_ip>
 ~~~
 
-?> **提示：**</br><your_host_ip> 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
+?> **提示：**</br>- “<your_host_ip>” 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
 ![](../../images/1.0.x/plan&create/install/输入登录信息.png)
 
-?> **提示：**</br>集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
+?> **提示：**</br>- 集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.5 获取并导入LICENSE
 
@@ -203,7 +203,7 @@ http://<your_host_ip>
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
-?> **提示：**</br>License 是一个 xxx.tar.gz 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
+?> **提示：**</br>- License 是一个 `xxx.tar.gz` 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/webconsole/license) 查看。
 
 若License文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
 
