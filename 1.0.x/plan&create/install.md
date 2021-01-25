@@ -10,21 +10,23 @@
 
 
 
-## 1. 下载安装包
+## 1. 创建安装目录
 
-通过给定地址，下载 USDP 离线安装包，得到 ``usdp-01-master-privatization-1.0.0.0.tar.gz`` 文件即可，整个文件大约 17 GB。
+创建 `/opt/usdp-srv/` 目录，并将压缩包解压至该目录下。
 
 
 
-## 2. 创建安装目录
+## 2. 下载安装包
 
-创建 ``/opt/usdp-srv/`` 目录，并将压缩包解压至该目录下。
+通过给定地址，下载 USDP 离线安装包，得到 ``usdp-01-master-privatization-1.0.0.0.tar.gz`` 文件；
+
+?> USDP 离线安装包文件，大约 17 GB；</br>建议将该安装包存储至数据盘中，避免该安装包占用过多系统盘空间；</br>使用tar指令解压时，可使用"-C"指定解压到 `/opt/usdp-srv/` 目录；
 
 
 
 ## 3. 目录结构说明
 
-解压后的子目录说明如下所示。
+解压后的子目录（`/opt/usdp-srv/usdp/`）说明信息，如下所示：
 
 | 子目录       | 说明                                                         |
 | ------------ | ------------------------------------------------------------ |
@@ -46,11 +48,11 @@
 
 ## 4. 执行环境初始化
 
-在运行 USDP 之前，需要对所有节点进行必要的配置，为了简化用户操作，USDP 提供傻瓜式的一键环境初始化脚本，包括自动安装 JDK，自动安装 MySQL，并初始化 USDP 数据，以及初始化系统软件环境等。
+在运行 USDP 之前，需要对所有节点进行必要的配置，为了简化用户操作，USDP 提供一键环境初始化脚本，包括自动安装 JDK，自动安装 MySQL，并初始化 USDP 数据，以及初始化系统软件环境等。
 
 ### 4.1 配置修复
 
-在开始运行一键修复脚本之前，您需要提前配置 ``repair`` 目录下的相关文件如下：
+在开始运行一键修复脚本之前，您需要提前配置 `/opt/usdp-srv/usdp/repair` 目录下的相关文件如下：
 
 * host_all_info.txt
 
@@ -62,9 +64,9 @@
   127.0.0.1 your-node-root-password 22 udp03
   ~~~
 
-  文件中每行为一个节点信息，从左至右依次为：内网IP，节点密码，SSH端口号，即将自动修改生效的完全限定域名（主机名）。
+  文件中每行为一个节点信息，从左至右依次为：“内网IP”、“节点root用户密码”、“SSH端口号”、节点“完全限定域名”（主机名）。
 
-  ?> 提示：在全量初始化部署过程中，host_single_info.txt 暂无须修改。
+  ?> 提示：当执行完4.2步骤后，节点“完全限定域名”（主机名）将被生效，无需再手动为每个节点配置主机名。</br>在全量初始化部署过程中，host_single_info.txt 暂无须修改。
 
 * your.properties
 
@@ -94,7 +96,7 @@
 
   > 上述代码解释如下：
   >
-  > - 第 1 行：``host_all_info.txt`` 文件绝对路径；
+  > - 第 1 行：`host_all_info.txt` 文件绝对路径；
   > - 第 2 行：填写未来即将部署 USDP-Server 的节点的内网 IP；
   > - 第 3 行：SSH 端口号，默认22；
   > - 第 4 行：填写未来即将部署 USDP-Server 的节点的密码；
@@ -102,21 +104,26 @@
   > - 第 6 行：选择某个节点作为 MySQL 服务器；
   > - 第 7 行：设置 MySQL 所在节点的 SSH 端口号，默认 22；
   > - 第 8 行：设置 MySQL 的 所在节点的密码；
-  > - 第 9 行：``host_single_info.txt`` 文件绝对路径； 
+  > - 第 9 行：`host_single_info.txt` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
 ?> your.properties 文件中各IP地址的填写选择，可在 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 参考部署模式。
 
 ### 4.2 执行修复
 
-完成上述步骤后，执行如下命令即可开始一键修复任务。
+完成上述步骤后，执行如下命令即可开始一键修复任务：
 ~~~shell
 cd /opt/usdp-srv/usdp/repair
 sh repair.sh initAll <your.properties 文件的绝对路径>
-source /etc/profile
 ~~~
 
-修复过程为完全离线的方式，等待一段时间后，即可将所有对应节点的环境准备完毕。
+修复过程为完全离线的方式，需等待一段时间后，即可将所有对应节点的环境准备完毕。
+
+执行如下命令，使环境配置生效：
+
+~~~shell
+source /etc/profile
+~~~
 
 
 
@@ -124,7 +131,9 @@ source /etc/profile
 
 ### 5.1 为USDP配置MySQL数据库
 
-修改`/opt/usdp-srv/usdp/config/application-server.yml`文件，找到 `datasource` 配置片段，修改前如下：
+修改`/opt/usdp-srv/usdp/config/application-server.yml`文件，找到 `datasource` 配置片段。
+
+修改前如下所示：
 
 ```shell
 datasource:
@@ -136,7 +145,7 @@ datasource:
     password: 1qaz!QAZ
 ```
 
-修改url 中的udp01及 password 的值，修改后如下：
+参考配置文件host_all_info.txt及your.properties中的配置信息，修改“url:”中的`udp01`及 `password` 的值，修改后如下：
 
 ```shell
 datasource:
@@ -147,6 +156,8 @@ datasource:
     username: root
     password: ucloud.cn
 ```
+
+?> 将默认值 `udp01` 替换为your.properties中的 “mysql.ip”的值(IP地址)，或者是该IP对应的主机名（host_all_info.txt中的“完全限定域名”）；</br>将默认值 `1qaz!QAZ` 替换为your.properties中的 “mysql.password”的值；
 
 ### 5.2 启动 USDP
 
