@@ -12,7 +12,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 > 2. **MySQL：**是USDP Server依赖的管理元数据存储数据库。
 > 3. **Hadoop Cluster：**是通过USDP控制台创建并管理的1-N个独立的大数据集群。
 > 4. **大数据服务：**是Hadoop集群中各个服务软件，例如：HDFS、Hive、Spark、HUE、Atlas等。
-> 5. **服务组件：**是各个大数据服务自带的服务构成的模块，例如：DataNode、NameNode是HDFS服务的两类重要的附件。
+> 5. **服务组件：**是各个大数据服务自带的服务构成的模块。如DataNode、NameNode是HDFS服务的两类重要的附件。
 
 
 
