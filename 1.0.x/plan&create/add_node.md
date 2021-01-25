@@ -27,7 +27,7 @@
 
       bash repair.sh  initSingle  /opt/usdp-srv/usdp/repair/your.properties
 
-!> 注意：</br> 1. 在host_single_info.txt文件中，仅需配置每次新增的节点信息即可，若存在已初始化过的节点信息时，在下次运行“repair.sh  initSingle”指令前，请先**清除**掉。</br> 2. host_single_info.txt中录入的新增节点**完全限定域名（主机名）不可**与USDP已管理的所有节点的任一完全限定域名**重复**。</br> 3. jdk 安装在 /opt/module 目录，**不允许随意删除或更改位置**，否则 java 环境失效。
+!> **注意：**</br> 1. 在host_single_info.txt文件中，仅需配置每次新增的节点信息即可，若存在已初始化过的节点信息时，在下次运行“repair.sh  initSingle”指令前，请先**清除**掉。</br> 2. host_single_info.txt中录入的新增节点**完全限定域名（主机名）不可**与USDP已管理的所有节点的任一完全限定域名**重复**。</br> 3. jdk 安装在 /opt/module 目录，**不允许随意删除或更改位置**，否则 java 环境失效。
 
 
 
@@ -51,11 +51,11 @@ USDP支持多集群管理，可前往参考 [新增大数据集群](usdpdc/1.0.x
 
 ![](../../images/1.0.x/plan&create/add_node/20210120pm125331.png)
 
-> 节点的完全限定域名填写规则说明：
+> **节点的完全限定域名填写规则说明：**
 >
 > 1. 可单行输入每一个节点的完全限定域名；
 > 2. 可通过“[]”辅助输入有数字规律的节点完全限定域名；例如pusdp-core[1-3]表示包含“pusdp-core1”、“pusdp-core2”、“pusdp-core3”共三个节点。
 
-?> 节点的完全限定域名及对应的ip信息，需添加到Master1节点的hosts文件中。</br>可参考host_single_info.txt文件配置的节点完全限定域名名称来填写。
+?> **提示：**</br>- 节点的完全限定域名及对应的ip信息，需添加到Master1节点的hosts文件中。</br>- 可参考host_single_info.txt文件配置的节点完全限定域名名称来填写。
 
 向导后续步骤，用户可按照向导指引来完成新增节点的检查，直至添加完成。
