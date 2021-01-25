@@ -111,7 +111,7 @@
 
 完成上述步骤后，执行如下命令即可开始一键修复任务。
 ~~~shell
-cd /opt/usdp-srv/repair
+cd /opt/usdp-srv/usdp/repair
 sh repair.sh initAll <your.properties 文件的绝对路径>
 source /etc/profile
 ~~~
