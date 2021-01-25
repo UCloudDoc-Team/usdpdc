@@ -32,12 +32,12 @@ USDP支持在网络已互通的任意类型的服务器上进行安装，用户�
 
 ![](../../images/1.0.x/plan&create/first_create/创建向导03.png)
 
-> 节点的完全限定域名填写规则说明：
+> **节点的完全限定域名填写规则说明：**
 >
 > 1. 可单行输入每一个节点的完全限定域名；
 > 2. 可通过“[]”辅助输入有数字规律的节点完全限定域名；例如pusdp-core[1-3]表示包含“pusdp-core1”、“pusdp-core2”、“pusdp-core3”共三个节点。
 
-?> 节点的完全限定域名及对应的ip信息，需添加到Master1节点的hosts文件中。</br>可参考host_all_info.txt文件配置的节点完全限定域名名称来填写。
+?> **提示：**</br>- 节点的完全限定域名及对应的ip信息，需添加到Master1节点的hosts文件中。</br>- 可参考host_all_info.txt文件配置的节点完全限定域名名称来填写。
 
 补充好表单信息后，点击右下角的向导 <kbd>下一步</kbd> 按钮继续。
 
@@ -101,7 +101,7 @@ USDP支持大数据生态服务较多，在集群安装时，用户根据业务�
 
 ![](../../images/1.0.x/plan&create/first_create/创建向导16.png)
 
-> USDP有以下建议，用户可参考： 
+> **USDP有以下建议，用户可参考： **
 >
 > - NameNode建议安装在usdp-xxx-masster的节点上，否则NameNode出现异常时，主从切换会失败。
 > - 节点名称为usdp-xxx-masster的节点，建议用于部署zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive等服务和组件的master节点，可视化和调度组件如Hue、oozie、kibana、zkui也建议部署在Master节点上。
@@ -117,7 +117,7 @@ USDP默认将自身管理元信息、集群中大数据服务的相关元信息�
 
 ![](../../images/1.0.x/plan&create/first_create/创建向导19.png)
 
-> 元信息数据库配置涉及的服务有：
+> **元信息数据库配置涉及的服务有：**
 >
 > - HIVE、HUE、OOZIE、RANGER、UDS等五个服务。
 > - MySQL版本：5.7.30
@@ -182,6 +182,6 @@ USDP默认将自身管理元信息、集群中大数据服务的相关元信息�
 
 
 
-?> 提示：</br>若您是集群管理员用户，关于集群的管理，可参考其他《控制台操作》文档；</br>若您是大数据的开发人员，关于大数据服务的使用，可参考相关《开发指南》文档。
+?> **提示：**</br>- 若您是集群管理员用户，关于集群的管理，可参考其他《控制台操作》文档；</br>- 若您是大数据的开发人员，关于大数据服务的使用，可参考相关《开发指南》文档。
 
 
