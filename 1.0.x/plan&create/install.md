@@ -133,7 +133,7 @@ source /etc/profile
 
 修改`/opt/usdp-srv/usdp/config/application-server.yml`文件，找到 `datasource` 配置片段。
 
-修改前如下所示：
+修改前默认显示如下内容：
 
 ```shell
 datasource:
@@ -145,19 +145,21 @@ datasource:
     password: 1qaz!QAZ
 ```
 
-参考配置文件host_all_info.txt及your.properties中的配置信息，修改“url:”中的`udp01`及 `password` 的值，修改后如下：
+参考配置文件host_all_info.txt及your.properties中的配置信息，修改“**url：**”中的 `udp01` 字符串，及 “**password：**” 的值。
+
+修改后，如下方示例所示：
 
 ```shell
 datasource:
     type: com.zaxxer.hikari.HikariDataSource
     #    driver-class-name: org.gjt.mm.mysql.Driver
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
-    url: jdbc:p6spy:mysql://pusdp_master1:3306/db_udp?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:p6spy:mysql://usdp-01:3306/db_udp?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: ucloud.cn
+    password: uc1qaz!QAZ0
 ```
 
-?> **提示：**</br>- 将默认值 `udp01` 替换为your.properties中的 “mysql.ip”的值(IP地址)，或者是该IP对应的主机名（host_all_info.txt中的“完全限定域名”）；</br>- 将默认值 `1qaz!QAZ` 替换为your.properties中的 “mysql.password”的值；
+?> **提示：**</br>- 将“**url：**”中的默认值 `udp01` 替换为your.properties中的 “mysql.ip”的值(IP地址)，或者是该IP对应的主机名（host_all_info.txt中的“完全限定域名”）；</br>- 将“**password：**”默认值 `1qaz!QAZ` 替换为your.properties中的 “mysql.password”的值；
 
 ### 5.2 启动 USDP
 
