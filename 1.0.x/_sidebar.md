@@ -13,10 +13,13 @@
   * 单集群管理
     * [集群节点管理](usdpdc/1.0.x/webconsole/node)
     * [集群服务管理](usdpdc/1.0.x/webconsole/service)
-      * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
+    * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
     * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
-    * test
-      * [subtest](usdpdc/1.0.x/webconsole/monitor)
+    * 集群服务管理
+      * [服务概况查看](usdpdc/1.0.x/webconsole/service_state)
+      * [服务配置修改](usdpdc/1.0.x/webconsole/service_config)
+      * [服务组件管理](usdpdc/1.0.x/webconsole/service_component)
+      * [服务Web UI访问](usdpdc/1.0.x/webconsole/service_web)
   * [USDP 多集群管理](usdpdc/1.0.x/webconsole/clusters)
   * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
