@@ -1,10 +1,15 @@
-# 集群服务管理
+# 集群服务组件管理
 
-在智能大数据平台USDP中，为便于用户对集群及相关服务的管理，USDP提供较为友好的服务管理功能，譬如集群服务管理中，有大数据服务的基本监控信息查看、服务配置文件修改、服务的组件启停及管理、服务的Web UIs便捷访问等功能，辅助用户更好的管理和使用USDP。
+在智能大数据平台USDP中，为便于用户对集群及相关服务的管理，USDP提供较为友好的服务管理功能，譬如对某个服务的组件启停及组件扩展等管理功能，辅助用户更好的管理和使用USDP。
+
+下文以Zookeeper服务的组件管理为示例，本篇将涉及到：
+
+- [Zookeeper服务相关组件管理](usdpdc/1.0.x/webconsole/service_component?id=zookeeper服务相关组件管理)
+- [Zookeeper服务组件扩展](usdpdc/1.0.x/webconsole/service_component?id=zookeeper服务组件扩展)
 
 
 
-#### 3.1.2 Zookeeper服务相关组件管理
+## Zookeeper服务相关组件管理
 
 在Zookeeper组件管理页面种，点击“组件管理”选项卡，打开Zookeeper相关组件管理列表，如下图所示：
 
@@ -30,7 +35,7 @@
 
 
 
-#### 3.1.3 Zookeeper 服务组件扩展
+## Zookeeper服务组件扩展
 
 USDP管理控制台支持对当前Zookeeper服务扩展更多节点。如下图所示：
 
