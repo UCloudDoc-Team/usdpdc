@@ -15,6 +15,8 @@
     * [集群服务管理](usdpdc/1.0.x/webconsole/service)
       * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
     * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
+    * test
+      * [subtest](usdpdc/1.0.x/webconsole/monitor)
   * [USDP 多集群管理](usdpdc/1.0.x/webconsole/clusters)
   * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
