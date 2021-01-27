@@ -8,25 +8,25 @@
 
 鼠标悬停/点击Yarn服务管理页面中“Web UIs”选项卡时，自动下拉展开Yarn相关的页面选项链接，如下图所示：
 
-![](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/usdpdc/images/1.0.x/webconsole/service/service_yarn_uis.png)
+![](../../images/1.0.x/webconsole/service/service_yarn_uis.png)
 
 
 
 点击“[udp08] ResourceManager1 Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的ResourceManager管理页面，如下图所示：
 
-![](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/usdpdc/images/1.0.x/webconsole/service/service_yarn_ui_rm.png)
+![](../../images/1.0.x/webconsole/service/service_yarn_ui_rm.png)
 
 
 
 点击“[udp08] HistoryServer Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的HistoryServer管理页面，如下图所示：
 
-![](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/usdpdc/images/1.0.x/webconsole/service/service_yarn_ui_hs.png)
+![](../../images/1.0.x/webconsole/service/service_yarn_ui_hs.png)
 
 
 
 点击“[udp08] TimelineServer Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的TimelineServer管理页面，如下图所示：
 
-![](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/usdpdc/images/1.0.x/webconsole/service/service_yarn_ui_ts.png)
+![](../../images/1.0.x/webconsole/service/service_yarn_ui_ts.png)
 
 
 
