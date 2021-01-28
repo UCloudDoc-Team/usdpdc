@@ -26,7 +26,7 @@ http://<your_host_ip>
 
 ![](../../images/1.0.x/webconsole/alarm/notification_group/notify_usdp_set_notifygroup_default.png)
 
-> “默认通知组”，一经创建，不得删除。</br>“默认通知组” 中的 [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)，可以灵活调整，但不得少于一个 “通知对象”。</br>每个“通知组”（含默认通知组）中，至少需要保留一个 “通知对象”。
+> **注意：**</br>- “默认通知组”，一经创建，不得删除。</br>- “默认通知组” 中的 [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)，可以灵活调整，但不得少于一个 “通知对象”。</br>- 每个“通知组”（含默认通知组）中，至少需要保留一个 “通知对象”。
 
 再次操作 “通知组”-“新建” 时，用户可灵活定义 “通知组名称”，勾选 “通知对象” 并点击 <kbd>></kbd> 按钮，再在对话框右下角点击 <kbd>确定</kbd> 按钮，即可完成。如下图所示：
 

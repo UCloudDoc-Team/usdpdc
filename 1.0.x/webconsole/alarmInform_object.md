@@ -4,14 +4,14 @@
 
 USDP支持多种通知对象类型，提供对各类通知对象的管理和维护方法。
 
-?> 当前，USDP支持的通知对象类型有：</br>邮箱</br>钉钉</br>企业微信</br>回调接口
+?> 当前，USDP支持的通知对象类型有：</br>- 邮箱</br>- 钉钉</br>- 企业微信</br>- 回调接口
 
 
 
 #### 本篇将涉及到：
 
 - [添加通知对象](usdpdc/1.0.x/webconsole/alarmInform_object?id=_1-添加通知对象)
-- [管理通知对象](usdpdc/1.0.x/webconsole/alarmInform_object?id=_2-添加通知对象)
+- [管理通知对象](usdpdc/1.0.x/webconsole/alarmInform_object?id=_2-管理通知对象)
 
 
 

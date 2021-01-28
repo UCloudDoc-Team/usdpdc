@@ -39,7 +39,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![](../../images/1.0.x/webconsole/alarm/alarm_template/alarm_usdp_hive_content.png)
 
-> USDP提供的 默认告警模板 不允许修改告警项。如需调整，可复制默认告警模板来调整具体告警指标，参见 [新建告警模板](usdpdc/1.0.x/webconsole/alarmTemplate?id=_3-新建告警模板) 。
+!> USDP提供的 默认告警模板 不允许修改告警项。如需调整，可复制默认告警模板来调整具体告警指标，参见 [新建告警模板](usdpdc/1.0.x/webconsole/alarmTemplate?id=_3-新建告警模板) 。
 
 上图以Hive服务的告警模板为例，该模板包含9项具体监控指标。
 
@@ -65,7 +65,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![](../../images/1.0.x/webconsole/alarm/alarm_template/alarm_usdp_tamplate_rule_delete.png)
 
-> USDP预置的 “监控指标” 不允许用户自行删除，用户可选择将相应的 “监控指标” 设为不启用，参考 [给监控指标设置启停](usdpdc/1.0.x/webconsole/alarmTemplate?id=_14-给监控指标设置启停) 即可。
+!> USDP预置的 “监控指标” 不允许用户自行删除，用户可选择将相应的 “监控指标” 设为不启用，参考 [给监控指标设置启停](usdpdc/1.0.x/webconsole/alarmTemplate?id=_14-给监控指标设置启停) 即可。
 
 
 
@@ -83,7 +83,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![](../../images/1.0.x/webconsole/alarm/alarm_template/alarm_usdp_tamplate_rule_setisstart.png)
 
-> 对于USDP预置的监控指标，若用户认为其触发规则设置不合理，用户可以自行添加相同的监控指标，并将对应的默认监控指标置为 “停用”状态均可。
+?> 对于USDP预置的监控指标，若默认触发规则设置不合理，用户可以自行添加相同的监控指标，并将对应的默认监控指标置为 “停用”状态均可。
 
 
 
@@ -99,7 +99,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 用户亦可在您自己的集群上来设置绑定哪些告警模板，相关操作请参考 [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work?id=_方式2-集群告警设置) 章节。
 
-> 为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](usdpdc/1.0.x/webconsole/alarmInform_group) 来发送告警详细信息。
+?> 为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](usdpdc/1.0.x/webconsole/alarmInform_group) 来发送告警详细信息。
 
 
 
@@ -127,4 +127,4 @@ USDP允许用户创建全新的空白模板，亦可通过复制现有的模板�
 
 ![](../../images/1.0.x/webconsole/alarm/alarm_template/alarm_usdp_tamplate_delete.png)
 
-?> USDP不允许用户 “勾选” 及 “删除” 系统预置的所有默认告警模板。
+!> USDP不允许用户 “勾选” 及 “删除” 系统预置的所有默认告警模板。
