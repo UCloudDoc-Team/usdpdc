@@ -11,14 +11,20 @@
   * [扩展节点](usdpdc/1.0.x/plan&create/add_node)
 * 控制台操作
   * 单集群管理
-    * [集群节点管理](usdpdc/1.0.x/webconsole/node)
-    * 集群服务管理
+    * [节点管理](usdpdc/1.0.x/webconsole/node)
+    * 服务管理
       * [服务概况查看](usdpdc/1.0.x/webconsole/service_state)
       * [服务配置修改](usdpdc/1.0.x/webconsole/service_config)
       * [服务组件管理](usdpdc/1.0.x/webconsole/service_component)
       * [服务Web UI访问](usdpdc/1.0.x/webconsole/service_web)
-    * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
-    * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
+    * [监控管理](usdpdc/1.0.x/webconsole/monitor)
+    * 告警管理
+      * [告警模板管理](usdpdc/1.0.x/webconsole/alarmTemplate)
+      * 通知方式管理
+        * [通知组](usdpdc/1.0.x/webconsole/alarmInform_group)
+        * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
+        * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
+      * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
   * [USDP 多集群管理](usdpdc/1.0.x/webconsole/clusters)
   * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
