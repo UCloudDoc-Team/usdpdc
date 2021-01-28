@@ -2,9 +2,17 @@
 
 智能大数据平台USDP，目前已支持完善的 许可证 相关管理功能，每个USDP服务均需要使用专享的 许可证 文件进行激活。负责将无法正常使用 USDP Web Console。在本篇指南中，用户将会了解到在正常使用过程中有关 许可证 的相关问题和处理方法。
 
-?>USDP 许可证是对整个USDP服务进行生效，来控制通过USDP可管理的总节点数量、Web Console的使用时长等。
+?>USDP 许可证是对整个USDP服务进行生效，来控制通过USDP可管理的总节点数量、Web Console的有效使用时长等。
 
-## 1. 首次登陆
+#### 本篇将涉及到：
+
+- [首次获取许可证](usdpdc/1.0.x/webconsole/license?id=_1-首次获取许可证)
+- [许可证过期](usdpdc/1.0.x/webconsole/license?id=_2-许可证过期)
+- [许可证有效期内管理](usdpdc/1.0.x/webconsole/license?id=_3-许可证有效期内管理)
+
+
+
+## 1. 首次获取许可证
 
 但USDP服务安装成功并且周次打开USDP Web Console时，系统会提示用户，需要导入新的许可证后，方可正常使用USDP Web Console。如下图所示：
 
