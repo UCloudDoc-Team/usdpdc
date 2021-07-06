@@ -2,7 +2,8 @@
 
 
 
-* [版本说明](usdpdc/1.1.x/README)
+* [产品概述](usdpdc/1.1.x/README)
+* [功能介绍](usdpdc/1.1.x/release_notes)
 * [更多USDP版本](/usdpdc/version_list)
 
 
