@@ -40,5 +40,5 @@
    * [调度服务-UDS](usdpdc/1.0.x/schedule/uds)
    * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
 * [常见问题](usdpdc/1.0.x/FAQ)
-* [更多USDP版本](/usdpdc/general/version_list)
+* [更多USDP版本](/usdpdc/version_list)
 

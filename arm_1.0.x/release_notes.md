@@ -6,5 +6,5 @@
 
 
 
-了解USDP [更多版本](/usdpdc/general/version_list)
+了解USDP [更多版本](/usdpdc/version_list)
 
