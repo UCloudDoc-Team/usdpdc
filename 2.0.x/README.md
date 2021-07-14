@@ -113,8 +113,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
 
-* [各服务部署规则](usdpdc/1.0.x/cluster_notes/rule)
-* [各服务WebUIs账号](usdpdc/1.0.x/cluster_notes/login)
+* [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
+* [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
+* [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
 
 
 
@@ -142,5 +143,5 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 您可能在使用中会遇到一些问题。
 
-- [常见问题](usdpdc/1.0.x/FAQ)
+- [常见问题](usdpdc/2.0.x/FAQ)
 

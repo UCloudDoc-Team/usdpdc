@@ -39,6 +39,6 @@
   * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
 * 任务调度
   * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
-* [常见问题](usdpdc/1.0.x/FAQ)
+* [常见问题](usdpdc/2.0.x/FAQ)
 * [更多USDP版本](/usdpdc/version_list)
 
