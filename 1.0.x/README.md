@@ -134,7 +134,6 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
 
-* [调度服务-UDS](usdpdc/1.0.x/schedule/uds)
 * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
 
 
