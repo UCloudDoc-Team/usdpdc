@@ -29,7 +29,7 @@
   * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
-  * [各服务常用端口](usdpdc/2.0.x/cluster_notes/login)
+  * [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
   * [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
 * 开发指南
   * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
