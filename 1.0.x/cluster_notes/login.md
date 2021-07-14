@@ -13,8 +13,8 @@
 | Airflow    | hadoop | hadoop |
 | ZKUI       | hadoop | hadoop |
 | KafkaEagle | admin  | 123456 |
-| UDS        | admin  | uds    |
 | Kylin      | ADMIN  | KYLIN  |
 | Ranger     | admin  | admin  |
 
 其他大数据服务原生Web UI不需要登陆即可打开。
+
