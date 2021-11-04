@@ -39,5 +39,5 @@
 * 任务调度
    * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
 * [常见问题](usdpdc/1.0.x/FAQ)
-* [更多USDP版本](/usdpdc/version_list)
+* [了解USDP更多版本](/usdpdc/version_list)
 

@@ -12,5 +12,5 @@
 * <!--信创支持 -->
     * <!--[USDP ARM v1.0.x](/usdpdc/arm_1.0.x/README) -->
 * 常见问题
-* [更多USDP版本](/usdpdc/version_list)
+* [了解USDP更多版本](/usdpdc/version_list)
 
