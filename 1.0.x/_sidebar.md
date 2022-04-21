@@ -1,4 +1,4 @@
-<div class="sidebar_title icon_"> USDP 标准版 V1.0.x</div>   
+<div class="sidebar_title icon_"> USDP 专业版 V1.0.x</div>   
 
 
 
