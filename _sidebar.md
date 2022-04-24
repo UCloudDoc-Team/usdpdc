@@ -13,11 +13,12 @@
     * 单集群管理
       * 集群节点
         * [节点管理](usdpdc/1.0.x/webconsole/node)
-        * [节点扩展](usdpdc/1.0.x/webconsole/add_node)
+        * [节点扩展](usdpdc/1.0.x/webconsole/node_add)
       * 服务管理
         * [服务概况查看](usdpdc/1.0.x/webconsole/service_state)
         * [服务配置修改](usdpdc/1.0.x/webconsole/service_config)
         * [服务组件管理](usdpdc/1.0.x/webconsole/service_component)
+        * <!--[添加服务或组件](usdpdc/1.0.x/webconsole/service_extension)-->
         * [服务Web UI访问](usdpdc/1.0.x/webconsole/service_web)
       * [监控管理](usdpdc/1.0.x/webconsole/monitor)
       * 告警管理
