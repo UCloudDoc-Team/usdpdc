@@ -6,6 +6,8 @@
 
 ## 1. 新增服务器节点的初始化
 
+?> **提示：**</br>- 本节内容涉及到的配置文件“your.properties”、“host_single_info.txt”的位置为 `/opt/usdp-srv/usdp/repair`。
+
 ### 1.1 检查your.properties 配置的信息
 
 检查 your.properties 文件的参数项 host.single.info.Path，即新增节点信息存放的绝对路径。对于该配置文件其他参数项无需改动。
@@ -43,13 +45,13 @@ USDP支持多集群管理，可前往参考 [新增大数据集群](usdpdc/1.0.x
 
 登陆USDP管理控制台，为当前集群添加新节点，需在控制台左侧导航菜单点击 <kbd>节点管理</kbd> 进入节点管理页面，点击左上角 <kbd>新增节点</kbd> 按钮，即可进入新增节点向导。如下图所示：
 
-![](../images/1.0.x/plan&create/add_node/20210120pm125238.png)
+![](../../images/1.0.x/plan&create/add_node/20210120pm125238.png)
 
 
 
 进入向导，用户可根据计划，将需要添加到当前集群的新节点的完全限定域名进行补充填写，并确认SSH的用户名及端口号。如下图所示：
 
-![](../images/1.0.x/plan&create/add_node/20210120pm125331.png)
+![](../../images/1.0.x/plan&create/add_node/20210120pm125331.png)
 
 > **节点的完全限定域名填写规则说明：**
 >
