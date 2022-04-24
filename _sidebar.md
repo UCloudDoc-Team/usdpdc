@@ -9,10 +9,11 @@
     * [资源规划](usdpdc/plan&create/deploy_plan)
     * [部署流程](usdpdc/plan&create/install)
     * [首次创建](usdpdc/plan&create/first_create)
-    * [扩展节点](usdpdc/plan&create/add_node)
 * 控制台操作
     * 单集群管理
-      * [节点管理](usdpdc/1.0.x/webconsole/node)
+      * 集群节点
+        * [节点管理](usdpdc/1.0.x/webconsole/node)
+        * [节点扩展](usdpdc/1.0.x/webconsole/add_node)
       * 服务管理
         * [服务概况查看](usdpdc/1.0.x/webconsole/service_state)
         * [服务配置修改](usdpdc/1.0.x/webconsole/service_config)
