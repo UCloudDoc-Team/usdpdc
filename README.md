@@ -2,7 +2,7 @@
 
 
 
-### <center>[产品概述](usdpdc/README?id=产品概述)   |   [自研管理组件](usdpdc/README?id=自研管理组件，安全可靠性更高)   |   [核心优势](usdpdc/README?id=USDP一站式智能大数据平台的核心优势)  |  产品版本发行</center>  
+### <center>[产品概述](usdpdc/README?id=产品概述)   |   [自研管理组件](usdpdc/README?id=自研管理组件，安全可靠性更高)   |   [核心优势](usdpdc/README?id=USDP一站式智能大数据平台的核心优势)  |  [产品版本发行](usdpdc/?id=usdp产品版本发行)</center>  
 
 
 
