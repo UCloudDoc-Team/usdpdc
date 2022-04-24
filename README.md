@@ -2,7 +2,7 @@
 
 
 
-### <center>[产品概述](usdpdc/README?id=产品概述)   |   [自研管理组件](usdpdc/README?id=自研管理组件，安全可靠性更高)   |   [核心优势](usdpdc/README?id=USDP一站式智能大数据平台的核心优势)</center>  
+### <center>[产品概述](usdpdc/README?id=产品概述)   |   [自研管理组件](usdpdc/README?id=自研管理组件，安全可靠性更高)   |   [核心优势](usdpdc/README?id=USDP一站式智能大数据平台的核心优势)  |  产品版本发行</center>  
 
 
 
@@ -76,9 +76,14 @@ UCloud提供了友好且易于部署的管理服务，用户可一键式操作�
 
 UCloud大数据团队积淀了多年公有云大数据运维和业务调优经验，为用户提供大数据专家级技术支持及定制化的解决方案能力，并将经验积累智库化，持续不断的更新并集成到产品中为用户提供自动化服务，解决用户构建大数据服务的后顾之忧。
 
+## USDP产品版本发行
+
+USDP已发布的版本：
+
+* [USDP 专业版 v1.0.x](usdpdc/1.0.x/README)
+* [USDP 专业版 v2.0.x](usdpdc/2.0.x/README)
+
+更多发行版本，请查看 [USDP私有化版本列表](/usdpdc/version_list)。
 
 
-
-
-USDP已发布的版本，请查看 [USDP私有化版本列表](/usdpdc/version_list)。
 
