@@ -37,13 +37,16 @@
   * [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
   * [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
 * 开发指南
-  * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
-  * [Hive-开发指南](usdpdc/1.0.x/developer/hive)
-  * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
-  * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
-  * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
-* 任务调度
-  * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
+  * 存储开发指南
+    * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
+    * [Hive-开发指南](usdpdc/1.0.x/developer/hive)
+    * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
+  * 任务开发指南
+    * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
+  * 安全开发指南
+    * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
+  * 元数据开发指南
+    * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
 * [常见问题](usdpdc/2.0.x/FAQ)
 * [了解USDP更多版本](/usdpdc/version_list)
 
