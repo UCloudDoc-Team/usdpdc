@@ -37,32 +37,7 @@
 
 ## Zookeeper服务组件扩展
 
-USDP管理控制台支持对当前Zookeeper服务扩展更多节点。如下图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add.png)
-
-点击“新增组件”按钮，进入“新增组件或服务”向导，如下图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add_guide1.png)
-
-选择QuarumPeermain组件需要扩展的节点主机，如下对话框截图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add_guide2.png)
-
-管理平台检测出，已加入该平台的所有节点主机中，udp02节点上暂未运行QuarumPeermain组件，“勾选”udp02左侧的复选框，点击“确定”按钮，进入“部署信息总览”向导页，如下图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add_guide3.png)
-
-经浏览确认无误，点击“开始部署”按钮，管理平台将为udp02节点安全QuarumPeermain组件，安装无误，将显示安装成功状态，平台会自动启动该组件，如下图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add_guide4.png)
-
-安装进度完成后，点击“完成”按钮。如下图所示：
-
-![](../../images/1.0.x/webconsole/service/storage_zk_subpart_add_guide5.png)
-
-此时，可根据向导中表单要求，选择需要扩展的新集群节点及服务预览等，最后点击“开始部署”即可完成服务扩展操作。
-
+该操作请参考 
 
 
 
