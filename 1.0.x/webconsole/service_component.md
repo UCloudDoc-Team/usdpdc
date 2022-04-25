@@ -37,7 +37,7 @@
 
 ## Zookeeper服务组件扩展
 
-该操作请参考 
+该操作请参考 [为当前集群已使用的大数据服务扩展组件](usdpdc/1.0.x/webconsole/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件) 操作。
 
 
 
