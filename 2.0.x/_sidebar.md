@@ -43,10 +43,10 @@
     * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
   * 任务开发指南
     * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
-  * 安全开发指南
-    * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
   * 元数据开发指南
     * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
+  * 安全开发指南
+    * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
 * [常见问题](usdpdc/2.0.x/FAQ)
 * [了解USDP更多版本](/usdpdc/version_list)
 
