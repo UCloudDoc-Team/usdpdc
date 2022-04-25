@@ -32,7 +32,7 @@
       * [管理多集群](usdpdc/clusters/clusters)
       * <!--[存储与计算分离](usdpdc/clusters/clusters)-->
       * <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
-    * [USDP License管理](usdpdc/1.0.x/webconsole/license)
+    * [USDP许可证管理](usdpdc/1.0.x/webconsole/license)
 * 开发指南
     * 存储开发指南
       * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
