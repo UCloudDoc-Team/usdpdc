@@ -30,7 +30,7 @@
   * 多集群管理
     * [管理多集群](usdpdc/clusters/clusters)
     * [存储与计算分离](usdpdc/clusters/clusters_separation)
-    * <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
+    * [非hadoop生态数据集群](usdpdc/clusters/clusters_others)
   * [USDP许可证管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
