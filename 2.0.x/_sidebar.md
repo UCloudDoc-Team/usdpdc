@@ -27,6 +27,8 @@
         * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
         * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
       * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
+    * <!--服务诊断-->
+      * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
   * 多集群管理
     * [管理多集群](usdpdc/clusters/clusters)
     * [存储与计算分离](usdpdc/clusters/clusters_separation)
