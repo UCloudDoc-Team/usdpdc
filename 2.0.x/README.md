@@ -104,10 +104,15 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
   * [集群服务管理](usdpdc/1.0.x/webconsole/service)
   * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
   * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
+  
 * 多集群管理
+
   * [管理多集群](usdpdc/clusters/clusters)
-  * <!--[存储与计算分离](usdpdc/clusters/clusters)-->
-  * <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
+
+    <!--[存储与计算分离](usdpdc/clusters/clusters)-->
+
+    <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
+
 * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 
 
