@@ -22,9 +22,9 @@ USDP作为UCloud大数据团队自主研发的一站式智能大数据平台，�
 
 ![USDP智能大数据平台产品形象大图](images/USDP架构图.png)
 
-Manager Server为USDP管理端服务，需配备一个MySQL实例存储集群相关的元数据信息。Agent为USDP从节点控制端服务，用于管理、操作所在节点以及所在节点上的大数据服务。其中BigData Service为各类大数据服务（例如：HDFS、YARN等）。
+Manager Server为USDP管理端服务，需配备一个MySQL实例存储集群相关的元数据信息。Agent为USDP从节点控制端服务，用于管理、操作所在节点以及所在节点上的大数据服务。其中 “大数据生态服务、组件服务” 为各类大数据服务（例如：HDFS、YARN等）。
 
-InfluxDB、Prometheus、Grafana作为监控服务，用于汇总并展示整个集群的监控数据。
+在USDP中，采用InfluxDB、Prometheus、Grafana作为监控服务，用于汇总并展示整个集群的监控数据。
 
 USDP支持最少3个节点，最多上千节点的集群规模，同时，允许Manager Server与Agent等相关服务部署在相同的节点上，这样满足大型业务的同时，也尽可能帮助用户使用较小的成本满足小型业务对数据分析的诉求。
 
