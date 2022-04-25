@@ -27,10 +27,10 @@
         * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
         * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
       * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
-  * * 多集群管理
-      * [管理多集群](usdpdc/clusters/clusters)
-      * <!--[存储与计算分离](usdpdc/clusters/clusters)-->
-      * <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
+  * 多集群管理
+    * [管理多集群](usdpdc/clusters/clusters)
+    * <!--[存储与计算分离](usdpdc/clusters/clusters)-->
+    * <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
   * [USDP License管理](usdpdc/1.0.x/webconsole/license)
 * 集群说明
   * [各服务部署规则](usdpdc/1.0.x/cluster_notes/rule)
