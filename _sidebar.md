@@ -34,18 +34,18 @@
       * [管理多集群](usdpdc/clusters/clusters)
       * [存储与计算分离](usdpdc/clusters/clusters_separation)
       * [非hadoop生态数据集群](usdpdc/clusters/clusters_others)
-    * [USDP许可证管理](usdpdc/1.0.x/webconsole/license)
+    * [USDP许可证管理](usdpdc/license/license)
 * 开发指南
     * 存储开发指南
-      * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
-      * [Hive-开发指南](usdpdc/1.0.x/developer/hive)
-      * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
+      * [HDFS-开发指南](usdpdc/developer/hdfs)
+      * [Hive-开发指南](usdpdc/developer/hive)
+      * [HBase-开发指南](usdpdc/developer/hbase)
     * 任务开发指南
-      * [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
+      * [调度服务-Airflow](usdpdc/schedule/airflow)
     * 元数据开发指南
-      * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
+      * [Atlas-开发指南](usdpdc/developer/atlas)
     * 安全开发指南
-      * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
+      * [Ranger-开发指南](usdpdc/developer/ranger)
 * 常见问题
 * [了解USDP更多版本](/usdpdc/version_list)
 

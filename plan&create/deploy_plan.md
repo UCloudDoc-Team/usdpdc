@@ -125,5 +125,5 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 
 
-当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](/usdpdc/1.0.x/plan&create/install)。
+当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](/usdpdc/plan&create/install)。
 

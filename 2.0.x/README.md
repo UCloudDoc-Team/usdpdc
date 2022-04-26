@@ -131,11 +131,11 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境实现业务场景时，本章节内容为您介绍 USDP 所提供的各个开源大数据服务组件的部署及使用方式，帮助您快速开启数据分析业务开发之旅。
 
-* [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
-* [Hive-开发指南](usdpdc/1.0.x/developer/hive)
-* [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
-* [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
-* [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
+* [HDFS-开发指南](usdpdc/developer/hdfs)
+* [Hive-开发指南](usdpdc/developer/hive)
+* [HBase-开发指南](usdpdc/developer/hbase)
+* [Ranger-开发指南](usdpdc/developer/ranger)
+* [Atlas-开发指南](usdpdc/developer/atlas)
 
 
 
@@ -143,7 +143,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
 
-* [调度服务-Airflow](usdpdc/1.0.x/schedule/airflow)
+* [调度服务-Airflow](usdpdc/schedule/airflow)
 
 
 
