@@ -8,15 +8,15 @@ Apache Atlas 是 Hadoop 社区为解决 Hadoop 生态系统的元数据治理问
 
 点击 USDP 控制台左侧导航菜单 <kbd>服务管理</kbd> - <kbd>元数据管理类</kbd> - <kbd>ATLAS</kbd> ，进入ATLAS详情页，点击 <kbd>Web UIs</kbd> 即可打开当前集群的 UDS 任务管理服务控制台。
 
-![img](../images/1.0.x/developer/atlas/usdp_atlas.png)
+![img](../images/developer/atlas/usdp_atlas.png)
 
-![img](../images/1.0.x/developer/atlas/atlas_login.png)
+![img](../images/developer/atlas/atlas_login.png)
 
 Atlas管理员账号，《操作指南-各服务Web UIs登录口令》文档
 
 ### 2. Atlas Web UI首页
 
-![img](../images/1.0.x/developer/atlas/16073970384716.png)
+![img](../images/developer/atlas/16073970384716.png)
 
 ### 3. 全量导入数据
 USDP 使用 Atlas 管理 Hive 数据，可以通过以下脚本把 hive 数据全量导入 atlas 。
@@ -41,9 +41,9 @@ insert into  t_udp_service_component_mapping_old select * from t_udp_service_com
 
 WebUI 可以实时搜索到如下 Hive 表:
 
-![img](../images/1.0.x/developer/atlas/1607398637701.png)
+![img](../images/developer/atlas/1607398637701.png)
 
 ### 5. Hive 元数据 Lineage 查看
 Atlas WebUI 搜索到某个表后，可以看到这个表的  Lineage，如上面创建的 t_udp_service_component_mapping_old。
 
-![img](../images/1.0.x/developer/atlas/16073989954242.png)
+![img](../images/developer/atlas/16073989954242.png)

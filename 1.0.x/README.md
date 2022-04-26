@@ -88,10 +88,10 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
-* [资源规划](usdpdc/1.0.x/plan&create/deploy_plan)
-* [部署流程](usdpdc/1.0.x/plan&create/install)
-* [首次创建](usdpdc/1.0.x/plan&create/first_create)
-* [扩展节点](usdpdc/1.0.x/plan&create/add_node)
+* [资源规划](usdpdc/plan&create/deploy_plan)
+* [部署流程](usdpdc/plan&create/install)
+* [首次创建](usdpdc/plan&create/first_create)
+* [扩展节点](usdpdc/1.0.x/webconsole/node_add)
 
 
 
@@ -113,7 +113,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
     <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
 
-* [USDP License管理](usdpdc/1.0.x/webconsole/license)
+* [USDP License管理](usdpdc/license/license)
 
 
 

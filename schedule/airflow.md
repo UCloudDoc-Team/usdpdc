@@ -22,11 +22,11 @@ Airflow 是一个工作流分配管理系统，它通过有向无环图的方式
 
 设置 Airflow  Web 访问端口为 28999，通过安装节点  IP:28999 访问 ，如 http://106.75.16.72:28999/admin。进入如下界面：
 
-![](../images/1.0.x/schedule/airflow/airflow-16061397625039.png)
+![](../images/schedule/airflow/airflow-16061397625039.png)
 
 输入默认设置的用户名和密码  hadoop , hadoop。登录如下界面：
 
-![](../images/1.0.x/schedule/airflow/airflow-16061401802630.png)
+![](../images/schedule/airflow/airflow-16061401802630.png)
 
 在 /srv/udp/1.0.0.0/airflow/dags/  放入需要执行的 dag 任务代码 example2.py ，刷新 DAGS 页面， 示例代码如下：
 
@@ -99,5 +99,5 @@ with DAG(
 
 页面刷新后，存在  test_task2 DAG，查看运行 task 如下图：
 
-![](../images/1.0.x/schedule/airflow/airflow-16061904173106.png)
+![](../images/schedule/airflow/airflow-16061904173106.png)
 
