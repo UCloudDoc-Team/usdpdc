@@ -75,7 +75,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 
 
-##### 3. 功能简介
+### 3. 功能简介
 
 关于USDP平台的功能介绍，请点击前往 [V1.0.x 功能简介](https://docs.ucloud.cn/usdpdc/1.0.x/release_notes) 章节查看。
 
