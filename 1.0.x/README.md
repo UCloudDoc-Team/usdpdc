@@ -1,11 +1,9 @@
 # USDP 专业版 V1.0.x 技术文档
 
 
-
-
 ### 1. 产品概述
 
-UCloud Smart Data Platform（简称 USDP）专业版，是 UCloud 推出的智能化、轻量级的大数据基础服务平台，能够帮您快速构建起大数据的分析处理能力。[测试链接](https://www.ucloud.cn)
+UCloud Smart Data Platform（简称 USDP）专业版，是 UCloud 推出的智能化、轻量级的大数据基础服务平台，能够帮您快速构建起大数据的分析处理能力。
 
 ![USDP智能大数据平台产品形象大图](../images/USDP智能大数据平台产品形象大图.png)
 
