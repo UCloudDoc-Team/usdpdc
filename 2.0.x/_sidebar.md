@@ -9,6 +9,12 @@
   * [部署流程](usdpdc/plan&create/install)
   * [首次创建](usdpdc/plan&create/first_create)
 * 控制台操作指南
+  * [USDP许可证管理](usdpdc/license/license)
+  * 多集群管理
+  
+    * [管理多集群](usdpdc/clusters/clusters)
+    * [存储与计算分离](usdpdc/clusters/clusters_separation)
+    * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
   * 单集群管理
     * 集群节点
       * [节点管理](usdpdc/1.0.x/webconsole/node)
@@ -29,11 +35,6 @@
       * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
     * <!--服务诊断-->
       * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
-  * 多集群管理
-    * [管理多集群](usdpdc/clusters/clusters)
-    * [存储与计算分离](usdpdc/clusters/clusters_separation)
-    * [非hadoop生态数据集群](usdpdc/clusters/clusters_others)
-  * [USDP许可证管理](usdpdc/license/license)
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
   * [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
