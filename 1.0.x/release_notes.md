@@ -1,6 +1,6 @@
 # V1.0.x 功能简介
 
-[功能点概述](usdpdc/1.0.x/release_notes?id=一、功能点概述)   |   [支持的大数据生态服务](usdpdc/1.0.x/release_notes?id=二、支持的大数据生态服务)
+[功能点概述](usdpdc/1.0.x/release_notes?id=_1-功能点概述)   |   [支持的大数据生态服务](usdpdc/1.0.x/release_notes?id=_2-支持的大数据生态服务)
 
 ##### 1. 功能点概述
 
