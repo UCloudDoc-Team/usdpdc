@@ -2,7 +2,6 @@
 
 
 
-[产品概述](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=产品概述)   |   [核心优势](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=USDP一站式智能大数据平台的核心优势)   |   [功能简介](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=三、功能简介)   |   [规划安装](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=四、规划及安装)   |   [操作指南](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=五、控制台操作指南)  |   [集群说明](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=六、集群信息说明)  |   [开发指南](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=七、开发指南)  |   [任务调度](https://docs.ucloud.cn/usdpdc/1.0.x/README?id=八、任务调度)
 
 ##### 1. 产品概述
 
@@ -28,7 +27,7 @@ USDP支持最少3个节点，最多上千节点的集群规模，同时，允许
 
 
 
-##### 2. USDP一站式智能大数据平台的核心优势
+##### 2. 一站式智能大数据平台的核心优势
 
 ###### 2.1 无需担心业务绑定
 
@@ -78,65 +77,65 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 ##### 3. 功能简介
 
-关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/1.0.x/release_notes) 查看。
+关于USDP平台的功能介绍，请点击前往 [V1.0.x 功能简介](https://docs.ucloud.cn/usdpdc/1.0.x/release_notes) 章节查看。
 
 
 
-**4. 规划及安装**
+###### 4. 规划及安装
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
-* [资源规划](usdpdc/plan&create/deploy_plan)
-* [部署流程](usdpdc/plan&create/install)
-* [首次创建](usdpdc/plan&create/first_create)
-* [扩展节点](usdpdc/1.0.x/webconsole/node_add)
+* [资源规划](https://docs.ucloud.cn/usdpdc/plan&create/deploy_plan)
+* [部署流程](https://docs.ucloud.cn/usdpdc/plan&create/install)
+* [首次创建](https://docs.ucloud.cn/usdpdc/plan&create/first_create)
+* [扩展节点](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/node_add)
 
 
 
-**5. 控制台操作指南**
+###### 5. 控制台操作指南
 
 大数据环境的管理员用户或开发者用户，可通过本章节了解到 USDP 各个模块的文档介绍，帮助您快速上手 USDP，了解如何在公有云环境中使用及管理 USDP 集群及服务的具体操作方法。
 
 * 单集群管理
-  * [集群节点管理](usdpdc/1.0.x/webconsole/node)
-  * [集群服务管理](usdpdc/1.0.x/webconsole/service)
-  * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
-  * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
+  * [集群节点管理](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/node)
+  * [集群服务管理](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/service)
+  * [集群监控管理](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/monitor)
+  * [集群告警管理](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/alarm)
   
 * 多集群管理
 
-  * [管理多集群](usdpdc/clusters/clusters)
+  * [管理多集群](https://docs.ucloud.cn/usdpdc/clusters/clusters)
 
     <!--[存储与计算分离](usdpdc/clusters/clusters)-->
 
     <!--[非hadoop生态集群](usdpdc/clusters/clusters)-->
 
-* [USDP License管理](usdpdc/license/license)
+* [USDP License管理](https://docs.ucloud.cn/usdpdc/license/license)
 
 
 
-**6. 集群信息说明**
+###### 6. 集群信息说明
 
 如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
 
-* [各服务部署规则](usdpdc/1.0.x/cluster_notes/rule)
-* [各服务WebUIs账号](usdpdc/1.0.x/cluster_notes/login)
+* [各服务部署规则](https://docs.ucloud.cn/usdpdc/1.0.x/cluster_notes/rule)
+* [各服务WebUIs账号](https://docs.ucloud.cn/usdpdc/1.0.x/cluster_notes/login)
 
 
 
-**7. 开发指南**
+###### 7. 开发指南
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境实现业务场景时，本章节内容为您介绍 USDP 所提供的各个开源大数据服务组件的部署及使用方式，帮助您快速开启数据分析业务开发之旅。
 
-* [HDFS-开发指南](usdpdc/developer/hdfs)
-* [Hive-开发指南](usdpdc/developer/hive)
-* [HBase-开发指南](usdpdc/developer/hbase)
-* [Ranger-开发指南](usdpdc/developer/ranger)
-* [Atlas-开发指南](usdpdc/developer/atlas)
+* [HDFS-开发指南](https://docs.ucloud.cn/usdpdc/developer/hdfs)
+* [Hive-开发指南](https://docs.ucloud.cn/usdpdc/developer/hive)
+* [HBase-开发指南](https://docs.ucloud.cn/usdpdc/developer/hbase)
+* [Ranger-开发指南](https://docs.ucloud.cn/usdpdc/developer/ranger)
+* [Atlas-开发指南](https://docs.ucloud.cn/usdpdc/developer/atlas)
 
 
 
-**8. 任务调度**
+###### 8. 任务调度
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
 
@@ -144,9 +143,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 
 
-**9. 常见问题**
+###### 9. 常见问题
 
 您可能在使用中会遇到一些问题。
 
-- [常见问题](usdpdc/1.0.x/FAQ)
+- [常见问题](https://docs.ucloud.cn/usdpdc/1.0.x/FAQ)
 
