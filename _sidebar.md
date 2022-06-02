@@ -5,12 +5,13 @@
 * USDP发行版
     * [USDP 专业版 v1.0.x](usdpdc/1.0.x/README)
     * [USDP 专业版 v2.0.x](usdpdc/2.0.x/README)
+    * [USDP 信创版 v2.0.x](usdpdc/arm_2.0.x/README)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
     * [部署流程](usdpdc/plan&create/install)
     * [首次创建](usdpdc/plan&create/first_create)
 * 控制台操作指南
-    
+  
     * [USDP许可证管理](usdpdc/license/license)
     * 多集群管理
     
