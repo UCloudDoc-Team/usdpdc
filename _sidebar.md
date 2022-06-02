@@ -3,9 +3,9 @@
 
 * [产品概览](/usdpdc/README)
 * USDP发行版
-    * [专业版 v1.0.x](usdpdc/1.0.x/README)
-    * [专业版 v2.0.x](usdpdc/2.0.x/README)
-    * [信创版 v2.0.x](usdpdc/arm_2.0.x/README)
+    * [专业版-v1.0.x](usdpdc/1.0.x/README)
+    * [专业版-v2.0.x](usdpdc/2.0.x/README)
+    * [信创版-v2.0.x](usdpdc/arm_2.0.x/README)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
     * [部署流程](usdpdc/plan&create/install)
