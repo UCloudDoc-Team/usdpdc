@@ -36,9 +36,9 @@
     * <!--服务诊断-->
       * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
 * 集群说明
-  * [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
-  * [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
-  * [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
+  * [各服务WebUIs账号](usdpdc/arm_2.0.x/cluster_notes/login)
+  * [各服务常用端口](usdpdc/arm_2.0.x/cluster_notes/ports)
+  * [各组件服务部署规则说明](usdpdc/arm_2.0.x/cluster_notes/rule)
 * 开发指南
   * 存储开发指南
     * [HDFS-开发指南](usdpdc/developer/hdfs)
