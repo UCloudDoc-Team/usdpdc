@@ -32,11 +32,11 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 因为USDP V1.0.0是基于Apache Hadoop 2.8.5，因此，HDFS数据存储副本为3，因此最小部署规模为3个节点。
 
-| 节点/服务           | 最低配置                   | USDP Server | MySQL | NTP  | Hadoop Cluster | 大数据集群内各服务部署规划 |
-| ------------------- | -------------------------- | ----------- | ----- | ---- | -------------- | -------------------------- |
-| 节点1<br />(host01) | 8C 32G sys 60GB data 300GB | Y           | Y     | Y    | Cluster1-节点1 | 自行规划                   |
-| 节点2<br />(host02) | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点2 | 自行规划                   |
-| 节点3<br />(host03) | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点3 | 自行规划                   |
+| 节点/服务           | 最低配置                     | USDP Server | MySQL | NTP  | Hadoop Cluster | 大数据集群内各服务部署规划   |
+| ------------------- | ---------------------------- | ----------- | ----- | ---- | -------------- | ---------------------------- |
+| 节点1<br />(host01) | 16C 32G sys 100GB data 300GB | Y           | Y     | Y    | Cluster1-节点1 | 自行规划，数据盘建议按需调整 |
+| 节点2<br />(host02) | 16C32G sys 100GB data 300GB  | -           | -     | -    | Cluster1-节点2 | 自行规划，数据盘建议按需调整 |
+| 节点3<br />(host03) | 16C32G sys 100GB data 300GB  | -           | -     | -    | Cluster1-节点3 | 自行规划，数据盘建议按需调整 |
 
 **注意：**您亦可将USDP Server、MySQL、NTP可以分散到上述host[01-03] 共三个节点上。
 
@@ -46,12 +46,12 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 本规划方案适用于：当业务量较小、资源较为紧俏时，以及您希望搭建一个最小规模的环境，但USDP server、NTP服务器、MySQL服务器能与大数据集群相对独立的场景。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
-| 节点/服务                 | 最低配置                   | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划 |
-| ------------------------- | -------------------------- | ----------- | ----- | ---- | --------------- | -------------------------- |
-| USDP Server<br />(host01) | 8C 32G sys 60GB data 300GB | Y           | Y     | Y    | USDP Server节点 | 自行规划                   |
-| 节点1<br />(host02)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点1  | 自行规划                   |
-| 节点2<br />(host03)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点2  | 自行规划                   |
-| 节点3<br />(host04)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点3  | 自行规划                   |
+| 节点/服务                 | 最低配置                    | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划   |
+| ------------------------- | --------------------------- | ----------- | ----- | ---- | --------------- | ---------------------------- |
+| USDP Server<br />(host01) | 8C 32G sys 100GB data 300GB | Y           | Y     | Y    | USDP Server节点 | 自行规划，数据盘建议按需调整 |
+| 节点1<br />(host02)       | 16C32G sys 100GB data 300GB | -           | -     | -    | Cluster1-节点1  | 自行规划，数据盘建议按需调整 |
+| 节点2<br />(host03)       | 16C32G sys 100GB data 300GB | -           | -     | -    | Cluster1-节点2  | 自行规划，数据盘建议按需调整 |
+| 节点3<br />(host04)       | 16C32G sys 100GB data 300GB | -           | -     | -    | Cluster1-节点3  | 自行规划，数据盘建议按需调整 |
 
 ### 2.1 若需要将MySQL与USDP Server分开部署，参考如下：
 
@@ -59,13 +59,13 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 本规划方案适用于：当业务量较小、资源较为紧俏时，以及您希望搭建一个最小规模的环境，但USDP server、NTP服务器、MySQL服务器能与大数据集群相对独立，且MySQL服务器完全独立的场景。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
-| 节点/服务                 | 最低配置                   | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划 |
-| ------------------------- | -------------------------- | ----------- | ----- | ---- | --------------- | -------------------------- |
-| USDP Server<br />(host01) | 8C 32G sys 60GB data 300GB | Y           | -     | Y    | USDP Server节点 | 自行规划                   |
-| MySQL<br />(host02)       | 4C16G sys 60GB data 200GB  | -           | Y     | -    | MySQL节点       | 自行规划                   |
-| 节点1<br />(host03)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点1  | 自行规划                   |
-| 节点2<br />(host04)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点2  | 自行规划                   |
-| 节点3<br />(host05)       | 4C16G sys 60GB data 200GB  | -           | -     | -    | Cluster1-节点3  | 自行规划                   |
+| 节点/服务                 | 最低配置                    | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划   |
+| ------------------------- | --------------------------- | ----------- | ----- | ---- | --------------- | ---------------------------- |
+| USDP Server<br />(host01) | 8C 16G sys 100GB data 300GB | Y           | -     | Y    | USDP Server节点 | 自行规划，数据盘建议按需调整 |
+| MySQL<br />(host02)       | 8C16G sys 100GB data 500GB  | -           | Y     | -    | MySQL节点       | 自行规划，数据盘建议按需调整 |
+| 节点1<br />(host03)       | 16C32G sys 100GB data 500GB | -           | -     | -    | Cluster1-节点1  | 自行规划，数据盘建议按需调整 |
+| 节点2<br />(host04)       | 16C32G sys 100GB data 500GB | -           | -     | -    | Cluster1-节点2  | 自行规划，数据盘建议按需调整 |
+| 节点3<br />(host05)       | 16C32G sys 100GB data 500GB | -           | -     | -    | Cluster1-节点3  | 自行规划，数据盘建议按需调整 |
 
 **注意：**您亦可将USDP Server、MySQL、NTP中的其中1到2个，分散部署到上述host[01-04] 共四个节点之外的节点去，例如MySQL可服用您现有其他业务系统的MySQL数据库。
 
@@ -89,15 +89,15 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 参考如下表格示例规划：
 
-| 节点/服务                 | 最低配置                   | VPC/Vlan | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划 |
-| ------------------------- | -------------------------- | -------- | ----------- | ----- | ---- | --------------- | -------------------------- |
-| USDP Server<br />(host01) | 8C 32G sys 60GB data 300GB | VPC-M    | Y           | Y     | Y    | USDP Server节点 | 自行规划                   |
-| 节点1<br />(host02)       | 4C16G sys 60GB data 200GB  | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划                   |
-| 节点2<br />(host03)       | 4C16G sys 60GB data 200GB  | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划                   |
-| 节点3<br />(host04)       | 4C16G sys 60GB data 200GB  | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划                   |
-| 节点1<br />(host05)       | 4C16G sys 60GB data 200GB  | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划                   |
-| 节点2<br />(host06)       | 4C16G sys 60GB data 200GB  | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划                   |
-| 节点3<br />(host07)       | 4C16G sys 60GB data 200GB  | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划                   |
+| 节点/服务                 | 最低配置                    | VPC/Vlan | USDP Server | MySQL | NTP  | Hadoop Cluster  | 大数据集群内各服务部署规划   |
+| ------------------------- | --------------------------- | -------- | ----------- | ----- | ---- | --------------- | ---------------------------- |
+| USDP Server<br />(host01) | 8C 32G sys 100GB data 300GB | VPC-M    | Y           | Y     | Y    | USDP Server节点 | 自行规划，数据盘建议按需调整 |
+| 节点1<br />(host02)       | 16C32G sys 100GB data 500GB | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划，数据盘建议按需调整 |
+| 节点2<br />(host03)       | 16C32G sys 100GB data 500GB | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划，数据盘建议按需调整 |
+| 节点3<br />(host04)       | 16C32G sys 100GB data 500GB | VPC-C1   | -           | -     | -    | Cluster1        | 自行规划，数据盘建议按需调整 |
+| 节点1<br />(host05)       | 16C32G sys 100GB data 500GB | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划，数据盘建议按需调整 |
+| 节点2<br />(host06)       | 16C32G sys 100GB data 500GB | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划，数据盘建议按需调整 |
+| 节点3<br />(host07)       | 16C32G sys 100GB data 500GB | VPC-C2   | -           | -     | -    | Cluster2        | 自行规划，数据盘建议按需调整 |
 
 ##### 效果示意图：
 
