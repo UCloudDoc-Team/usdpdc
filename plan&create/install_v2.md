@@ -24,9 +24,9 @@
 - ansible 安装包，例如 `ansible-2.9.25.tar.gz`
 - USDP 安装包，例如 `usdp-v2.1.0-pro-47c5bcdb2de168ef014b884c9d30eeef.tar.gz`
 - CentOS 7.6 离线 yum 源（如果主机能访问互联网，则不需要下载）：
-	- http server rpm 文件，例如 `httpd-rpms.tar.gz`
-	- base 和 update yum 源，例如 `mirror.tgz`
-	- epel yum 源，例如 `epel.tgz`
+  - http server rpm 文件，例如 `httpd-rpms.tar.gz`
+  - base 和 update yum 源，例如 `mirror.tgz`
+  - epel yum 源，例如 `epel.tgz`
 
 
 ?> **提示：**</br>- USDP 安装包文件，大约 10 GB</br>- 建议将该安装包存储至数据盘中，避免该安装包占用过多系统盘空间</br>- 解压 ansible 安装包，并 `yum install -y ansible/*.rpm`</br>- 将 USDP 安装包解压到 `/data/usdp-srv/` 目录</br>- 如果下载了 CentOS 离线 yum 源，直接放置到 `/data` 目录下， **这3个压缩包不需要手动解压**
@@ -121,7 +121,7 @@ work_node:
   >
   > 3、主机名命名不允许出现 “数字-数字” 这种模式
 
-  !> 主机被添加进集群并且部署服务后，不允许修改主机名（服务配置中的主机名无法同步修改）
+!> 主机被添加进集群并且部署服务后，不允许修改主机名（服务配置中的主机名无法同步修改）
 
 ### 4.2 执行环境初始化
 
