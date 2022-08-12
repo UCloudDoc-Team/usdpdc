@@ -10,7 +10,8 @@
     * [大数据组件打包版本](usdpdc/component/version)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
-    * [部署流程](usdpdc/plan&create/install)
+    * [部署流程 v1](usdpdc/plan&create/install)
+    * [部署流程 v2](usdpdc/plan&create/install_v2)
     * [首次创建](usdpdc/plan&create/first_create)
 * 控制台操作指南
   
