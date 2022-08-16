@@ -21,15 +21,11 @@
 
 通过给定地址，下载以下文件：
 
-- ansible 安装包，例如 `ansible-2.9.25.tar.gz`
-- USDP 安装包，例如 `usdp-v2.1.0-pro-47c5bcdb2de168ef014b884c9d30eeef.tar.gz`
-- CentOS 7.6 离线 yum 源（如果主机能访问互联网，则不需要下载）：
-  - http server rpm 文件，例如 `httpd-rpms.tar.gz`
-  - base 和 update yum 源，例如 `mirror.tgz`
-  - epel yum 源，例如 `epel.tgz`
+- ansible 安装包，例如 `ansible-2.9.25.tar.gz`（文件大小约 25M）
+- USDP 安装包，例如 `usdp-v2.1.0-pro-47c5bcdb2de168ef014b884c9d30eeef.tar.gz`（文件大小约 10G）
+- CentOS 7.6 离线 yum 源（如果主机能访问互联网，则不需要下载），例如 `mirror-9e3f190742bf13e8367ffa56a5695862.tar.gz`（文件大小约 35G）
 
-
-?> **提示：**</br>- USDP 安装包文件，大约 10 GB</br>- 建议将该安装包存储至数据盘中，避免该安装包占用过多系统盘空间</br>- 解压 ansible 安装包，并 `yum install -y ansible/*.rpm`</br>- 将 USDP 安装包解压到 `/data/usdp-srv/` 目录</br>- 如果下载了 CentOS 离线 yum 源，直接放置到 `/data` 目录下， **这3个压缩包不需要手动解压**
+?> **提示：**</br>- 建议将安装包存储至数据盘中，避免该安装包占用过多系统盘空间</br>- **解压** ansible 安装包，并 `yum install -y ansible/*.rpm`</br>- 将 USDP 安装包**解压**到 `/data/usdp-srv/` 目录</br>- 如果下载了 CentOS 离线 yum 源，**解压**到 `/data/` 目录下
 
 
 
