@@ -154,10 +154,10 @@ LISTEN     0      100                    :::80                  :::*          us
 在浏览器中访问 USDP 控制台：
 
 ```
-http://<usdp_server_ip>
+http://<usdp_server_ip>:<port>
 ```
 
-?> **提示：**</br>- “usdp_server_ip” 为启动 USDP-Server 的节点 IP 地址，如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。
+?> **提示：**</br>- “usdp_server_ip” 为启动 USDP-Server 的节点 IP 地址。如果浏览器所在节点与USDP不在同一网络环境，则需要自行搭建 VPN，或通过与USDP部署节点网络互通的Windows机器的浏览器来访问该IP。</br>- “port”为 `inventories/hosts.yml` 配置文件中 `usdp_server_port` 的取值。
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
