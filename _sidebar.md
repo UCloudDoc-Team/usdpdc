@@ -2,17 +2,11 @@
 
 
 * [产品概览](/usdpdc/README)
-* 发行版本
-    * [USDP专业版-v1.0.x](usdpdc/1.0.x/README)
-    * [USDP专业版-v2.0.x](usdpdc/2.0.x/README)
-    * [USDP信创版-v2.0.x](usdpdc/arm_2.0.x/README)
 * 大数据组件版本
     * [大数据组件发行版本](usdpdc/component/version)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
-    * [部署流程 v1](usdpdc/plan&create/install)
-    * [部署流程 v2](usdpdc/plan&create/install_v2)
-    * [首次创建](usdpdc/plan&create/first_create)
+    * [系统安装]()
 * 控制台操作指南
   
     * [USDP许可证管理](usdpdc/license/license)
@@ -42,7 +36,6 @@
         * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
       * <!--服务诊断-->
         * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
-    
 * 开发指南
     * 存储开发指南
       * [HDFS-开发指南](usdpdc/developer/hdfs)
@@ -56,4 +49,5 @@
       * [Ranger-开发指南](usdpdc/developer/ranger)
 * 常见问题
 * [了解USDP更多版本](/usdpdc/version_list)
+* [合作咨询](https://spt.ucloud.cn/30001)
 

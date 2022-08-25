@@ -6,7 +6,7 @@
 * [功能介绍](usdpdc/2.0.x/release_notes)
 * 规划及安装
   * [资源规划](usdpdc/plan&create/deploy_plan)
-  * [部署流程](usdpdc/plan&create/install)
+  * [部署流程](usdpdc/plan&create/install_v2)
   * [首次创建](usdpdc/plan&create/first_create)
 * 控制台操作指南
   * [USDP许可证管理](usdpdc/license/license)
