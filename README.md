@@ -88,7 +88,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 * [USDP 信创版 v2.0.x](usdpdc/arm_2.0.x/README)
 
-更多发行版本，请查看 [USDP私有化版本列表](/usdpdc/version_list)。
+更多发行版本，请查看 [USDP私有化版本列表](usdpdc/component/version)。
 
 
 

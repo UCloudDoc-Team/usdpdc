@@ -6,7 +6,7 @@
     * [大数据组件发行版本](usdpdc/component/version)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
-    * [系统安装]()
+    * [专业版安装](usdpdc/plan&create/select&install)
 * 控制台操作指南
   
     * [USDP许可证管理](usdpdc/license/license)
