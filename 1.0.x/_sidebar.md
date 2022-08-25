@@ -53,5 +53,6 @@
    * 安全开发指南
       * [Ranger-开发指南](usdpdc/developer/ranger)
 * [常见问题](usdpdc/1.0.x/FAQ)
-* [了解USDP更多版本](/usdpdc/version_list)
+* [了解USDP更多版本](usdpdc/component/version)
+* [合作咨询](https://spt.ucloud.cn/30001)
 
