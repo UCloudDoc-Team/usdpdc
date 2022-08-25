@@ -1,13 +1,13 @@
-<div class="sidebar_title icon_"> USDP 专业版 V2.0.x</div>   
+<div class="sidebar_title icon_"> USDP 专业版 V2.1.x</div>   
 
 
 
 * [产品概述](usdpdc/2.0.x/README)
 * [功能介绍](usdpdc/2.0.x/release_notes)
 * 规划及安装
-  * [资源规划](usdpdc/plan&create/deploy_plan)
-  * [部署流程](usdpdc/plan&create/install_v2)
-  * [首次创建](usdpdc/plan&create/first_create)
+  * [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
+  * [部署流程](usdpdc/2.1.x/plan&create/install_v2)
+  * [首次创建](usdpdc/2.1.x/plan&create/first_create)
 * 控制台操作指南
   * [USDP许可证管理](usdpdc/license/license)
   * 多集群管理
