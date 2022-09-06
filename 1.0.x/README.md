@@ -88,9 +88,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
-* [资源规划](https://docs.ucloud.cn/usdpdc/plan&create/deploy_plan)
-* [部署流程](https://docs.ucloud.cn/usdpdc/plan&create/install)
-* [首次创建](https://docs.ucloud.cn/usdpdc/plan&create/first_create)
+* [资源规划](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/deploy_plan)
+* [部署流程](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/install)
+* [首次创建](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/first_create)
 * [扩展节点](https://docs.ucloud.cn/usdpdc/1.0.x/webconsole/node_add)
 
 

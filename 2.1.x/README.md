@@ -84,7 +84,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 ### 三、功能简介
 
-关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/2.0.x/release_notes) 查看。
+关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/2.1.x/release_notes) 查看。
 
 
 
@@ -92,9 +92,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
-* [资源规划](usdpdc/plan&create/deploy_plan)
-* [部署流程](usdpdc/plan&create/install_v2)
-* [首次创建](usdpdc/plan&create/first_create)
+* [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
+* [部署流程](usdpdc/2.1.x/plan&create/install_v2)
+* [首次创建](usdpdc/2.1.x/plan&create/first_create)
 * [扩展节点](usdpdc/1.0.x/webconsole/node_add)
 
 
@@ -124,9 +124,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
 
-* [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
-* [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
-* [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
+* [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
+* [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
+* [各组件服务部署规则说明](usdpdc/2.1.x/cluster_notes/rule)
 
 
 
@@ -154,7 +154,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 您可能在使用中会遇到一些问题。
 
-- [常见问题](usdpdc/2.0.x/FAQ)
+- [常见问题](usdpdc/2.1.x/FAQ)
 
 ### 合作咨询
 

@@ -5,9 +5,9 @@
 * [产品概述](usdpdc/1.0.x/README)
 * [功能介绍](usdpdc/1.0.x/release_notes)
 * 规划及安装
-  * [资源规划](usdpdc/1.0.x/plan&create/deploy_plan)
-  * [部署流程](usdpdc/1.0.x/plan&create/install)
-  * [首次创建](usdpdc/1.0.x/plan&create/first_create)
+  * [资源规划](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/deploy_plan)
+  * [部署流程](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/install)
+  * [首次创建](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/first_create)
 * 控制台操作指南
   * [USDP许可证管理](usdpdc/license/license)
   * 多集群管理
