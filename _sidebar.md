@@ -2,8 +2,9 @@
 
 
 * [产品概览](/usdpdc/README)
-* 大数据组件版本
-    * [大数据组件发行版本](usdpdc/component/version)
+* 大数据组件发行版本
+    * [普通x86架构](usdpdc/component/version)
+    * [信创适配架构](usdpdc/component/xc_version)
 * 规划及安装
     * [资源规划](usdpdc/plan&create/deploy_plan)
     * [专业版安装](usdpdc/plan&create/select&install)
