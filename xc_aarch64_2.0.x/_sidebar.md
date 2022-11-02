@@ -2,14 +2,14 @@
 
 
 
-* [产品概述](usdpdc/arm_2.0.x/README)
+* [产品概述](usdpdc/xc_aarch64_2.0.x/README)
 
-* [功能介绍](usdpdc/arm_2.0.x/release_notes)
+* [功能介绍](usdpdc/xc_aarch64_2.0.x/release_notes)
 
 * 规划及安装
-  * [资源规划](usdpdc/arm_2.0.x/plan&create/deploy_plan)
-  * [部署流程](usdpdc/arm_2.0.x/plan&create/install)
-  * [首次创建](usdpdc/arm_2.0.x/plan&create/first_create)
+  * [资源规划](usdpdc/xc_aarch64_2.0.x/plan&create/deploy_plan)
+  * [部署流程](usdpdc/xc_aarch64_2.0.x/plan&create/install)
+  * [首次创建](usdpdc/xc_aarch64_2.0.x/plan&create/first_create)
   
 * 控制台操作指南
   * [USDP许可证管理](usdpdc/license/license)
@@ -40,9 +40,9 @@
       * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
   
 * 集群说明
-  * [各服务WebUIs账号](usdpdc/arm_2.0.x/cluster_notes/login)
-  * [各服务常用端口](usdpdc/arm_2.0.x/cluster_notes/ports)
-  * [各组件服务部署规则说明](usdpdc/arm_2.0.x/cluster_notes/rule)
+  * [各服务WebUIs账号](usdpdc/xc_aarch64_2.0.x/cluster_notes/login)
+  * [各服务常用端口](usdpdc/xc_aarch64_2.0.x/cluster_notes/ports)
+  * [各组件服务部署规则说明](usdpdc/xc_aarch64_2.0.x/cluster_notes/rule)
   
 * 开发指南
   * 存储开发指南

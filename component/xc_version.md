@@ -6,7 +6,7 @@
 
 - [USDP信创x86_64版-2.1.x](usdpdc/xc_x86_2.1.x/README)，请查看产品 [功能描述](/usdpdc/xc_x86_2.1.x/release_notes)。
 
-* [USDP信创aarch64版-v2.0.x](usdpdc/xc_arm_2.0.x/README)，请查看产品 [功能描述](/usdpdc/xc_arm_2.0.x/release_notes)。
+* [USDP信创aarch64版-v2.0.x](usdpdc/xc_aarch64_2.0.x/README)，请查看产品 [功能描述](/usdpdc/xc_aarch64_2.0.x/release_notes)。
 
 ### 热门版本对比
 
