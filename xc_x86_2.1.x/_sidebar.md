@@ -1,4 +1,4 @@
-<div class="sidebar_title icon_"> USDP 信创aarch64版 V2.0.x</div>   
+<div class="sidebar_title icon_"> USDP 信创x86_64版 V2.0.x</div>   
 
 
 

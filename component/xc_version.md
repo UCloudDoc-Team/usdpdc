@@ -1,18 +1,16 @@
 # 大数据组件发行版本
 
-!> 版本数值 x 表示对应发行版本中没有打包该组件
-
-
-
 适用于符合信创（国产化服务器、操作系统等）为基础运行环境的，包括x86_64、aarch64架构的物理服务器、虚拟机的USDP已发行版本：
 
 ### 发行版本：
 
-* [USDP信创版aarch64-v2.0.x](usdpdc/xc_arm_2.0.x/README)，请查看产品 [功能描述](/usdpdc/xc_arm_2.0.x/release_notes)。
+* [USDP信创aarch64版-v2.0.x](usdpdc/xc_arm_2.0.x/README)，请查看产品 [功能描述](/usdpdc/xc_arm_2.0.x/release_notes)。
 
-- [USDP信创版x86_64-2.1.x](usdpdc/xc_x86_2.1.x/README)，请查看产品 [功能描述](/usdpdc/xc_x86_2.1.x/release_notes)。
+- [USDP信创x86_64版-2.1.x](usdpdc/xc_x86_2.1.x/README)，请查看产品 [功能描述](/usdpdc/xc_x86_2.1.x/release_notes)。
 
 ### 热门版本对比
+
+!> 版本数值 x 表示对应发行版本中没有打包该组件
 
 | 组件             | 描述                                   | USDP-2.0.0 |
 | :--------------- | :------------------------------------- | :--------- |
