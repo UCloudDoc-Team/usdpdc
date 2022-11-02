@@ -33,12 +33,10 @@
         * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
         * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
       * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
-    * <!--服务诊断-->
-      * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
 * 集群说明
-  * [各服务WebUIs账号](usdpdc/2.0.x/cluster_notes/login)
-  * [各服务常用端口](usdpdc/2.0.x/cluster_notes/ports)
-  * [各组件服务部署规则说明](usdpdc/2.0.x/cluster_notes/rule)
+  * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
+  * [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
+  * [各组件服务部署规则说明](usdpdc/2.1.x/cluster_notes/rule)
 * 开发指南
   * 存储开发指南
     * [HDFS-开发指南](usdpdc/developer/hdfs)
@@ -50,7 +48,6 @@
     * [Atlas-开发指南](usdpdc/developer/atlas)
   * 安全开发指南
     * [Ranger-开发指南](usdpdc/developer/ranger)
-* [常见问题](usdpdc/2.0.x/FAQ)
 * [了解USDP更多版本](usdpdc/component/version)
 * [合作咨询](https://spt.ucloud.cn/30001)
 
