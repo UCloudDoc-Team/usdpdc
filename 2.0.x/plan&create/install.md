@@ -115,7 +115,7 @@
   > - 第 9 行：`host_single_info.txt` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
-?> **提示：**</br>- 对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
+?> **提示：**</br>- 对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/2.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
 
 ### 4.2 执行修复
 
@@ -199,17 +199,17 @@ http://<your_host_ip>
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
-![](../images/plan&create/install/login.png)
+![](../../images/plan&create/install/login.png)
 
 ?> **提示：**</br>- 集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.5 获取并导入LICENSE
 
-![](../images/license/imput_license.png)
+![](../../images/license/imput_license.png)
 
 点击 <kbd>导入许可证</kbd> 按钮，USDP将自动是被服务器的硬件识别码，并显示在弹出的对话框中，如下图所示：
 
-![](../images/license/imput_license01.png)
+![](../../images/license/imput_license01.png)
 
 请将对话框中的 `硬件识别码` 字符串，及您计划通过USDP管理的`服务器节点数量`，联系并告知UCloud客户经理，其会协助您获得License许可文件。
 
@@ -219,9 +219,9 @@ http://<your_host_ip>
 
 若License文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
 
-![](../images/plan&create/install/1621830111378.png)
+![](../../images/plan&create/install/1621830111378.png)
 
 
 
-至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/plan&create/first_create)。
+至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/2.0.x/plan&create/first_create)。
 

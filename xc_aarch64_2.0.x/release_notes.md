@@ -86,7 +86,7 @@ USDP-2.0.x 中，已支持的大数据生态服务有：
 
 
 
-了解USDP [更多USDP发布的版本](/usdpdc/version_list)
+了解USDP [更多版本](usdpdc/component/xc_version)
 
 
 

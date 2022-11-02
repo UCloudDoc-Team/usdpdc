@@ -148,14 +148,6 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 * [调度服务-Airflow](usdpdc/schedule/airflow)
 
-
-
-### 九、常见问题
-
-您可能在使用中会遇到一些问题。
-
-- [常见问题](usdpdc/2.0.x/FAQ)
-
 ### 合作咨询
 
 USDP专业版 [合作咨询](https://spt.ucloud.cn/30001)

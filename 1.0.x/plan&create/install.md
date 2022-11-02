@@ -115,7 +115,7 @@
   > - 第 9 行：`host_single_info.txt` 文件绝对路径； 
   > - 第 10 行：修复过程中的日志输出目录；
 
-?> **提示：**</br>- 对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
+?> **提示：**</br>- 对your.properties 文件中各IP地址的填写，建议参考 [资源规划](usdpdc/1.0.x/plan&create/deploy_plan) 说明后，按实际需求规划进行填写。
 
 ### 4.2 执行修复
 
@@ -223,5 +223,5 @@ http://<your_host_ip>
 
 
 
-至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/plan&create/first_create)。
+至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/1.0.x/plan&create/first_create)。
 

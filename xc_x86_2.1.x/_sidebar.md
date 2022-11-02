@@ -8,7 +8,7 @@
 
 * 规划及安装
   * [资源规划](usdpdc/arm_2.0.x/plan&create/deploy_plan)
-  * [部署流程](usdpdc/arm_2.0.x/plan&create/install)
+  * [部署流程](usdpdc/arm_2.0.x/plan&create/install_v2)
   * [首次创建](usdpdc/arm_2.0.x/plan&create/first_create)
   
 * 控制台操作指南

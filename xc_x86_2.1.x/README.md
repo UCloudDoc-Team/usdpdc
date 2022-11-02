@@ -2,7 +2,7 @@
 
 
 
-### <center>[产品概述](usdpdc/arm_2.0.x/?id=产品概述)   |   [核心优势](usdpdc/arm_2.0.x/?id=二、USDP一站式智能大数据平台的核心优势)   |   [功能简介](usdpdc/arm_2.0.x/?id=三、功能简介)   |   [规划安装](usdpdc/arm_2.0.x/?id=四、规划及安装)   |   [操作指南](usdpdc/arm_2.0.x/?id=五、控制台操作指南)  |   [集群说明](usdpdc/arm_2.0.x/?id=六、集群信息说明)  |   [开发指南](usdpdc/arm_2.0.x/?id=七、开发指南)</center>  
+### <center>[产品概述](usdpdc/xc_x86_2.1.x/?id=产品概述)   |   [核心优势](usdpdc/xc_x86_2.1.x/?id=二、USDP一站式智能大数据平台的核心优势)   |   [功能简介](usdpdc/xc_x86_2.1.x/?id=三、功能简介)   |   [规划安装](usdpdc/xc_x86_2.1.x/?id=四、规划及安装)   |   [操作指南](usdpdc/xc_x86_2.1.x/?id=五、控制台操作指南)  |   [集群说明](usdpdc/xc_x86_2.1.x/?id=六、集群信息说明)  |   [开发指南](usdpdc/xc_x86_2.1.x/?id=七、开发指南)</center>  
 
 
 
@@ -88,7 +88,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 ### 三、功能简介
 
-关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/arm_2.0.x/release_notes) 查看。
+关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/xc_x86_2.1.x/release_notes) 查看。
 
 
 
@@ -96,9 +96,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
-* [资源规划](usdpdc/arm_2.0.x/plan&create/deploy_plan)
-* [部署流程](usdpdc/arm_2.0.x/plan&create/install)
-* [首次创建](usdpdc/arm_2.0.x/plan&create/first_create)
+* [资源规划](usdpdc/xc_x86_2.1.x/plan&create/deploy_plan)
+* [部署流程](usdpdc/xc_x86_2.1.x/plan&create/install)
+* [首次创建](usdpdc/xc_x86_2.1.x/plan&create/first_create)
 * [扩展节点](usdpdc/1.0.x/webconsole/node_add)
 
 
@@ -128,9 +128,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
 
-* [各服务WebUIs账号](usdpdc/arm_2.0.x/cluster_notes/login)
-* [各服务常用端口](usdpdc/arm_2.0.x/cluster_notes/ports)
-* [各组件服务部署规则说明](usdpdc/arm_2.0.x/cluster_notes/rule)
+* [各服务WebUIs账号](usdpdc/xc_x86_2.1.x/cluster_notes/login)
+* [各服务常用端口](usdpdc/xc_x86_2.1.x/cluster_notes/ports)
+* [各组件服务部署规则说明](usdpdc/xc_x86_2.1.x/cluster_notes/rule)
 
 
 

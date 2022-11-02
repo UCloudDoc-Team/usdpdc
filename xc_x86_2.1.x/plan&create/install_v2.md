@@ -31,21 +31,21 @@
 
 解压后的子目录（`/data/usdp-srv/usdp/`）说明信息，如下所示：
 
-| 子目录       | 说明                                                                                    |
-| ------------ | --------------------------------------------------------------------------------------- |
+| 子目录       | 说明                                                         |
+| ------------ | ------------------------------------------------------------ |
 | agent        | USDP Agent 程序所在目录，为每个节点的作业端，无需手动启动、无需手动管理，无需手动管理； |
-| bin          | 启动 udp-server 与 udp-agent 程序的脚本目录，无需手动管理；                             |
-| config       | 配置文件目录，主要用于配置 MySQL 的地址，其他无需修改；                                 |
-| env-prepare  | 主机环境初始化脚本                                                                      |
-| jmx_exporter | 监控的相关插件，无需手动管理；                                                          |
-| recommend    | 部署服务时的默认勾选清单，无需修改；                                                    |
-| repository   | 服务组件资源目录，无需手动管理；                                                        |
-| scripts      | 工具脚本目录，无需手动管理；                                                            |
-| server       | USDP Server 程序所在目录，无需手动管理；                                                |
-| sql          | 初始化 SQL 所在目录，无需手动管理；                                                     |
-| templated    | 服务组件配置文件模板目录，无需手动管理；                                                |
-| verify       | USDP 私有化证书存储目录，无需手动管理；                                                 |
-| versions     | USDP 版本目录，无需手动管理；                                                           |
+| bin          | 启动 udp-server 与 udp-agent 程序的脚本目录，无需手动管理；  |
+| config       | 配置文件目录，主要用于配置 MySQL 的地址，其他无需修改；      |
+| env-prepare  | 主机环境初始化脚本                                           |
+| jmx_exporter | 监控的相关插件，无需手动管理；                               |
+| recommend    | 部署服务时的默认勾选清单，无需修改；                         |
+| repository   | 服务组件资源目录，无需手动管理；                             |
+| scripts      | 工具脚本目录，无需手动管理；                                 |
+| server       | USDP Server 程序所在目录，无需手动管理；                     |
+| sql          | 初始化 SQL 所在目录，无需手动管理；                          |
+| templated    | 服务组件配置文件模板目录，无需手动管理；                     |
+| verify       | USDP 私有化证书存储目录，无需手动管理；                      |
+| versions     | USDP 版本目录，无需手动管理；                                |
 
 
 
@@ -64,6 +64,9 @@
 ```yaml
 all:
   vars:
+    # 如果是信创环境，操作系统是 Kylin V10，则需要打开下面的注释，指定 python 版本为 python3
+    #ansible_python_interpreter: /usr/bin/python3
+    
     # 如果下面指定的 3 个 ntp_server 不能访问互联网，请设置 with_internet_ntp: false
     # 并且打开 internal_ntp_servers 的注释设置至少一个内部可访问的 ntp server
     with_internet_ntp: true
@@ -122,6 +125,7 @@ work_node:
 ### 4.2 执行环境初始化
 
 完成上述步骤后，执行如下命令即可开始环境初始化任务：
+
 ```bash
 cd /data/usdp-srv/usdp/env-prepare
 ansible-playbook -i inventories/hosts.yml prepare.yml
@@ -159,17 +163,17 @@ http://<usdp_server_ip>:<port>
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
-![](../../images/plan&create/install/login.png)
+![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\plan&create\install\login.png)
 
 ?> **提示：**</br>- 集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.5 获取并导入LICENSE
 
-![](../../images/license/imput_license.png)
+![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\license\imput_license.png)
 
 点击 <kbd>导入许可证</kbd> 按钮，USDP将自动是被服务器的硬件识别码，并显示在弹出的对话框中，如下图所示：
 
-![](../../images/license/imput_license01.png)
+![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\license\imput_license01.png)
 
 请将对话框中的 `硬件识别码` 字符串，及您计划通过USDP管理的`服务器节点数量`，联系并告知UCloud客户经理，其会协助您获得license许可文件。
 
@@ -179,8 +183,9 @@ http://<usdp_server_ip>:<port>
 
 若license文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
 
-![](../../images/plan&create/install/1621830111378.png)
+![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\plan&create\install\1621830111378.png)
 
 
 
-至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/2.1.x/plan&create/first_create)。
+至此，环境初始化及USDP管理服务的安装已完成，接下来将 [通过USDP创建第一个大数据集群](usdpdc/xc_x86_2.1.x/plan&create/first_create)。
+
