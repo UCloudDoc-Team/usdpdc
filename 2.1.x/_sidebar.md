@@ -2,7 +2,7 @@
 
 
 
-* [产品概述](usdpdc/2.0.x/README)
+* [产品概述](usdpdc/2.1.x/README)
 * [功能介绍](usdpdc/2.1.x/release_notes)
 * 规划及安装
   * [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
