@@ -1,6 +1,6 @@
 # 通知对象管理
 
-通知对象，是USDP系统中，告警信息发送的目标用户，通知对象是由 [通知组](usdpdc/1.0.x/webconsole/alarmInform_group)  进行管理的；通知组再与 [告警模板](usdpdc/1.0.x/webconsole/alarmTemplate) 中的监控指标关联。
+通知对象，是USDP系统中，告警信息发送的目标用户，通知对象是由 [通知组](usdpdc/webconsole/alarmInform_group)  进行管理的；通知组再与 [告警模板](usdpdc/webconsole/alarmTemplate) 中的监控指标关联。
 
 USDP支持多种通知对象类型，提供对各类通知对象的管理和维护方法。
 
@@ -10,8 +10,8 @@ USDP支持多种通知对象类型，提供对各类通知对象的管理和维�
 
 #### 本篇将涉及到：
 
-- [添加通知对象](usdpdc/1.0.x/webconsole/alarmInform_object?id=_1-添加通知对象)
-- [管理通知对象](usdpdc/1.0.x/webconsole/alarmInform_object?id=_2-管理通知对象)
+- [添加通知对象](usdpdc/webconsole/alarmInform_object?id=_1-添加通知对象)
+- [管理通知对象](usdpdc/webconsole/alarmInform_object?id=_2-管理通知对象)
 
 
 
@@ -23,11 +23,11 @@ http://<your_host_ip>
 
 登陆USDP控制台后，点击/鼠标滑至左上交 “橙色警报器” 图表位置，会自动展开下拉菜单项目，点击 <kbd>通知方式管理</kbd> 菜单项，进入 通知方式管理 页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_entrance.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_entrance.png)
 
 进入 “通知方式管理” 页面时，点击 “通知对象” 选项卡，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject.png)
 
 
 
@@ -41,7 +41,7 @@ http://<your_host_ip>
 
 在 “通知对象” 标签页，点击左上角 <kbd>新建</kbd> 按钮，在弹出的 “新建通知对象” 对方框中 “通知对象类型” 处，选择 “邮箱”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_email.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_email.png)
 
 “通知对象名称”，填写该对象的名称等信息；并输入此人 “邮箱地址” 后，点击 <kbd>获取验证码</kbd> 按钮，此时该邮箱即收到一条验证邮件，内容中包含“验证码” 等信息，索要 “验证码” 后填入，点击 <kbd>确定</kbd> 按钮完成添加操作。
 
@@ -51,7 +51,7 @@ http://<your_host_ip>
 
 在 “通知对象” 标签页，点击左上角 <kbd>新建</kbd> 按钮，在弹出的 “新建通知对象” 对方框中 “通知对象类型” 处，选择 “钉钉”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_dingding.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_dingding.png)
 
 通知对象名称，填写该对象的名称等信息；并输入钉钉的 “Webhook地址”，及 “自定义关键字” 后，点击 <kbd>获取验证码</kbd> 按钮，此时该钉钉即收到一条验证信息，内容中包含“验证码” 等信息，索要 “验证码” 后填入，点击 <kbd>确定</kbd> 按钮完成添加操作。
 
@@ -61,7 +61,7 @@ http://<your_host_ip>
 
 在 “通知对象” 标签页，点击左上角 <kbd>新建</kbd> 按钮，在弹出的 “新建通知对象” 对方框中 “通知对象类型” 处，选择 “企业微信”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_qiwei.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_qiwei.png)
 
 通知对象名称，填写该对象的名称等信息；并输入企业微信的 “Webhook地址” 后，点击 <kbd>获取验证码</kbd> 按钮，此时该企业微信即收到一条验证信息，内容中包含“验证码” 等信息，索要 “验证码” 后填入，点击 <kbd>确定</kbd> 按钮完成添加操作。
 
@@ -71,7 +71,7 @@ http://<your_host_ip>
 
 在 “通知对象” 标签页，点击左上角 <kbd>新建</kbd> 按钮，在弹出的 “新建通知对象” 对方框中 “通知对象类型” 处，选择 “回调接口”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_api.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_api.png)
 
 通知对象名称，填写该对象的名称等信息；并输入 “自定义接口的地址”，点击 <kbd>确定</kbd> 按钮完成添加操作。
 
@@ -103,8 +103,8 @@ http://<your_host_ip>
 
 完成新建通知对象后，页面显示已添加后的所有 “通知对象”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_down.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_set_notifyobject_down.png)
 
 若因某通知对象工作变动原因，管理员可能需要删除该通知对象是；此时，勾选该对象左侧的复选框，并点击 <kbd>删除</kbd> 按钮完成，并确认后，完成删除操作，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_notifyobject_delete.png)
+![](../images/1.0.x/webconsole/alarm/notification_object/notify_usdp_notifyobject_delete.png)

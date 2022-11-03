@@ -10,7 +10,7 @@ USDP管理服务是每个用户独享的，因此在使用邮件接收集群相�
 
 登陆USDP控制台后，点击/鼠标滑至左上交 “橙色警报器” 图表位置，会自动展开下拉菜单项目，点击 <kbd>通知方式管理</kbd> 菜单项，进入 通知方式管理 页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_entrance.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_entrance.png)
 
 
 
@@ -18,7 +18,7 @@ USDP管理服务是每个用户独享的，因此在使用邮件接收集群相�
 
 进入 “通知方式管理” 页面时，点击 “邮件发送设置” 选项卡，系统提示 “尚未配置邮件发送服务器及账号”，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email.png)
 
 !> USDP管理服务即为用户独享，且USDP管理服务默认是部署在集群Master1节点上，因此，需要为该集群Master1节点配置互联网公网静态IP，否则将无法配置邮件发送服务器及发送告警邮件。
 
@@ -28,15 +28,15 @@ USDP管理服务是每个用户独享的，因此在使用邮件接收集群相�
 
 点击 <kbd>立即配置</kbd> 按钮，在弹出的 “配置邮件发送服务器” 对话框中来配置，如下图所示：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_seting_email.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_seting_email.png)
 
 此时，用户可参考如下列表内容，选择合适的 “邮箱类型”、“SMTP服务器地址”、“是否开启SSL”、端口，来完成对话框配置填写：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email_like.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email_like.png)
 
 验证通过后，显示如下（这里是以UCloud邮箱服务器配置为示例）：
 
-![](../../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email_down.png)
+![](../images/1.0.x/webconsole/alarm/set_emailserver/notify_usdp_set_email_down.png)
 
 若需变更，可参考上图，点击 <kbd>修改配置</kbd> 按钮，在对话框中完成邮箱服务器及账号的变更操作。
 

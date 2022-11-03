@@ -2,14 +2,14 @@
 
 在智能大数据平台USDP中，无论USDP提供的哪种集群组件服务，对于这些服务的配置文件修改，均可采用以下两种方式：
 
-- [在USDP控制台中更改服务配置文件](usdpdc/1.0.x/webconsole/service_config?id=_1-在usdp控制台中更改服务配置文件)，这是我们 `强烈推荐` 的方式。
-- [逐一登陆服务分布式节点并更改其配置文件](usdpdc/1.0.x/webconsole/service_config?id=_2-逐一登陆服务分布式节点并更改其配置文件) 
+- [在USDP控制台中更改服务配置文件](usdpdc/webconsole/service_config?id=_1-在usdp控制台中更改服务配置文件)，这是我们 `强烈推荐` 的方式。
+- [逐一登陆服务分布式节点并更改其配置文件](usdpdc/webconsole/service_config?id=_2-逐一登陆服务分布式节点并更改其配置文件) 
 
 
 
 USDP会主动检查用户对配置文件的修改情况，及该修改操作是否需要关联重启其他服务，并提示用户重启各服务生效配置修改。参见：
 
-- [服务组件重启提示](usdpdc/1.0.x/webconsole/service_config?id=_13-服务组件重启提示)
+- [服务组件重启提示](usdpdc/webconsole/service_config?id=_13-服务组件重启提示)
 
 
 
@@ -21,11 +21,11 @@ USDP会主动检查用户对配置文件的修改情况，及该修改操作是�
 
 - 点击Zookeeper服务的 <kbd>概览</kbd> 标签页- <kbd>修改配置</kbd> 按钮，选择需要修改配置文件的节点。如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update.png)
 
 - 在选择节点对话框中勾选好节点后，点击 <kbd>修改配置</kbd> 按钮进入配置修改页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1.png)
 
 USDP会将Zookeeper的所有配置文件内容加载到该页面的编辑框内，您可以翻阅查找需要修改的配置项后进行修改及参数调优。更改好配置文件后，即可点击“确定”按钮保存即可完成修改。
 
@@ -53,9 +53,9 @@ USDP支持对同一服务的同一配置文件进行比对和自动分组，避�
 >
 > **原则3举例：**譬如Zookeeper的“myid”配置文件，Zookeeper要求各个节点上该配置文件的值均不同，因此，当您修改“myid”配置文件时，您会发现，每个节点均各自归属独立的一个分组。如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1_group2.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1_group2.png)
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1_group3.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1_group3.png)
 
 
 
@@ -67,15 +67,15 @@ USDP支持对同一服务的同一配置文件进行比对和自动分组，避�
 
 - 将当前分组下的一个/多个节点，通过“创建新的分组”、“移至其他分组”的方式，调整原有的分组逻辑，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1_group.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1_group.png)
 
 图解：将“Log4j.properties”的四个节点的其中两个单独创建一个新分组。
 
 - 此时，分组变为两个，且分组2中包含的节点即为上一步操作选择的两个节点，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1_group0.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1_group0.png)
 
-![](../../images/1.0.x/webconsole/service/service_configer_zk_update1_group1.png)
+![](../images/1.0.x/webconsole/service/service_configer_zk_update1_group1.png)
 
 
 
@@ -83,11 +83,11 @@ USDP支持对同一服务的同一配置文件进行比对和自动分组，避�
 
 如下图所示，这里对YARN服务的“yarn-env.sh”进行修改（在文件末尾加了一行备注文字），<kbd>确认</kbd> 保存更改后。
 
-![](../../images/1.0.x/webconsole/service/service_configer_yarn_update.png)
+![](../images/1.0.x/webconsole/service/service_configer_yarn_update.png)
 
 此时，左侧导航菜单处“YARN”服务后侧出现橙色叹号警示，提醒您执行服务重启生效。且YARN服务“组件管理”中亦有详细提示，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_configer_yarn_reboot.png)
+![](../images/1.0.x/webconsole/service/service_configer_yarn_reboot.png)
 
 ?> **提示：**</br>- 可根据您当前业务的重要性情况，在分析业务低峰期勾选提示项组件，执行滚动重启/批量重启。</br>- 部分服务配置文件修改，与其关联性比较强的其他服务可能需要进行重启生效，其他的并非必须重启。
 
@@ -95,7 +95,7 @@ USDP支持对同一服务的同一配置文件进行比对和自动分组，避�
 
 ### 2. 逐一登陆服务分布式节点并更改其配置文件
 
-SSH登陆至服务所在节点，参考 [各组件服务部署规则](usdpdc/1.0.x/cluster_notes/rule) 中的描述，前往修改相应的配置文件。
+SSH登陆至服务所在节点，参考 **各组件服务部署规则** 中的描述，前往修改相应的配置文件。
 
 譬如Zookeeper的“Log4j.properties”配置文件所在位置参考如下：
 
@@ -106,5 +106,4 @@ SSH登陆至服务所在节点，参考 [各组件服务部署规则](usdpdc/1.0
 configuration.xsl  log4j.properties  zoo.cfg  zoo_sample.cfg
 [root@usdp-********-master2 conf]#
 ~~~
-
 

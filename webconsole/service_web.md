@@ -8,32 +8,32 @@
 
 鼠标悬停/点击Yarn服务管理页面中“Web UIs”选项卡时，自动下拉展开Yarn相关的页面选项链接，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_yarn_uis.png)
+![](../images/1.0.x/webconsole/service/service_yarn_uis.png)
 
 
 
 点击“[udp08] ResourceManager1 Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的ResourceManager管理页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_yarn_ui_rm.png)
+![](../images/1.0.x/webconsole/service/service_yarn_ui_rm.png)
 
 
 
 点击“[udp08] HistoryServer Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的HistoryServer管理页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_yarn_ui_hs.png)
+![](../images/1.0.x/webconsole/service/service_yarn_ui_hs.png)
 
 
 
 点击“[udp08] TimelineServer Web UI”，会自动在浏览器中打开新的标签页，并显示udp08节点上的TimelineServer管理页面，如下图所示：
 
-![](../../images/1.0.x/webconsole/service/service_yarn_ui_ts.png)
+![](../images/1.0.x/webconsole/service/service_yarn_ui_ts.png)
 
 
 
 #### 以Grafana的Web UI为例
 
-![](../../images/1.0.x/webconsole/service/service_grafana_ui_details.png)
+![](../images/1.0.x/webconsole/service/service_grafana_ui_details.png)
 
 
 
-?> - 部分大数据服务Web UI方式时，需要输入口令，默认口令可参见 [各服务WebUIs登录账号](usdpdc/1.0.x/cluster_notes/login) 。</br>- USDP默认使用服务所在节点“完全限定域名”（主机名）+端口的方式访问服务的Web UI，若浏览器无法加载，请检查浏览器所在Client端与集群间的网络互通问题，以及Client端本地的hosts文件中IP与主机名是否配置。
+?> - 部分大数据服务Web UI方式时，需要输入口令，默认口令可参见 **各服务WebUIs登录账号**。</br>- USDP默认使用服务所在节点“完全限定域名”（主机名）+端口的方式访问服务的Web UI，若浏览器无法加载，请检查浏览器所在Client端与集群间的网络互通问题，以及Client端本地的hosts文件中IP与主机名是否配置。
