@@ -35,8 +35,6 @@
           * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
           * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
         * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
-      * <!--服务诊断-->
-        * <!--[日志查询](usdpdc/1.0.x/webconsole/logQuery)-->
 * 开发指南
     * 存储开发指南
       * [HDFS-开发指南](usdpdc/developer/hdfs)
