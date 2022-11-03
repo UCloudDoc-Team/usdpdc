@@ -6,9 +6,9 @@
 
 #### 本篇将涉及到：
 
-- [首次获取许可证](usdpdc/1.0.x/webconsole/license?id=_1-首次获取许可证)
-- [许可证过期](usdpdc/1.0.x/webconsole/license?id=_2-许可证过期)
-- [许可证有效期内管理](usdpdc/1.0.x/webconsole/license?id=_3-许可证有效期内管理)
+- [首次获取许可证](usdpdc/license?id=_1-首次获取许可证)
+- [许可证过期](usdpdc/license?id=_2-许可证过期)
+- [许可证有效期内管理](usdpdc/license?id=_3-许可证有效期内管理)
 
 
 

@@ -4,8 +4,8 @@
 
 下文以Zookeeper服务的组件管理为示例，本篇将涉及到：
 
-- [Zookeeper服务相关组件管理](usdpdc/webconsole/service_component?id=zookeeper服务相关组件管理)
-- [Zookeeper服务组件扩展](usdpdc/webconsole/service_component?id=zookeeper服务组件扩展)
+- [Zookeeper服务相关组件管理](usdpdc/guide_v2/service_component?id=zookeeper服务相关组件管理)
+- [Zookeeper服务组件扩展](usdpdc/guide_v2/service_component?id=zookeeper服务组件扩展)
 
 
 
@@ -37,7 +37,7 @@
 
 ## Zookeeper服务组件扩展
 
-该操作请参考 [为当前集群已使用的大数据服务扩展组件](usdpdc/webconsole/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件) 操作。
+该操作请参考 [为当前集群已使用的大数据服务扩展组件](usdpdc/guide_v2/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件) 操作。
 
 
 

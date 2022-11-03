@@ -1,6 +1,6 @@
 # 通知对象管理
 
-通知对象，是USDP系统中，告警信息发送的目标用户，通知对象是由 [通知组](usdpdc/webconsole/alarmInform_group)  进行管理的；通知组再与 [告警模板](usdpdc/webconsole/alarmTemplate) 中的监控指标关联。
+通知对象，是USDP系统中，告警信息发送的目标用户，通知对象是由 [通知组](usdpdc/guide_v2/alarmInform_group)  进行管理的；通知组再与 [告警模板](usdpdc/guide_v2/alarmTemplate) 中的监控指标关联。
 
 USDP支持多种通知对象类型，提供对各类通知对象的管理和维护方法。
 
@@ -10,8 +10,8 @@ USDP支持多种通知对象类型，提供对各类通知对象的管理和维�
 
 #### 本篇将涉及到：
 
-- [添加通知对象](usdpdc/webconsole/alarmInform_object?id=_1-添加通知对象)
-- [管理通知对象](usdpdc/webconsole/alarmInform_object?id=_2-管理通知对象)
+- [添加通知对象](usdpdc/guide_v2/alarmInform_object?id=_1-添加通知对象)
+- [管理通知对象](usdpdc/guide_v2/alarmInform_object?id=_2-管理通知对象)
 
 
 

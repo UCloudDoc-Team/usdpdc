@@ -2,8 +2,8 @@
 
 在使用USDP管理大数据业务集群时，用户可根据需求灵活管理集群中需要的各类大数据服务及相关组件。本篇指南，将介绍如何通过USDP来为集群添加大数据服务、添加服务组件，并管理该服务对应的组件。
 
-- [添加大数据服务](usdpdc/webconsole/service_extension?id=_1-为当前集群添加大数据服务)
-- [为已使用的大数据服务添加组件](usdpdc/webconsole/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件)
+- [添加大数据服务](usdpdc/guide_v2/service_extension?id=_1-为当前集群添加大数据服务)
+- [为已使用的大数据服务添加组件](usdpdc/guide_v2/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件)
 
 
 

@@ -84,7 +84,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 ### 三、功能简介
 
-关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/release_notes) 查看。
+关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/2.1.x/release_notes) 查看。
 
 
 
@@ -95,7 +95,7 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 * [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
 * [部署流程](usdpdc/2.1.x/plan&create/install_v2)
 * [首次创建](usdpdc/2.1.x/plan&create/first_create)
-* [扩展节点](usdpdc/1.0.x/webconsole/node_add)
+* [扩展节点](usdpdc/guide_v2/node_add)
 
 
 
@@ -112,10 +112,10 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
   * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
 
 * 单集群管理
-  * [集群节点管理](usdpdc/1.0.x/webconsole/node)
-  * [集群服务管理](usdpdc/1.0.x/webconsole/service)
-  * [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
-  * [集群告警管理](usdpdc/1.0.x/webconsole/alarm)
+  * [集群节点管理](usdpdc/guide_v2/node)
+  * [集群服务管理](usdpdc/guide_v2/service)
+  * [集群监控管理](usdpdc/guide_v2/monitor)
+  * [集群告警管理](usdpdc/guide_v2/alarm)
 * [USDP License管理](usdpdc/license/license)
 
 

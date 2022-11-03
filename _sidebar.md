@@ -19,22 +19,22 @@
     
     * 单集群管理
       * 集群节点
-        * [节点管理](usdpdc/1.0.x/webconsole/node)
-        * [节点扩展](usdpdc/1.0.x/webconsole/node_add)
+        * [节点管理](usdpdc/guide_v2/node)
+        * [节点扩展](usdpdc/guide_v2/node_add)
       * 服务管理
-        * [服务概况查看](usdpdc/1.0.x/webconsole/service_state)
-        * [服务配置修改](usdpdc/1.0.x/webconsole/service_config)
-        * [服务组件管理](usdpdc/1.0.x/webconsole/service_component)
-        * [添加服务或组件](usdpdc/1.0.x/webconsole/service_extension)
-        * [服务Web UI访问](usdpdc/1.0.x/webconsole/service_web)
-      * [监控管理](usdpdc/1.0.x/webconsole/monitor)
+        * [服务概况查看](usdpdc/guide_v2/service_state)
+        * [服务配置修改](usdpdc/guide_v2/service_config)
+        * [服务组件管理](usdpdc/guide_v2/service_component)
+        * [添加服务或组件](usdpdc/guide_v2/service_extension)
+        * [服务Web UI访问](usdpdc/guide_v2/service_web)
+      * [监控管理](usdpdc/guide_v2/monitor)
       * 告警管理
-        * [告警模板管理](usdpdc/1.0.x/webconsole/alarmTemplate)
+        * [告警模板管理](usdpdc/guide_v2/alarmTemplate)
         * 通知方式管理
-          * [通知组](usdpdc/1.0.x/webconsole/alarmInform_group)
-          * [通知对象](usdpdc/1.0.x/webconsole/alarmInform_object)
-          * [邮件发送设置](usdpdc/1.0.x/webconsole/alarmInform_email)
-        * [告警生效](usdpdc/1.0.x/webconsole/alarmTemplate_work)
+          * [通知组](usdpdc/guide_v2/alarmInform_group)
+          * [通知对象](usdpdc/guide_v2/alarmInform_object)
+          * [邮件发送设置](usdpdc/guide_v2/alarmInform_email)
+        * [告警生效](usdpdc/guide_v2/alarmTemplate_work)
 * 开发指南
     * 存储开发指南
       * [HDFS-开发指南](usdpdc/developer/hdfs)
