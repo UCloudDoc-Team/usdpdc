@@ -117,9 +117,9 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 * 单集群管理
   * [集群节点管理](usdpdc/guide_v2/node)
-  * [集群服务管理](usdpdc/guide_v2/service)
+  * [集群服务管理](usdpdc/guide_v2/service_state)
   * [集群监控管理](usdpdc/guide_v2/monitor)
-  * [集群告警管理](usdpdc/guide_v2/alarm)
+  * [集群告警管理](usdpdc/guide_v2/alarmTemplate)
 * [USDP License管理](usdpdc/license/license)
 
 

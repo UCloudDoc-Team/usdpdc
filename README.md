@@ -78,17 +78,13 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 ### USDP产品版本发行
 
-适用于X86架构的物理服务器、虚拟机的USDP已发行版本：
+现已发行的各个版本，适用于如下需求场景：
 
-* [USDP 专业版 v1.0.x](usdpdc/1.0.x/README)
+- 部署在普通X86_64架构CPU物理服务器、虚拟机；
 
-* [USDP 专业版 v2.0.x](usdpdc/2.0.x/README)
+- 部署在国产信创X86_64、aarch64架构CPU物理服务器、虚拟机；
 
-适用于国产信创ARM架构的物理服务器、虚拟机的USDP已发行版本：
-
-* [USDP 信创版 v2.0.x](usdpdc/arm_2.0.x/README)
-
-更多发行版本，请查看 [USDP私有化版本列表](usdpdc/component/version)。
+具体版本选择，请查看 [USDP私有化版本列表](usdpdc/component/version)。
 
 
 
