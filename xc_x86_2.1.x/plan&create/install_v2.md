@@ -103,11 +103,11 @@ usdp_server:
 work_node:
   hosts:
     10.10.1.32:
-      # NODE_NAME: hostname_a
+      # NODE_NAME: hostname001
     10.10.1.33:
-      # NODE_NAME: hostname_b
+      # NODE_NAME: hostname002
     10.10.1.34:
-      # NODE_NAME: hostname_c
+      # NODE_NAME: hostname003
 ```
 
   > **主机名(NODE_NAME)-命名规则：**
