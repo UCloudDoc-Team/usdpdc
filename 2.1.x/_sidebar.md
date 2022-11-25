@@ -43,7 +43,8 @@
     * [Hive-开发指南](usdpdc/developer/hive)
     * [HBase-开发指南](usdpdc/developer/hbase)
   * 流处理指南
-    * [Flink-开发指南]()
+    * Flink-开发指南
+      * [Flink-CDC同步Mysql表数据至Kafka](usdpdc/2.1.x/developer/flink-cdc_mysql_to_kafka)
   * 任务调度指南
     * [调度服务-Airflow](usdpdc/schedule/airflow)
   * 元数据开发指南
