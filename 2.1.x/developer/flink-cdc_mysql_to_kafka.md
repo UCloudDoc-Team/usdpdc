@@ -18,7 +18,7 @@
 
 如果你是更高版本的Flink，可以自行https://github.com/ververica/flink-cdc-connectors下载新版mvn clean install -DskipTests 自己编译。   包下载好之后，放在Flink lib目录（/srv/udp/2.0.0.0/flink/lib）下：
 
-![](../images/developer/Flink/flink-lib.png)
+![](../../images/developer/2.1.x/flink/flink-lib.png)
 
 ## 3. 启动Flink SQL Client
 
@@ -30,7 +30,7 @@
 ./yarn-session.sh -d -s 1 -jm 1024 -tm 2048 -qu root.sparkstreaming -nm flink-cdc-kafka
 ```
 
-![](../images/developer/Flink/yarn-applications.png)
+![](../../images/developer/2.1.x/flink/yarn-applications.png)
 
 ### 3.2 进入Flink SQL 命令行
 
@@ -40,7 +40,7 @@
 ./sql-client.sh embedded -s flink-cdc-kafka
 ```
 
-![](../images/developer/Flink/flink-sql-client.png)
+![](../../images/developer/2.1.x/flink/flink-sql-client.png)
 
 ## 4. 测试数据准备
 
@@ -79,7 +79,7 @@ INSERT INTO `user_view` VALUES ('9', '8', '菲尔·科尔森', '42', '2020-05-13
 
 检查数据
 
-![](../images/developer/Flink/mysql-table-select.png)
+![](../../images/developer/2.1.x/flink/mysql-table-select.png)
 
 ## 5. 同步数据
 
@@ -138,7 +138,7 @@ Flink SQL> select * from user_view_source;
 
 若查询正常，则如下显示
 
-![](../images/developer/Flink/flink-sql-select.png)
+![](../../images/developer/2.1.x/flink/flink-sql-select.png)
 
 此时，在Flink SQL Client中操作这张表，就相当于在操作Mysql里面对应的那张“user_view”表。
 
@@ -182,8 +182,8 @@ Flink SQL> insert into user_view_kafka_sink select * from user_view_source;
 
 此时，可退出flink sql-client，并进入flink web-ui，即可看到mysql表数据已经同步到kafka topic中了。
 
-![](../images/developer/Flink/flink-webui-yarn-tracking-url.png)
+![](../../images/developer/2.1.x/flink/flink-webui-yarn-tracking-url.png)
 
 并且，对mysql表再次进行数据插入，kafka仍会保持同步更新。
 
-![](../images/developer/Flink/kafka-console-consumer.png)
+![](../../images/developer/2.1.x/flink/kafka-console-consumer.png)
