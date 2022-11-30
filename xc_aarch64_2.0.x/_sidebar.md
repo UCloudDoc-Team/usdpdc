@@ -21,7 +21,7 @@
   * 单集群管理
     * 集群节点
       * [节点管理](usdpdc/guide_v2/node)
-      * [节点扩展](usdpdc/guide_v2/node_add)
+      * [节点扩展](usdpdc/guide_v2/node_add_v2)
     * 服务管理
       * [服务概况查看](usdpdc/guide_v2/service_state)
       * [服务配置修改](usdpdc/guide_v2/service_config)
