@@ -8,7 +8,7 @@
   * [](技术白皮书)
 
 * 规划及安装
-  * [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
+  * [资源规划](usdpdc/3.0.0-unopened/userguide/deploy_plan)*
   * [部署流程](usdpdc/2.1.x/plan&create/install_v2)
   * [首次创建](usdpdc/2.1.x/plan&create/first_create)
 * 控制台操作指南
