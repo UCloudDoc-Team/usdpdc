@@ -12,12 +12,13 @@
 
   <!-- 技术白皮书 -->
 
-* 规划及安装
+* [规划及安装](usdpdc/3.0.0-unopened/deployment/README)
+  
   * [资源规划](usdpdc/3.0.0-unopened/deployment/deploy_plan)
   * [部署流程](usdpdc/3.0.0-unopened/deployment/install)
   * [集群创建](usdpdc/3.0.0-unopened/deployment/1st_cluster)
-
-* 用户手册
+  
+* [用户手册](usdpdc/3.0.0-unopened/userguide/README)
   
   * 多集群管理
 
@@ -49,7 +50,7 @@
       * [活跃告警](usdpdc/3.0.0-unopened/userguide/single_cluster/alarm_mgt?id=_642-活跃告警)
       * [历史告警](usdpdc/3.0.0-unopened/userguide/single_cluster/alarm_mgt?id=_643-历史告警)
   
-* 维护手册
+* [维护手册](usdpdc/3.0.0-unopened/miantain/README)
   
   * [各服务常用端口](usdpdc/3.0.0-unopened/maintain/services_ports)
   * [各组件服务部署规则说明](usdpdc/3.0.0-unopened/maintain/regulations)
