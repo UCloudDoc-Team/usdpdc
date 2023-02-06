@@ -19,14 +19,12 @@
 
 * 用户手册
   
-  <!-- [USDP许可证管理](usdpdc/license/license) -->
-
   * 多集群管理
-  
+
     * [管理多个大数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_51-管理多个大数据集群)
     * [非Hadoop生态数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_52-非-hadoop-生态数据集群)
   * 单集群管理
-    * 集群节点
+    * [集群节点](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management)
       * [节点管理](usdpdc/guide_v2/node)
       * [节点扩展](usdpdc/guide_v2/node_add_v2.1)
     * 服务管理
@@ -43,28 +41,12 @@
         * [通知对象](usdpdc/guide_v2/alarmInform_object)
         * [邮件发送设置](usdpdc/guide_v2/alarmInform_email)
       * [告警生效](usdpdc/guide_v2/alarmTemplate_work)
+    * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
   
-* 集群说明
-  * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
+* 维护手册
+  
   * [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
   * [各组件服务部署规则说明](usdpdc/2.1.x/cluster_notes/rule)
-
-* 开发指南
-  * 存储开发指南
-    * [HDFS-开发指南](usdpdc/developer/hdfs)
-    * [Hive-开发指南](usdpdc/developer/hive)
-    * [HBase-开发指南](usdpdc/developer/hbase)
-  * 流处理指南
-    * Flink-开发指南
-      * [Flink-CDC同步Mysql表数据至Kafka](usdpdc/2.1.x/developer/flink-cdc_mysql_to_kafka)
-  * 任务调度指南
-    * [调度服务-Airflow](usdpdc/schedule/airflow)
-  * 元数据开发指南
-    * [Atlas-开发指南](usdpdc/developer/atlas)
-  * 安全开发指南
-    * [Ranger-开发指南](usdpdc/developer/ranger)
-
-* [了解USDP更多版本](usdpdc/component/version)
 
 * [合作咨询](https://spt.ucloud.cn/30001)
 
