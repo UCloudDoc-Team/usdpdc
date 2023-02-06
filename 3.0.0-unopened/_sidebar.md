@@ -24,9 +24,12 @@
     * [管理多个大数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt?id=_51-管理多个大数据集群)
     * [非Hadoop生态数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt?id=_52-非-hadoop-生态数据集群)
   * 单集群管理
-    * [集群节点](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt)
-      * [节点管理](usdpdc/guide_v2/node)
-      * [节点扩展](usdpdc/guide_v2/node_add_v2.1)
+    * [集群管理](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_61-集群管理)
+      * [集群级控制](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_611-集群级控制)
+      * [集群主机管理](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_612-集群主机管理)
+      * [集群大数据服务预览](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_613-集群大数据服务预览)
+      * [集群监控数据概览](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_614-集群监控数据概览)
+    * 主机管理
     * 服务管理
       * [服务概况查看](usdpdc/guide_v2/service_state)
       * [服务配置修改](usdpdc/guide_v2/service_config)
