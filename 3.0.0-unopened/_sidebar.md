@@ -18,11 +18,13 @@
   * [集群创建](usdpdc/3.0.0-unopened/userguide/1st_cluster)
 
 * 用户手册
-  * [USDP许可证管理](usdpdc/license/license)
-  * 多集群管理
+  
+  <!-- [USDP许可证管理](usdpdc/license/license) -->
 
-    * [管理多集群](usdpdc/clusters/clusters)
-    * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
+  * 多集群管理
+  
+    * [管理多个大数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_51-管理多个大数据集群)
+    * [非Hadoop生态数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_52-非-hadoop-生态数据集群)
   * 单集群管理
     * 集群节点
       * [节点管理](usdpdc/guide_v2/node)
