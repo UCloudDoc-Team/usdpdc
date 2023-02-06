@@ -22,7 +22,6 @@
   * 多集群管理
 
     * [管理多集群](usdpdc/clusters/clusters)
-    * [存储与计算分离](usdpdc/clusters/clusters_separation)
     * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
   * 单集群管理
     * 集群节点
@@ -42,7 +41,7 @@
         * [通知对象](usdpdc/guide_v2/alarmInform_object)
         * [邮件发送设置](usdpdc/guide_v2/alarmInform_email)
       * [告警生效](usdpdc/guide_v2/alarmTemplate_work)
-
+  
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
   * [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
