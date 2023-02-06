@@ -13,9 +13,9 @@
   <!-- 技术白皮书 -->
 
 * 规划及安装
-  * [资源规划](usdpdc/3.0.0-unopened/userguide/deploy_plan)
-  * [部署流程](usdpdc/3.0.0-unopened/userguide/install)
-  * [集群创建](usdpdc/3.0.0-unopened/userguide/1st_cluster)
+  * [资源规划](usdpdc/3.0.0-unopened/deployment/deploy_plan)
+  * [部署流程](usdpdc/3.0.0-unopened/deployment/install)
+  * [集群创建](usdpdc/3.0.0-unopened/deployment/1st_cluster)
 
 * 用户手册
   
