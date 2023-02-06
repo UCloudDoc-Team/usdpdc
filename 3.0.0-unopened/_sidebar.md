@@ -50,7 +50,7 @@
       * [活跃告警](usdpdc/3.0.0-unopened/userguide/single_cluster/alarm_mgt?id=_642-活跃告警)
       * [历史告警](usdpdc/3.0.0-unopened/userguide/single_cluster/alarm_mgt?id=_643-历史告警)
   
-* [维护手册](usdpdc/3.0.0-unopened/miantain/README)
+* [维护手册](usdpdc/3.0.0-unopened/maintain/README)
   
   * [各服务常用端口](usdpdc/3.0.0-unopened/maintain/services_ports)
   * [各组件服务部署规则说明](usdpdc/3.0.0-unopened/maintain/regulations)
