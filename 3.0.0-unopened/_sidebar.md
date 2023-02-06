@@ -21,10 +21,10 @@
   
   * 多集群管理
 
-    * [管理多个大数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_51-管理多个大数据集群)
-    * [非Hadoop生态数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management?id=_52-非-hadoop-生态数据集群)
+    * [管理多个大数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt?id=_51-管理多个大数据集群)
+    * [非Hadoop生态数据集群](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt?id=_52-非-hadoop-生态数据集群)
   * 单集群管理
-    * [集群节点](usdpdc/3.0.0-unopened/userguide/multi_cluster/multi_cluster_management)
+    * [集群节点](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt)
       * [节点管理](usdpdc/guide_v2/node)
       * [节点扩展](usdpdc/guide_v2/node_add_v2.1)
     * 服务管理
