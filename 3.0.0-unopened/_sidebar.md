@@ -6,19 +6,16 @@
 
 * [版权申明](usdpdc/3.0.0-unopened/copyright)
 
-* 产品简介
-  * [产品介绍](usdpdc/3.0.0-unopened/userguide/introduction)
-  
-  * [功能简介](usdpdc/3.0.0-unopened/userguide/features)
-  
-    <!-- 技术白皮书 -->
-  
+* [产品简介](usdpdc/3.0.0-unopened/introduction/README)
+
+  <!-- 技术白皮书 -->
+
 * 规划及安装
   * [资源规划](usdpdc/3.0.0-unopened/userguide/deploy_plan)
   * [部署流程](usdpdc/3.0.0-unopened/userguide/install)
   * [集群创建](usdpdc/3.0.0-unopened/userguide/1st_cluster)
-  
-* 控制台操作指南
+
+* 用户手册
   * [USDP许可证管理](usdpdc/license/license)
   * 多集群管理
 
@@ -43,12 +40,12 @@
         * [通知对象](usdpdc/guide_v2/alarmInform_object)
         * [邮件发送设置](usdpdc/guide_v2/alarmInform_email)
       * [告警生效](usdpdc/guide_v2/alarmTemplate_work)
-  
+
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
   * [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
   * [各组件服务部署规则说明](usdpdc/2.1.x/cluster_notes/rule)
-  
+
 * 开发指南
   * 存储开发指南
     * [HDFS-开发指南](usdpdc/developer/hdfs)
@@ -63,7 +60,7 @@
     * [Atlas-开发指南](usdpdc/developer/atlas)
   * 安全开发指南
     * [Ranger-开发指南](usdpdc/developer/ranger)
-  
+
 * [了解USDP更多版本](usdpdc/component/version)
 
 * [合作咨询](https://spt.ucloud.cn/30001)

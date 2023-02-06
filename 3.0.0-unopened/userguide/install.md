@@ -1,4 +1,4 @@
-# 4 部署流程
+# 3 部署流程
 
 接下来，我们将通过几个简单的步骤，完成 USDP v3.0.0 管理服务的部署流程，从而能够通过 Web 页面的方式，快速部署各类大数据服务与组件。
 
@@ -8,9 +8,9 @@
 
 下面的部署安装流程以 usdp-v3.0.0 版本为例进行说明。
 
-## 4.1 主机环境准备
+## 3.1 主机环境准备
 
-### 4.1.1 样例环境信息
+### 3.1.1 样例环境信息
 
 | hostname | 内网IP     | 外网IP       | 系统版本                      | 内核版本                   | CPU核心 | 内存容量 | 磁盘容量           |
 | -------- | ---------- | ------------ | ----------------------------- | -------------------------- | ------- | -------- | ------------------ |
@@ -20,7 +20,7 @@
 
 如上表所示，本教程将以上表的环境信息规划情况进行部署，使用者亦可参考本文档《资源规划》章节的信息，进行部署前的规划后部署。
 
-### 4.1.2 配置各主机 hostname（所有节点）
+### 3.1.2 配置各主机 hostname（所有节点）
 
 - 自动配置模式
 
@@ -49,7 +49,7 @@ hostnamectl set-hostname HOSTNAME
 
 !>主机被添加进集群并且部署服务后，不允许修改主机名（服务配置中的主机名无法同步修改，将会造成大数据服务出现异常）
 
-### 4.1.3 配置节点 ssh key （所有节点）
+### 3.1.3 配置节点 ssh key （所有节点）
 
 - 自动配置模式
 
@@ -85,9 +85,9 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@10.76.198.52
 
 拷贝各节点的公钥至其他节点，使集群各个节点之间免密登录。
 
-## 4.2 部署USDP
+## 3.2 部署USDP
 
-### 4.2.1 下载安装包
+### 3.2.1 下载安装包
 
 通过给定地址，下载以下文件：
 
@@ -97,7 +97,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@10.76.198.52
 | env-prepare-xxx.tar.gz | USDP 安装包    | 约500MB  |
 | udh-xxx.tar.gz         | UDH 资源包     | 约7GB    |
 
-### 4.2.2 解压安装包
+### 3.2.2 解压安装包
 
 ```shell
 mkdir -p /data/usdp-srv/
@@ -105,14 +105,14 @@ tar -zxvf ansible-xxx.tar.gz -C /data/usdp-srv/
 tar -zxvf env-prepare-xxx.tar.gz -C /data/usdp-srv/
 ```
 
-### 4.2.3 安装ansbile
+### 3.2.3 安装ansbile
 
 ```shell
 cd /data/usdp-srv/
 yum install -y ansible/*.rpm
 ```
 
-### 4.2.4 修改 hosts.yml 文件，将 IP 改成需要部署的节点
+### 3.2.4 修改 hosts.yml 文件，将 IP 改成需要部署的节点
 
 编辑 /data/usdp-srv/env-prepare/inventories/hosts.yml 文件
 
@@ -180,14 +180,14 @@ work_node:
 
 !> 主机被添加进集群并且部署服务后，不允许修改主机名（服务配置中的主机名无法同步修改）
 
-### 4.2.5 执行操作，初始化节点和部署 USDP 管理服务
+### 3.2.5 执行操作，初始化节点和部署 USDP 管理服务
 
 ```shell
 cd /data/usdp-srv/env-prepare
 make prepare
 ```
 
-### 4.2.6 准备 UDH 资源包 HTTP 访问方式
+### 3.2.6 准备 UDH 资源包 HTTP 访问方式
 
 - 精简模式（直接复用 usdp-server 上的 nginx）
 
@@ -203,9 +203,9 @@ tar -zxvf udh-3.x.tar.gz -C /opt/usdp/console/
 
 使用者解压 udh-xxx.tar.gz 包中的资源至自定义 http server 下，后面在 usdp-server 控制台中配置 UDH 源时指向该自定义 udh 资源 URL。
 
-## 4.3 访问USDP控制台
+## 3.3 访问USDP控制台
 
-### 4.3.1 查看 usdp-server 是否运行中
+### 3.3.1 查看 usdp-server 是否运行中
 
 环境初始化步骤包含数据库初始化、 usdp-server 配置、usdp-server 启动，执行 systemctl status usdp-server 查看 usdp-server 服务状态，运行中状态例如：
 
@@ -227,7 +227,7 @@ State       Recv-Q Send-Q                     Local Address:Port                
 LISTEN      0      100                                   :::2023                                              :::*                   users:(("java",pid=82914,fd=34))
 ```
 
-### 4.3.2 在浏览器中访问 USDP 控制台
+### 3.3.2 在浏览器中访问 USDP 控制台
 
 在浏览器中访问 USDP 控制台：
 
@@ -243,7 +243,7 @@ http://<usdp_server_ip>:<usdp_server_port>
 
 登录后可在 USDP 控制台中，更改 admin 管理员的密码。
 
-### 4.3.3 导入 License
+### 3.3.3 导入 License
 
 若初始部署 USDP 服务，首次登陆后，需要上传环境相对应的授权许可证书后，方可使用 USDP 控制台。
 
