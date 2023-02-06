@@ -183,7 +183,7 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 为便于使用者对集群提供的各个大数据服务的高效便捷使用，USDP 已主动集成并支持了各个服务默认自带的所有 Web UI 的快捷打开方式。
 
-更多服务 Web UI 账号，可查看 [各服务WebUIs账号]()。
+更多服务 Web UI 账号，可查看 [各服务WebUIs账号](usdpdc/3.0.0-unopened/userguide/single_cluster/pwd_file)。
 
 此处，以 HDFS 的 Web UI 为例进行说明。
 
@@ -210,7 +210,7 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 | HDFS         | 50070             |
 | YARN         | 8088、8188、19888 |
 
-更多服务端口，请查看 [各服务常用端口]()
+更多服务端口，请查看 [各服务常用端口](usdpdc/3.0.0-unopened/maintain/services_ports)
 
 ### 6.3.5 为集群扩展服务-向导
 

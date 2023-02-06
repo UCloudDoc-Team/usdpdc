@@ -52,7 +52,7 @@
 * 维护手册
   
   * [各服务常用端口](usdpdc/3.0.0-unopened/maintain/services_ports)
-  * [各组件服务部署规则说明](usdpdc/3.0.0-unopened/maintain/ragulations)
+  * [各组件服务部署规则说明](usdpdc/3.0.0-unopened/maintain/regulations)
 
 * [合作咨询](https://spt.ucloud.cn/30001)
 
