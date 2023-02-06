@@ -9,5 +9,5 @@
   - [部署 USDP](usdpdc/3.0.0-unopened/deployment/install?id=_32-部署usdp)
   - [访问 USDP 控制台](usdpdc/3.0.0-unopened/deployment/install?id=_33-访问usdp控制台)
 - [集群创建](usdpdc/3.0.0-unopened/deployment/1st_cluster)
-  - [配置 UDH 源]()
-  - [集群创建向导]()
+  - [配置 UDH 源](usdpdc/3.0.0-unopened/deployment/1st_cluster?id=_41-配置-udh-源)
+  - [集群创建向导](usdpdc/3.0.0-unopened/deployment/1st_cluster?id=_42-集群创建向导)
