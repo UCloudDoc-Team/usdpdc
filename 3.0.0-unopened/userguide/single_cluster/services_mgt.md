@@ -8,11 +8,11 @@
 
 在浏览器中打开 USDP Web 控制台并登陆，切换至需要管理和操控的集群。此时，在集群管理首页左侧，找到“HDFS”并点击，即可跳转进入HDFS的详情页。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\4157708427.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/4157708427.png)
 
 #### 6.3.1.1 服务级控制
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\1465774343.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/1465774343.png)
 
 如上图所示的部分，会展示当前服务 HDFS 的状态（绿色圆点表示服务运行状态），服务名称，针对该服务的操作等。
 
@@ -43,7 +43,7 @@ HDFS 服务详情状态页的顶部位置，展示了 HDFS 服务的相关详细
 
 #### 6.3.1.3 服务监控详情
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\996080617.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/996080617.png)
 
 如上图所示，HDFS 服务详情状态页面的下方“监控数据”模块中，为使用者展示了关于 HDFS 的部分核心监控指标信息，如与 GC、堆内存、NameNode、DateNode、ZK 等等相关的监控图表信息。
 
@@ -51,7 +51,7 @@ HDFS 服务详情状态页的顶部位置，展示了 HDFS 服务的相关详细
 
 ### 6.3.2 服务实例管理
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\889824135.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/889824135.png)
 
 在服务详情-“实例”页面中，可以看到该服务相关的所有实例的分布情况，对于各个实例，关键信息展示有实例的“监控状态”、实例本身的“名称”、实例的“实例状态”、实例所在主机的“主机名称”、实例所属的“服务名称”、实例所属的“角色配置组”。
 
@@ -69,7 +69,7 @@ HDFS 服务详情状态页的顶部位置，展示了 HDFS 服务的相关详细
 
 #### 6.3.2.1 服务实例添加-向导
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\549049201.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/549049201.png)
 
 在服务详情-“实例”页面中顶部的实例操作区域，找到“添加实例”按钮，即可进入添加向导。
 
@@ -77,13 +77,13 @@ HDFS 服务详情状态页的顶部位置，展示了 HDFS 服务的相关详细
 
 ##### Setp1：选择实例安装节点
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2723358551.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2723358551.png)
 
 UDH 提供的大数据生态服务，均由不同的实例构成，安装集群时，使用者可根据业务需求做好服务在集群主机中的分布规划，将不同的服务及实例分别安装到分布式集群的哪些主机上去。
 
 USDP 会以实例组的方式展示当前服务的各个实例在分布式集群中的分布情况并呈现给使用者，如上图所示。此时，使用者可在点击 DataNode 实例组按钮，为 DataNode 扩展新节点。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2943160448.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2943160448.png)
 
 如上图所示，可看到当前集群有一台主机上暂未运行任何大数据服务和实例，以及其他主机上已运行的各服务的各个实例的分布情况。对于 DataNode 实例而言，扩展只能扩展还未部署 DataNode 实例的主机上。此时，勾选可部署 DataNode 实例的主机，点击“确定”按钮，并执行向导“下一步”。
 
@@ -91,7 +91,7 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 ##### Setp2：服务配置
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\4261823675.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/4261823675.png)
 
 进入到服务配置页面时，如上图所示，需使用者自行对所选的实例进行部分配置项设置，如数据存储路径、需要的数据库信息填写等等信息。
 
@@ -99,7 +99,7 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 ##### Setp3：部署信息总览
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2730193925.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2730193925.png)
 
 完成前几个向导步骤中的信息配置后，USDP 会将当前“集群基本信息”、以及“服务基本信息”概览呈现给使用者进行校验，如上图所示。
 
@@ -107,7 +107,7 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 ##### Setp4：安装并启动服务
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\654044585.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/654044585.png)
 
 在此步骤中，USDP 将根据前几步的配置信息生成部署任务计划，并开始逐项执行服务安装工作，并展示任务执行的进展情况。若需了解执行进展细节。可在“点击查看详情” 栏中的各个链接中，查看当前执行步骤的详细情况，如上图所示。
 
@@ -119,7 +119,7 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 退出实例添加向导后，即可在服务实例管理页面中查看新实例的分布和运行情况了，如下图所示。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\901832462.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/901832462.png)
 
 ### 6.3.3 服务配置管理
 
@@ -131,25 +131,25 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 此处，以 HDFS 的配置管理为例进行说明。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\966209162.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/966209162.png)
 
 如上图所示，进入 HDFS 的配置页后，即可查看所有与当前服务 HDFS 相关的配置详情，使用者可翻页查找需要调整的配置项进行修改。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\177891537.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/177891537.png)
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\717225697.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/717225697.png)
 
 因部分大数据服务配置复杂，且配置项较多，USDP 控制台支持实例和配置类别过滤的策略，辅助使用者快速查找到需要调整的配置项，如上图所示，HDFS 配置可以按照“范围”、“类别”两个维度进行过滤筛选配置项。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\4018616381.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/4018616381.png)
 
 #### 6.3.3.1 服务高级配置
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3630021291.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3630021291.png)
 
 当使用者需要调整的配置项并未被 USDP 所管理时，通过类别筛选“扩展”来找查对应配置项，以源文件的格式输入配置项值“key-value”。如：追加 HDFS 配置“`dfs.namenode.http-bind-host`”到hdfs-site.xml 配置文件中，如上图所示，编辑配置项“`hdfs_hdfs_site_xml_extend`”，点击添加按钮，输入相应 key-value，或者以 XML 格式输入：`<property><name>dfs.namenode.http-bind-host</name><value>0.0.0.0</value></property>`。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3457160973.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3457160973.png)
 
 配置修改保存成功后，如上图所示：过期配置：需要重启。重启服务实例使其配置生效，应用至此服务中所有角色的配置（客户端配置除外）。
 
@@ -157,25 +157,25 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 #### 6.3.3.2 服务配置历史和回滚
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3089415370.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3089415370.png)
 
 USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更改某服务的配置，则会被记录至该服务的“配置”管理页面“历史记录和回滚”中。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\1189811501.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/1189811501.png)
 
 上图为“HDFS”的服务更改历史列表。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\655443013.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/655443013.png)
 
 点击列表中某条消息，可查看该历史版本的更改明细；使用者也可根据需求判断，是否将当前配置文件“回滚”至该历史版本更改前的状态，如上图所示，若需要回滚，请点击“版本详细信息”对话框的“还原配置更改”按钮；
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2539091641.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2539091641.png)
 
 如上图所示，此时产生了一条“已还原”的配置更改历史；
 
 #### 6.3.3.3 服务重启生效
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\1568747489.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/1568747489.png)
 
 如上图所示，当使用者对某项服务进行配置修改后，USDP 会自动判断，该配置的修改，是否需要对服务/实例进行重启才可以生效新配置信息。若需要，则会在服务实例列表中进行提示，使用者按提示的实例执行重启/滚动重启操作即可。
 
@@ -187,15 +187,15 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 点击 HDFS 服务详情页面中“Web UI”选项卡时，会在弹出的下拉菜单中展开 HDFS 相关的原生 Web 页面链接，如下图所示：
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\1299078886.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/1299078886.png)
 
 点击“NameNode Web UI(usdp3-3)”，会自动在浏览器中打开新的标签页，并显示 usdp3-3 节点上的 dfshealth 管理页面，如下图所示：
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3563909901.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3563909901.png)
 
 此处，以 Ranger 的 Web UIs 为例进行说明。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\333363845.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/333363845.png)
 
 ?> - 打开部分大数据生态服务 Web UI 方式时，需要输入口令，默认口令可参见 **各服务 Web UIs 登录账号章节**。
 
@@ -214,7 +214,7 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 开始之前，使用者需要先在 USDP 控制台中，切换当前集群为待添加服务或组件的集群。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3876920356.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3876920356.png)
 
 如上图所示，当前集群首页的操作菜单中，选择“添加服务”，进入添加服务向导。
 
@@ -226,17 +226,17 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 在本步骤中，需要选择当前集群未部署的大数据生态服务。浏览 USDP 支持的服务列表，找到未部署使用的 Sqoop 服务。
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3149600018.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3149600018.png)
 
 勾选 Sqoop 左侧的单选框，点击右下角的“下一步”按钮。如上图所示。
 
 #### Setp2：选择组件安装主机
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2709410729.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2709410729.png)
 
 在“选择组件安装主机”的向导页中，请为 SqoopClient 选择计划安装的节点，如上图所示：
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2264457873.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2264457873.png)
 
 点击带“+”的按钮后，USDP 会以对话框的形式，展示当前集群所管理的主机，查找到计划部署新增加服务的主机后，勾选主机名左侧的复选框。
 
@@ -246,7 +246,7 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 #### Setp3：服务配置
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\2422062959.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/2422062959.png)
 
 在该步骤中，需要对服务做一些必要的初始配置。待配置信息设置完成，点击向导“下一步”按钮。
 
@@ -254,13 +254,13 @@ USDP 支持服务级别的配置“历史记录和回滚”操作，每一次更
 
 #### Setp4：部署信息总览
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\3099512312.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3099512312.png)
 
 如上图所示，在本步骤中 USDP 管理服务将检测出，已被当前集群管理的主机，并展示当前添加的服务已选择部署的主机信息，经浏览确认无误后，点击“开始部署”按钮。
 
 #### Setp5：安装并启动服务
 
-![](D:\WorkSpace\UCLOUD\PCL\文档中心\产品官方文档中心-Github\usdpdc\images\3.0.0-unopened\userguide\single_cluster\services_mgt\925702155.png)
+![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/925702155.png)
 
 进入本步骤是，USDP 将生成部署计划，并开始在已选择的主机上执行部署新增服务的进度。
 

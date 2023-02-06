@@ -29,15 +29,15 @@
       * [集群主机管理](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_612-集群主机管理)
       * [集群大数据服务预览](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_613-集群大数据服务预览)
       * [集群监控数据概览](usdpdc/3.0.0-unopened/userguide/single_cluster/cluster_mgt?id=_614-集群监控数据概览)
-    * 主机管理
-    * 服务管理
+    * [主机管理](usdpdc/3.0.0-unopened/userguide/single_cluster/hosts_mgt)
+      * 
+    * [服务管理]()
       * [服务概况查看](usdpdc/guide_v2/service_state)
       * [服务配置修改](usdpdc/guide_v2/service_config)
       * [服务组件管理](usdpdc/guide_v2/service_component)
       * [添加服务或组件](usdpdc/guide_v2/service_extension)
       * [服务Web UI访问](usdpdc/guide_v2/service_web)
-    * [监控管理](usdpdc/guide_v2/monitor)
-    * 告警管理
+    * [告警管理]()
       * [告警模板管理](usdpdc/guide_v2/alarmTemplate)
       * 通知方式管理
         * [通知组](usdpdc/guide_v2/alarmInform_group)
