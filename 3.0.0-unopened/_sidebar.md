@@ -6,7 +6,9 @@
 
 * [版权申明](usdpdc/3.0.0-unopened/copyright)
 
-* [产品简介](usdpdc/3.0.0-unopened/introduction/README)
+* 产品介绍
+
+  * [产品简介](usdpdc/3.0.0-unopened/introduction/README)
 
   <!-- 技术白皮书 -->
 

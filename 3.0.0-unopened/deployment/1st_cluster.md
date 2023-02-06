@@ -8,7 +8,7 @@
 
 ## 4.1 配置 UDH 源
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/137421082.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/137421082.png)
 
 在开始向导化方式部署大数据集群之前，首先需在 USDP Web 控制台中配置 UDH 源，点击控制台顶部的菜单栏“系统管理”-“UDH 源”，进入 UDH 源配置页面。配置方法如下：
 
@@ -25,7 +25,7 @@
 
 #### Setp1：选择软件版本
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/487193926.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/487193926.png)
 
 进入向导第一步，此时用户需要定义即将新创建的集群的基本信息，主要包括 “集群名称”、集群创建需要依赖的USDP “软件版本”、以及集群框架类型。
 
@@ -43,35 +43,35 @@ USDP 需要通过“root”用户以及“22”端口，进行管理所有主机
 
 集群节点信息填写完成后，点击右下角的向导“下一步”按钮继续。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/1712961371.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/1712961371.png)
 
 USDP 需要对上一步中指定的主机进行环境检测，例如节点间的网络互通性；所有节点检测通过的状态，如上图图所示。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/1610583856.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/1610583856.png)
 
 如上图所示，点击节点列表中“点击查看详情”栏的相应字样，即可查看该主机上的已检测以及正在检测的日志详情。
 
 #### Setp3：检查节点环境
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/496956875.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/496956875.png)
 
 USDP 需要检查对应节点是否已经初始化完成，比如：JDK、MySQL、时间服务器等是否已经正确安装及配置。
 
 检查过程中，可点击列表 “详情” 栏的 “检查中” 按钮，可以查看对应节点的任务详情。如下图所示：
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/965790338.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/965790338.png)
 
 待所有检查工作完成后，点击右下角的向导“下一步”按钮继续。
 
 #### Setp4：配置 UDH 源
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/3506753823.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/3506753823.png)
 
 USDP 需要通过 http 协议的源地址，为创建集群的各个主机提供安装包的支持，建议在创建集群前，前往 USDP Web 控制台“系统管理”-“UDH 源”中进行配置。此处参见本文档《UDH 源》章节内容。
 
 #### Setp5：选择服务
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/2690047940.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/2690047940.png)
 
 如上图所示，UDH 源中支持的大数据生态服务较多，在集群安装时，使用者可根据实际业务需要，灵活选择所需安装的组件。
 
@@ -79,35 +79,35 @@ USDP 需要通过 http 协议的源地址，为创建集群的各个主机提供
 
 #### Setp6：选择实例安装主机
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/3401152911.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/3401152911.png)
 
 UDH 中支持的大数据生态服务，均由不同的实例构成，安装集群时，使用者可根据业务需求做好服务在集群主机中的分布规划，将不同的服务及实例分别安装到集群的哪些主机上去。
 
 USDP 会根据使用者在上一步中选择的大数据服务，自动计算各服务在当前集群规模中如何分部和部署，如上图所示，以推荐方案的形式选择好分部，并呈现给使用者。此时，使用者可在推荐方案的基础上，进行部分调整。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/2696668620.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/2696668620.png)
 
 如上图所示，可自主的调整如 FlumeAgent 到三个节点上进行安装。调整后，点击向导“下一步”按钮。
 
 #### Setp7：服务配置
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/306614447.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/306614447.png)
 
 进入到服务配置页面时，如上图所示，需使用者自行根据选择的服务进行部分配置项设置，如某服务的数据存储路径、需要的数据库信息填写等等信息。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/3869506935.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/3869506935.png)
 
 使用者自行配置之前，可参考 USDP 默认根据集群环境、服务配置要求等信息补充在页面中的各配置项信息，如服务管理元数据信息、默认填充 USDP 初始化时已部署的 MySQL 的相关连接信息，使用者仅需要点击“测试连接”按钮即可测试是否正常，如上图所示。
 
 ?> **提示：**</br>- *USDP* *允许使用者将服务元数据存储的数据库更改为使用者已使用并维护的其他* *MySQL* *数据库；仅需要在此处配置该库的连接信息并测试连接成功即可。*
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/2736559223.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/2736559223.png)
 
 如上图所示，如 HDFS 数据存储目录的设置中，若集群各主机存在多块数据盘，可根据实际规划及需求，手动“添加”HDFS 数据存储至主机的多块数据盘的文件路径。
 
 #### Setp8：配置信息总览
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/1780720611.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/1780720611.png)
 
 完成前几个向导步骤中的信息配置后，USDP 会将所有选择及配置信息汇总展示，如上图所示。
 
@@ -117,23 +117,23 @@ USDP 会根据使用者在上一步中选择的大数据服务，自动计算各
 
 向导到达此步骤，USDP 会根据使用者的配置信息，自动生成部署任务计划，并开始逐项执行服务安装工作。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/662699786.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/662699786.png)
 
 当服务安装发生错误时，使用者可以点击查看报错节点“失败”详情，参考详情提示信息，进行手动修复错误操作，或点击“全部重试”按钮，重新进行服务组件部署工作。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/240381410.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/240381410.png)
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/2143462699.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/2143462699.png)
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/3447849548.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/3447849548.png)
 
 在部署过程中，各主机中正在进行的部署进展，均可通过进度条实时展示，便于使用了解执行进展。可在“点击查看详情” 栏中的各个链接中，查看当前执行步骤的详细情况，如下图所示。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/3959035815.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/3959035815.png)
 
 安装任务执行日志，可点击执行成功/执行中的各任务名称进行查看，如下图所示。
 
-![](../../images/3.0.0-unopened/userguide/1st_cluster/1101201484.png)
+![](../../images/3.0.0-unopened/deployment/1st_cluster/1101201484.png)
 
 #### Setp10：集群创建完成
 

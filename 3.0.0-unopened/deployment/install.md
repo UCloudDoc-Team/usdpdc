@@ -239,7 +239,7 @@ http://<usdp_server_ip>:<usdp_server_port>
 
 进入 USDP 管理控制台时，登录界面如下图所示：
 
-![](../../images/3.0.0-unopened/userguide/install/3799645406.png)
+![](../../images/3.0.0-unopened/deployment/install/3799645406.png)
 
 登录后可在 USDP 控制台中，更改 admin 管理员的密码。
 
