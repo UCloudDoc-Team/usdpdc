@@ -55,7 +55,7 @@
   * [各服务常用端口](usdpdc/3.0.x/maintain/services_ports)
   * [各组件服务部署规则说明](usdpdc/3.0.x/maintain/regulations)
 
-* [返回主页](usdpdc/README)
+* [了解USDP更多版本](usdpdc/component/version)
 
 * [合作咨询](https://spt.ucloud.cn/30001)
 
