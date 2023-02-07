@@ -26,7 +26,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 ## 1. 最小规模部署
 
-![](../../images/plan&create/deploy_plan/20210120pm21756.png)
+![](../../images/2.1.x/plan&create/deploy_plan/20210120pm21756.png)
 
 本规划方案适用于：当业务量较小、资源较为紧俏时，以及您希望搭建一个最小规模的环境时。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
@@ -42,7 +42,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 ## 2. 单集群多节点规划
 
-![](../../images/plan&create/deploy_plan/20210120pm23104.png)
+![](../../images/2.1.x/plan&create/deploy_plan/20210120pm23104.png)
 
 本规划方案适用于：当业务量较小、资源较为紧俏时，以及您希望搭建一个最小规模的环境，但USDP server、NTP服务器、MySQL服务器能与大数据集群相对独立的场景。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
@@ -55,7 +55,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 ### 2.1 若需要将MySQL与USDP Server分开部署，参考如下：
 
-![](../../images/plan&create/deploy_plan/20210120pm23919.png)
+![](../../images/2.1.x/plan&create/deploy_plan/20210120pm23919.png)
 
 本规划方案适用于：当业务量较小、资源较为紧俏时，以及您希望搭建一个最小规模的环境，但USDP server、NTP服务器、MySQL服务器能与大数据集群相对独立，且MySQL服务器完全独立的场景。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
@@ -101,7 +101,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 ##### 效果示意图：
 
- ![](../../images/plan&create/deploy_plan/20210120pm15511.png)
+ ![](../../images/2.1.x/plan&create/deploy_plan/20210120pm15511.png)
 
 说明：因三个VPC均两两互通，因此，“大数据集群Cluster1”集群与“大数据集群Cluster2之间”集群可进行跨集群复制数据等操作。
 
@@ -117,7 +117,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 ##### 效果示意图：
 
-![](../../images/plan&create/deploy_plan/20210127112649.png)
+![](../../images/2.1.x/plan&create/deploy_plan/20210127112649.png)
 
 说明：因VPC-M与VPC-C1互通、VPC-M与VPC-C2互通，而VPC-C1与VPC-C2不互通，因此，“大数据集群Cluster1”集群与“大数据集群Cluster2之间”集群无通讯网络条件；此模式，适合在多个分析系统业务，需要灵活控制、且需要分类管理的场景中，以满足控制需求，达到提供数据分析业务安全性的目的；
 
@@ -125,5 +125,5 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 
 
-当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](/usdpdc/2.1.x/plan&create/install)。
+当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](/usdpdc/2.1.x/plan&create/install_v2)。
 

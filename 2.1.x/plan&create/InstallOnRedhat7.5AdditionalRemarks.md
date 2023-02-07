@@ -18,13 +18,13 @@ vim /data/usdp-srv/usdp/env-prepare/roles/common/templates/usdp.repo.j2
 
 原文件
 
-![](../../images/plan&create/2.1.x/image2022-11-29_18-2-25.png)
+![](../../images/2.1.x/plan&create/InstallOnRedhat7.5/image2022-11-29_18-2-25.png)
 
 修改为如下：
 
 IP:port 保持不变
 
-![](../../images/plan&create/2.1.x/image2022-11-29_18-6-21.png)
+![](../../images/2.1.x/plan&create/InstallOnRedhat7.5/image2022-11-29_18-6-21.png)
 
 ### 3. install mariadb-client/mariadb （仅需在安装节点上执行）
 

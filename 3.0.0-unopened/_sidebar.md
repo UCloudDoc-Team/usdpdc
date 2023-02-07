@@ -8,7 +8,7 @@
 
 * 产品介绍
 
-  * [产品简介](usdpdc/3.0.0-unopened/introduction/README)
+  * [产品简介](usdpdc/3.0.0-unopened/intro/README)
 
   <!-- 技术白皮书 -->
 
@@ -53,7 +53,19 @@
 * [维护手册](usdpdc/3.0.0-unopened/maintain/README)
 
   * [各服务常用端口](usdpdc/3.0.0-unopened/maintain/services_ports)
+
   * [各组件服务部署规则说明](usdpdc/3.0.0-unopened/maintain/regulations)
+
+<!-- 开发者指南 -->
+
+<!-- HDFS -->
+
+<!-- [配置 HDFS 冷热数据分层存储](usdpdc/3.0.0-unopened/dev/hdfs/tiered_storage) -->
+
+<!-- Flink -->
+
+<!-- [Flink-CDC同步Mysql数据到Kafka](usdpdc/3.0.0-unopened/dev/flink/flink-cdc_mysql_to_kafka) -->
+
 
 * [返回主页](usdpdc/README)
 

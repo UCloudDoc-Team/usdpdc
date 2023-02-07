@@ -1,4 +1,4 @@
-# Flink-CDC同步Mysql数据到Kafka
+# Flink-CDC 同步 Mysql 数据到 Kafka
 
 ## 1. 环境准备
 
@@ -12,35 +12,35 @@
 
 ## 2. 下载依赖包
 
-- [flink-sql-connector-kafka_2.11-1.13.2.jar](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-connector-kafka_2.11/1.13.2/flink-sql-connector-kafka_2.11-1.13.2.jar)  若Flink为其他版本，点击[这里](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-connector-kafka_2.11/)查找jar包；
+- [flink-sql-connector-kafka_2.11-1.13.2.jar](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-connector-kafka_2.11/1.13.2/flink-sql-connector-kafka_2.11-1.13.2.jar)  若 Flink 为其他版本，点击[这里](https://repo.maven.apache.org/maven2/org/apache/flink/flink-sql-connector-kafka_2.11/)查找 jar 包；
 
-- [flink-sql-connector-mysql-cdc-1.3.0.jar](https://repo.maven.apache.org/maven2/com/alibaba/ververica/flink-sql-connector-mysql-cdc/1.3.0/flink-sql-connector-mysql-cdc-1.3.0.jar)  若需要其他版本，点击[这里](https://repo.maven.apache.org/maven2/com/alibaba/ververica/flink-sql-connector-mysql-cdc/)查找jar包；
+- [flink-sql-connector-mysql-cdc-1.3.0.jar](https://repo.maven.apache.org/maven2/com/alibaba/ververica/flink-sql-connector-mysql-cdc/1.3.0/flink-sql-connector-mysql-cdc-1.3.0.jar)  若需要其他版本，点击[这里](https://repo.maven.apache.org/maven2/com/alibaba/ververica/flink-sql-connector-mysql-cdc/)查找 jar 包；
 
-如果你是更高版本的Flink，可以自行https://github.com/ververica/flink-cdc-connectors下载新版mvn clean install -DskipTests 自己编译。   包下载好之后，放在Flink lib目录（/srv/udp/2.0.0.0/flink/lib）下：
+如果你是更高版本的 Flink，可以自行https://github.com/ververica/flink-cdc-connectors下载新版 mvn clean install -DskipTests 自己编译。包下载好之后，放在 Flink lib目录（/srv/udp/2.0.0.0/flink/lib）下：
 
-![](../../images/developer/2.1.x/flink/flink-lib.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/flink-lib.png)
 
-## 3. 启动Flink SQL Client
+## 3. 启动 Flink SQL Client
 
-### 3.1 通过Flink启动Yarn的一个资源队列application 
+### 3.1 通过 Flink 启动 Yarn 的一个资源队列 application 
 
-进入flink bin目录（/srv/udp/2.0.0.0/flink/bin），执行：
+进入 flink bin 目录（/srv/udp/2.0.0.0/flink/bin），执行：
 
 ```shell
 ./yarn-session.sh -d -s 1 -jm 1024 -tm 2048 -qu root.sparkstreaming -nm flink-cdc-kafka
 ```
 
-![](../../images/developer/2.1.x/flink/yarn-applications.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/yarn-applications.png)
 
-### 3.2 进入Flink SQL 命令行
+### 3.2 进入 Flink SQL 命令行
 
-注意，需指定关联已创建的资源队列“flink-cdc-kafka”
+注意，需指定关联已创建的资源队列 “flink-cdc-kafka”
 
 ```shell
 ./sql-client.sh embedded -s flink-cdc-kafka
 ```
 
-![](../../images/developer/2.1.x/flink/flink-sql-client.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/flink-sql-client.png)
 
 ## 4. 测试数据准备
 
@@ -79,11 +79,11 @@ INSERT INTO `user_view` VALUES ('9', '8', '菲尔·科尔森', '42', '2020-05-13
 
 检查数据
 
-![](../../images/developer/2.1.x/flink/mysql-table-select.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/mysql-table-select.png)
 
 ## 5. 同步数据
 
-### 5.1 创建关联Mysql表的Flink数据表
+### 5.1 创建关联 Mysql 表的 Flink 数据表
 
 ```sql
 Flink SQL>
@@ -109,7 +109,7 @@ Flink SQL> show tables;
 Flink SQL>
 ```
 
-创建Flink表
+创建 Flink 表
 
 ```sql
 CREATE TABLE user_view_source (
@@ -138,11 +138,11 @@ Flink SQL> select * from user_view_source;
 
 若查询正常，则如下显示
 
-![](../../images/developer/2.1.x/flink/flink-sql-select.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/flink-sql-select.png)
 
-此时，在Flink SQL Client中操作这张表，就相当于在操作Mysql里面对应的那张“user_view”表。
+此时，在 Flink SQL Client 中操作这张表，就相当于在操作 Mysql 里面对应的那张 “user_view” 表。
 
-若执行中碰到如下报错，请更该mysql的binlog格式为row，并重启mysql；
+若执行中碰到如下报错，请更该 mysql 的 binlog 格式为 row，并重启 mysql；
 
 ```shell
 ……
@@ -150,7 +150,7 @@ Flink SQL> select * from user_view_source;
 org.apache.kafka.connect.errors.ConnectException: The MySQL server is not configured to use a ROW binlog_format, which is required f this connector to work properly. Change the MySQL configuration to use a binlog_format=ROW and restart the connector.
 ```
 
-### 5.2 创建关联kafka topic的Flink数据表
+### 5.2 创建关联 kafka topic 的 Flink 数据表
 
 ```sql
 CREATE TABLE user_view_kafka_sink(
@@ -170,20 +170,20 @@ PRIMARY KEY (`id`) NOT ENFORCED
 );
 ```
 
-通过Flink建表，kafka里面的flink-cdc-kafka这个topic会被**自动创建**；如果想要给topic指定一些属性，可以在此之前手动创建好topic；当操作Flink表user_view_kafka_sink，并往里面插入数据，可已看到kafka中已经有数据了。
+通过 Flink 建表，kafka 里面的 flink-cdc-kafka 这个 topic 会被**自动创建**；如果想要给 topic 指定一些属性，可以在此之前手动创建好 topic；当操作 Flink 表 user_view_kafka_sink，并往里面插入数据，可已看到 kafka中已经有数据了。
 
 ### 5.3 同步数据
 
-建立同步任务，可以执行如下Flink SQL：
+建立同步任务，可以执行如下 Flink SQL：
 
 ```sql
 Flink SQL> insert into user_view_kafka_sink select * from user_view_source;
 ```
 
-此时，可退出flink sql-client，并进入flink web-ui，即可看到mysql表数据已经同步到kafka topic中了。
+此时，可退出 flink sql-client，并进入 flink web-ui，即可看到mysql表数据已经同步到 kafka topic 中了。
 
-![](../../images/developer/2.1.x/flink/flink-webui-yarn-tracking-url.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/flink-webui-yarn-tracking-url.png)
 
-并且，对mysql表再次进行数据插入，kafka仍会保持同步更新。
+并且，对 mysql 表再次进行数据插入，kafka 仍会保持同步更新。
 
-![](../../images/developer/2.1.x/flink/kafka-console-consumer.png)
+![img](../../images/2.1.x/developer/flink/flink_cdc_mtk/kafka-console-consumer.png)

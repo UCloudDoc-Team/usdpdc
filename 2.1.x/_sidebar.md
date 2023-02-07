@@ -9,7 +9,7 @@
   * [部署流程](usdpdc/2.1.x/plan&create/install_v2)
   * [首次创建](usdpdc/2.1.x/plan&create/first_create)
 * 控制台操作指南
-  * [USDP许可证管理](usdpdc/license/license)
+  * [USDP许可证管理](usdpdc/2.1.x/license/license)
   * 多集群管理
   
     * [管理多集群](usdpdc/clusters/clusters)

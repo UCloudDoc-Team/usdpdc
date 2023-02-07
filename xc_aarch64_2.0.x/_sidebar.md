@@ -12,7 +12,7 @@
   * [首次创建](usdpdc/xc_aarch64_2.0.x/plan&create/first_create)
   
 * 控制台操作指南
-  * [USDP许可证管理](usdpdc/license/license)
+  * [USDP许可证管理](usdpdc/xc_aarch64_2.0.x/license/license)
   * 多集群管理
   
     * [管理多集群](usdpdc/clusters/clusters)

@@ -23,4 +23,3 @@ UCloud 基于多年大数据平台开发经验，发布了针对私有化部署�
 - 角色配置组：某一类配置分组，例如 DataNode 配置都归属于默认 DataNode 角色配置组。支持自定义配置项（基于 defalut role group 默认角色组生成）
 
 - UDH：UCloud's Distribution Including Apache Hadoop （UCloud 大数据组件发行版）
-
