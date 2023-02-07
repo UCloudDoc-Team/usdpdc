@@ -50,7 +50,6 @@
       * [告警规则](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_641-告警规则)
       * [活跃告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_642-活跃告警)
       * [历史告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_643-历史告警)
-
   * [系统管理](usdpdc/3.0.x/userguide/sys_mgt/README)
 
     * [UDH源管理](usdpdc/3.0.x/userguide/sys_mgt/udh?id=_81-udh-源)
