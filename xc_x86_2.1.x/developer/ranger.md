@@ -18,11 +18,11 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 3. 选择标签页“Web UIs”即可弹出 RangerAdmin Web UI的链接。
 
-   ![](../images/developer/ranger/ranger-2020112773215ranger.png)
+   ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-2020112773215ranger.png)
 
 4. 点击此链接即可打开。
 
-   ![](../images/developer/ranger/ranger-2020112774628ranger.png)
+   ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-2020112774628ranger.png)
 
    > 注：默认登录的账号：admin，密码为：admin，建议您及时修改admin用户密码。
 
@@ -99,7 +99,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 进入左侧导航栏 “服务管理”-“存储类”-“HDFS” 中，点击 “组件管理”，寻找到 “NameNode1”、“NameNode2” 组件后，点击 “NameNode1”、“NameNode2” 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
-![](../images/developer/ranger/ranger-202011241002151124.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-202011241002151124.png)
 
 
 
@@ -113,7 +113,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 在Service Manager页面的 HDFS 条目中，点击  <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106131208683.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106131208683.png)
 
 进入Create Service服务配置页面，在 Service Name 输入框中填入如下值：
 
@@ -123,7 +123,7 @@ ranger-hdfs-service
 
 > 注意: 此处必须填写此值！
 
-![](../images/developer/ranger/ranger-20201106131359431.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106131359431.png)
 
 ##### 2.1.2.3. 配置 HDFS-Service 用户名密码
 
@@ -146,7 +146,7 @@ hdfs://usdp-xxx-master1:8020,hdfs://usdp-xxx-master2:8020
 
 填入规则如下图所示：
 
-![](../images/developer/ranger/ranger-20201106131634840.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106131634840.png)
 
 ##### 2.1.2.5. 配置代理参数
 
@@ -158,15 +158,15 @@ policy.download.auth.users: hadoop
 
 配置完成后如下图所示：
 
-![](../images/developer/ranger/ranger-20201106131950006.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106131950006.png)
 
 然后点击 <kbd>Test Connection</kbd> 按钮，如果得到如下图所示样例，则表示成功。
 
-![](../images/developer/ranger/ranger-20201106132041822.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132041822.png)
 
 最后，点击 <kbd>Add</kbd> 按钮，此时Ranger Web UI的Service Manager页面显示如下：
 
-![](../images/developer/ranger/ranger-202011242k385d789.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-202011242k385d789.png)
 
 
 
@@ -176,11 +176,11 @@ policy.download.auth.users: hadoop
 
 在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106133930992.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106133930992.png)
 
 编辑内容，完成后点击 <kbd>Save</kbd> 按钮保存，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106134013185.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106134013185.png)
 
 > 注：Select Role 中，选择 User 类型，而非 Admin 类型。
 
@@ -224,19 +224,19 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 如下图所示，进入HDFS条目的 “ranger-hdfs-service” 策略编辑页面：
 
-![](../images/developer/ranger/ranger-20201106132157001.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132157001.png)
 
 ##### 2.1.4.2. 删除默认规则
 
 首先，删除Ranger默认的权限策略，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106132231930.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132231930.png)
 
 ##### 2.1.4.3. 添加自定义规则
 
 点击右上角的 <kbd>Add New Policy</kbd> 即可添加自定义权限策略规则，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106132317649.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132317649.png)
 
 ##### 2.1.4.4. 配置 Policy Details
 
@@ -246,7 +246,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 最终配置信息，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106134404122.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106134404122.png)
 
 ##### 2.1.4.5. 配置权限类型
 
@@ -256,17 +256,17 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 * 配置允许的权限，如下图所示：
 
-  ![](../images/developer/ranger/ranger-20201106132922759.png)
+  ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132922759.png)
 
 * 配置拒绝的权限，如下图所示：
 
-  ![](../images/developer/ranger/ranger-20201106134453012.png)
+  ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106134453012.png)
 
 ##### 2.1.4.6. 查看配置完成的权限
 
 完成上述配置项填写后，点击 <kbd>Add</kbd> 按钮保存，即已完成添加自定义策略配置，并回到权限策略概览页面，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106134520978.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106134520978.png)
 
 > 注：权限添加后，大约需要 1 分钟左右即会生效。
 
@@ -334,7 +334,7 @@ ranger-security.xml
 
 进入左侧导航栏 “服务管理”-“计算类”-“HIVE” 中，点击 “组件管理”，寻找到 “HiveServer2” 组件后，点击 HiveServer2 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
-![](../images/developer/ranger/ranger-202011241004201124.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-202011241004201124.png)
 
 
 
@@ -348,7 +348,7 @@ ranger-security.xml
 
 在 Hive 条目中，点击 <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
-![](../images/developer/ranger/ranger-20201117145413710.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117145413710.png)
 
 并在 Service Name 输入框中填入如下值：（注意，此处必须为此值）
 
@@ -358,7 +358,7 @@ ranger-hive-service
 
 > 注意: 此处必须填写此值！
 
-![](../images/developer/ranger/ranger-20201117145448335.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117145448335.png)
 
 ##### 2.2.2.3. 设置 Hive-Service 用户名密码
 
@@ -393,11 +393,11 @@ policy.download.auth.users: hadoop
 
 配置完成后如下图所示：
 
-![](../images/developer/ranger/ranger-20201106131950006.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106131950006.png)
 
 然后点击 <kbd>Test Connection</kbd> 按钮，如果得到如下图所示样例，则表示成功。
 
-![](../images/developer/ranger/ranger-20201106132041822.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132041822.png)
 
 最后，点击 <kbd>Add</kbd> 按钮即可。
 
@@ -409,11 +409,11 @@ policy.download.auth.users: hadoop
 
 在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106133930992.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106133930992.png)
 
 编辑内容如下图所示：
 
-![](../images/developer/ranger/ranger-20201106134013185.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106134013185.png)
 
 > 注：Select Role 中，选择 User 类型，而非 Admin 类型。
 
@@ -460,19 +460,19 @@ useradd test1
 
 如下图所示，即可进入编辑页面：
 
-![](../images/developer/ranger/ranger-20201117152511115.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117152511115.png)
 
 ##### 2.2.4.2. 删除默认规则
 
 如下图所示：
 
-![](../images/developer/ranger/ranger-20201117152706370.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117152706370.png)
 
 ##### 2.2.4.3. 添加自定义规则
 
 点击右上角的 <kbd>Add New Policy</kbd> 按钮添加默认规则，如下图所示：
 
-![](../images/developer/ranger/ranger-20201106132317649.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132317649.png)
 
 ##### 2.2.4.4. 配置 Policy Details
 
@@ -482,7 +482,7 @@ useradd test1
 
 最终配置如下图所示：
 
-![](../images/developer/ranger/ranger-20201117153018511.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117153018511.png)
 
 ##### 2.2.4.5. 配置权限类型
 
@@ -490,17 +490,17 @@ useradd test1
 
 * 配置允许的权限
 
-  ![](../images/developer/ranger/ranger-20201106132922759.png)
+  ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201106132922759.png)
 
 * 配置拒绝的权限
 
-  ![](../images/developer/ranger/ranger-20201117153740642.png)
+  ![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117153740642.png)
 
 ##### 2.2.4.6. 查看配置完成的权限
 
 上述配置完成后，点击 <kbd>Add</kbd> 按钮完成添加，并回到权限概览页面，如下图所示：
 
-![](../images/developer/ranger/ranger-20201117153048597.png)
+![](../../images/xc_x86_2.1.x/developer/ranger/ranger-20201117153048597.png)
 
 > 注：权限添加后，大约需要 1 分钟即可生效。
 

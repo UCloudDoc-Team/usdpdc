@@ -44,21 +44,21 @@
   
 * 开发指南
   * 存储开发指南
-    * [HDFS-开发指南](usdpdc/developer/hdfs)
-    * [Hive-开发指南](usdpdc/developer/hive)
-    * [HBase-开发指南](usdpdc/developer/hbase)
+    * [HDFS-开发指南](usdpdc/xc_aarch64_2.0.x/developer/hdfs)
+    * [Hive-开发指南](usdpdc/xc_aarch64_2.0.x/developer/hive)
+    * [HBase-开发指南](usdpdc/xc_aarch64_2.0.x/developer/hbase)
     
     <!--任务开发指南-->
     
-    <!--[调度服务-Airflow](usdpdc/schedule/airflow)-->
+    <!--[调度服务-Airflow](usdpdc/xc_aarch64_2.0.x/developer/airflow)-->
     
     <!--元数据开发指南-->
     
-    <!--[Atlas-开发指南](usdpdc/developer/atlas)-->
+    <!--[Atlas-开发指南](usdpdc/xc_aarch64_2.0.x/developer/atlas)-->
     
     <!--安全开发指南-->
     
-    <!--[Ranger-开发指南](usdpdc/developer/ranger)-->
+    <!--[Ranger-开发指南](usdpdc/xc_aarch64_2.0.x/developer/ranger)-->
   
 * [了解USDP更多版本](usdpdc/component/version)
 

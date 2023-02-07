@@ -39,9 +39,9 @@
   * [各组件服务部署规则说明](usdpdc/xc_x86_2.1.x/cluster_notes/rule)
 * 开发指南
   * 存储开发指南
-    * [HDFS-开发指南](usdpdc/developer/hdfs)
-    * [Hive-开发指南](usdpdc/developer/hive)
-    * [HBase-开发指南](usdpdc/developer/hbase)
+    * [HDFS-开发指南](usdpdc/xc_x86_2.1.x/developer/hdfs)
+    * [Hive-开发指南](usdpdc/xc_x86_2.1.x/developer/hive)
+    * [HBase-开发指南](usdpdc/xc_x86_2.1.x/developer/hbase)
   
 * [了解USDP更多版本](usdpdc/component/version)
 * [合作咨询](https://spt.ucloud.cn/30001)
