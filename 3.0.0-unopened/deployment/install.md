@@ -24,7 +24,7 @@
 
 - 自动配置模式
 
-修改 env-prepare/inventories/hosts.yml 配置文件中相应主机的 NODE_NAME 变量值（并打开注释）
+修改 `env-prepare/inventories/hosts.yml` 配置文件中相应主机的 NODE_NAME 变量值（并打开注释）
 
 ```yaml
 work_node:
@@ -53,7 +53,7 @@ hostnamectl set-hostname HOSTNAME
 
 - 自动配置模式
 
-修改 env-prepare/inventories/hosts.yml 配置文件中相应主机的 ansible_password 变量值
+修改 `env-prepare/inventories/hosts.yml` 配置文件中相应主机的 ansible_password 变量值
 
 ```yaml
 all:
@@ -114,7 +114,7 @@ yum install -y ansible/*.rpm
 
 ### 3.2.4 修改 hosts.yml 文件，将 IP 改成需要部署的节点
 
-编辑 /data/usdp-srv/env-prepare/inventories/hosts.yml 文件
+编辑 `/data/usdp-srv/env-prepare/inventories/hosts.yml` 文件
 
 ```yaml
 all:
@@ -195,32 +195,32 @@ make prepare
 tar -zxvf udh-3.x.tar.gz -C /opt/usdp/console/
 ```
 
-此时 udh-3.x 对应 http 访问方式为 http://<usdp_server_ip>:<usdp_server_port>/udh3
+此时 udh-3.x 对应 http 访问方式为 `http://<usdp_server_ip>:<usdp_server_port>/udh3`
 
 !> 所有被 USDP 管理的服务器，在参与集群创建或安装大数据服务时，均需通过USDP Server 节点提供的 http 协议的 yum 源来获取大数据服务安装包，这会使得USDP Server 瞬时网络出向带宽压力增大。
 
 - 自定义模式
 
-使用者解压 udh-xxx.tar.gz 包中的资源至自定义 http server 下，后面在 usdp-server 控制台中配置 UDH 源时指向该自定义 udh 资源 URL。
+使用者解压 `udh-xxx.tar.gz` 包中的资源至自定义 http server 下，后面在 usdp-server 控制台中配置 UDH 源时指向该自定义 udh 资源 URL。
 
 ## 3.3 访问USDP控制台
 
 ### 3.3.1 查看 usdp-server 是否运行中
 
-环境初始化步骤包含数据库初始化、 usdp-server 配置、usdp-server 启动，执行 systemctl status usdp-server 查看 usdp-server 服务状态，运行中状态例如：
+环境初始化步骤包含数据库初始化、 usdp-server 配置、usdp-server 启动，执行 `systemctl status usdp-server` 查看 usdp-server 服务状态，运行中状态例如：
 
 ```shell
 Active: active (running)
 ```
 
-或者（以 <usdp_server_port> 默认 80 为例）执行 ss -tlnp src :80 查看 nginx 服务端口监听情况，端口监听中示例：
+或者（以 `<usdp_server_port>` 默认 80 为例）执行 `ss -tlnp src :80` 查看 nginx 服务端口监听情况，端口监听中示例：
 
 ```shell
 State      Recv-Q Send-Q      Local Address:Port      Peer Address:Port
 LISTEN     0      510                    *:80                  *:*          users:(("nginx",pid=11200,fd=11)
 ```
 
-执行 ss -tlnp src :2023 查看 usdp-server 服务端口监听情况，端口监听中示例：
+执行 `ss -tlnp src :2023` 查看 usdp-server 服务端口监听情况，端口监听中示例：
 
 ```shell
 State       Recv-Q Send-Q                     Local Address:Port                                    Peer Address:Port
