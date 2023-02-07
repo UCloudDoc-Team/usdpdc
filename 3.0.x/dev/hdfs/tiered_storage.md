@@ -53,7 +53,7 @@ HDFS 存储策略
 
 ### Step1：停止 HDFS 服务
 
-![](../../../images/3.0.0-unopened/dev/hdfs/tiered_storage/236711546.png)
+![](../../../images/3.0.x/dev/hdfs/tiered_storage/236711546.png)
 
 如上图所示，在 USDP 控制台中操作 HDFS 集群，选中 HDFS 的所有服务实例，点击“停止”按钮，在弹出的对话框中确认停止。
 
@@ -63,13 +63,13 @@ HDFS 存储策略
 
 更改前如下图所示：
 
-![](../../../images/3.0.0-unopened/dev/hdfs/tiered_storage/2217463879.png)
+![](../../../images/3.0.x/dev/hdfs/tiered_storage/2217463879.png)
 
 ?> - “`/data/usdp/hadoop/hdfs/dn`”目录，是 USDP 默认的 HDFS DataNode 数据存储路径。添加磁盘时，注意各层级路径、用户及所属组、权限，与默认路径保持一致。
 
 更改后如下图所示：
 
-![](../../../images/3.0.0-unopened/dev/hdfs/tiered_storage/4206325693.png)
+![](../../../images/3.0.x/dev/hdfs/tiered_storage/4206325693.png)
 
 HDFS 并不具备自动检测所在主机存储设备的能力，因此，需要用户主动申明各存储设备的属性。
 
@@ -77,7 +77,7 @@ HDFS 并不具备自动检测所在主机存储设备的能力，因此，需要
 
 ### Step3：重启 HDFS
 
-![](../../../images/3.0.0-unopened/dev/hdfs/tiered_storage/4251419216.png)
+![](../../../images/3.0.x/dev/hdfs/tiered_storage/4251419216.png)
 
 如上图所示，在 USDP 控制台中操作 HDFS 集群，选中 HDFS 的所有服务实例，点击“滚动启动”按钮，在弹出的对话框中确认启动，等待 HDFS 服务启动完成，状态变为“可用”。
 

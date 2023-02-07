@@ -2,7 +2,7 @@
 
 ## 5.1 管理多个大数据集群
 
-![](../../../images/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt/2084336275.png)
+![](../../../images/3.0.x/userguide/multi_cluster/multi_cluster_mgt/2084336275.png)
 
 如上图所示，可结合网络 VPC（vlan等）技术实现 VPC 间的互通管理，大数据集群 Cluster1 与 Cluster2 可能承载的是不同且不相关的大数据处理业务，因此无法互相访问和共享数据。
 
@@ -14,13 +14,13 @@
 
 登陆 USDP 控制台，默认会选择集群 ID 号靠前的集群，并显示该集群的首页，此时点击顶部菜单栏“当前集群”菜单，会弹出下拉菜单中展示以创建并管理的集群列表，以及当前集群内已部署使用的大数据服务列表，在下拉菜单底部点击“新建集群” 按钮。如下图所示：
 
-![](../../../images/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt/2870883174.png)
+![](../../../images/3.0.x/userguide/multi_cluster/multi_cluster_mgt/2870883174.png)
 
-此时，即可进入创建新集群的向导流程中，接下来，可参考 [大数据集群创建向导](usdpdc/3.0.0-unopened/userguide/1st_cluster) 章节的内容。
+此时，即可进入创建新集群的向导流程中，接下来，可参考 [大数据集群创建向导](usdpdc/3.0.x/userguide/1st_cluster) 章节的内容。
 
 ### 5.1.2 集群切换
 
-![](../../../images/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt/240139033.png)
+![](../../../images/3.0.x/userguide/multi_cluster/multi_cluster_mgt/240139033.png)
 
 如上图所示，点击顶部菜单栏“当前集群”菜单，会弹出下拉菜单中展示以创建并管理的集群列表，在其中点击已经创建的其他大数据集群的“集群名称”，即可切换至该集群的首页。
 
@@ -40,11 +40,11 @@ USDP 支持对非依赖 Hadoop 的部分其他数据处理集群的管理，例�
 
 ### 5.2.2 参考架构图
 
-![](../../../images/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt/3295397978.png)
+![](../../../images/3.0.x/userguide/multi_cluster/multi_cluster_mgt/3295397978.png)
 
 ### 5.2.3 资源规划
 
-可参考本文档 [多集群多节点规划](usdpdc/3.0.0-unopened/userguide/deploy_plan?id=_23-多集群多节点规划) 的方案完成本次规划。
+可参考本文档 [多集群多节点规划](usdpdc/3.0.x/userguide/deploy_plan?id=_23-多集群多节点规划) 的方案完成本次规划。
 
 ?> **提示：**</br>\- 多个集群无法公用同一台设备，不可重复使用！请合理规划节点用途；
 
@@ -52,8 +52,8 @@ USDP 支持对非依赖 Hadoop 的部分其他数据处理集群的管理，例�
 
 登陆 USDP 控制台，默认会选择集群 ID 号靠前的集群，并显示该集群的首页，此时点击顶部菜单栏“当前集群”菜单，会弹出下拉菜单中展示以创建并管理的集群列表，以及当前集群内已部署使用的大数据服务列表，在下拉菜单底部点击“新建集群” 按钮。如下图所示：
 
-![](../../../images/3.0.0-unopened/userguide/multi_cluster/multi_cluster_mgt/1226951928.png)
+![](../../../images/3.0.x/userguide/multi_cluster/multi_cluster_mgt/1226951928.png)
 
 此时，即可进入创建新集群的向导流程中后，请注意在 “集群框架” 表单处，选择“Hadoop 框架”，并继续向导流程。
 
-接下来，请注意在向导 “选择服务” 页面处，可仅选择 Kafka 相关服务即可，此处可严格参照使用者对这部分的规划。其他向导内的操作步骤，可参考本文档 [大数据集群创建向导](usdpdc/3.0.0-unopened/userguide/1st_cluster) 章节，流程一致，此处就不在赘述了。
+接下来，请注意在向导 “选择服务” 页面处，可仅选择 Kafka 相关服务即可，此处可严格参照使用者对这部分的规划。其他向导内的操作步骤，可参考本文档 [大数据集群创建向导](usdpdc/3.0.x/userguide/1st_cluster) 章节，流程一致，此处就不在赘述了。

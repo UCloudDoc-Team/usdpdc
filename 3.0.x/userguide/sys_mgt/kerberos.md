@@ -1,6 +1,6 @@
 ## 8.2 安全
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/1825465628.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/1825465628.png)
 
 USDP 支持通过控制台快速为单个集群进行安全状态管理，如“启用Kerberos”、“禁用Kerberos”。
 
@@ -26,45 +26,45 @@ USDP 支持通过控制台快速为单个集群进行安全状态管理，如“
 
 #### Setp1：启用前提信息确认
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/1181415981.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/1181415981.png)
 
 在该步骤中，需要使用者在开启 Kerberos 前，明确其列出的待确认项目，使用者确认无误后，勾选各项左侧的复选框，再进入向导下一步。
 
 #### Setp2：KDC 信息
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/407900487.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/407900487.png)
 
 配置 KDC 信息，请正确填写相关信息，其中支持同时创建多个 Domain Name。
 
 #### Setp3：KRB5 配置
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/2629879612.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/2629879612.png)
 
 开启“通过 USDP 管理 krb5.conf”后，USDP 会将右侧文本框中使用者调整后的配置信息分发到集群各个主机的 /etc/krb5.conf 中。
 
 #### Setp4：凭证设置
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/2191451053.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/2191451053.png)
 
 请正确填写 KDC 的 KAdmin 用户名称及密码；在此向导中，会验证填写的信息是否正确。
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/3338291221.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/3338291221.png)
 
 若凭证导入失败，会有校验失败的报错提示，如上图所示。
 
 #### Setp5：关键配置确认
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/4247653340.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/4247653340.png)
 
 启用生效前，确认配置信息是否有误。
 
 #### Setp6：集群启用
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/1421980034.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/1421980034.png)
 
 执行至此步骤，USDP 将生成配置和安装任务进程，开始同步 keb5.conf 文件，并未支持 Kerberos 的发数据服务进行配置启用kerberos 及相关的操作，之后重启服务使其配置生效。
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/kerberos/1385430583.png)
+![](../../../images/3.0.x/userguide/sys_mgt/kerberos/1385430583.png)
 
 如上图所示，可以点击查看每个集群主机上的执行详情。
 

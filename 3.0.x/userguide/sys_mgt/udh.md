@@ -2,7 +2,7 @@
 
 ## 8.1 UDH 源
 
-![](../../../images/3.0.0-unopened/userguide/sys_mgt/udh/160115032.png)
+![](../../../images/3.0.x/userguide/sys_mgt/udh/160115032.png)
 
 USDP 使用 http 协议源服务来管理系统需要的安装包。通过该方式，实现对集群层面，以及整个 USDP 平台的版本进行控制。
 

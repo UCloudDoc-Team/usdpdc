@@ -8,7 +8,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 ### 6.4.1 告警规则
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/227919428.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/227919428.png)
 
 点击 USDP Web 控制台集群首页顶部的菜单栏 “告警管理”，在下拉菜单中选择 “告警规则”，即可进入上图所示的告警规则管理页面。
 
@@ -16,7 +16,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 #### 6.4.1.1 导入告警规则
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/2952050420.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/2952050420.png)
 
 点击告警规则页面顶部的“导入”按钮，可以打开“导入规则”对话框。
 
@@ -26,7 +26,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 当点击告警规则列表中的某条规则名称时，可以查看到该规则的配置详情。
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/1955554967.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/1955554967.png)
 
 如上图所示，展示了“NameNode 实例运行异常”规则的详细信息。对告警规则而言，均包括“基本配置”、“生效配置”、“通知配置”三个配置部分。
 
@@ -36,7 +36,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 在当前集群的“告警规则”管理页面中，点击左上角的“添加规则”按钮，即可进入告警规则添加页面。
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/2567466967.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/2567466967.png)
 
 如上图所示，添加告警规则页面由三部组成：
 
@@ -69,7 +69,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 当前集群若已添加过告警规则，为了更方便快捷的添加新的告警规则，使用者可选择从已有的告警规则基础上进行克隆，在克隆出的告警规则中根据需求做出配置调整后，点击确认即可完成克隆。
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/3680629934.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/3680629934.png)
 
 告警规则编辑页面的操作，可参考本手册“添加告警规则”章节的内容。
 
@@ -77,7 +77,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 随着集群在业务中的使用，渐渐地，大数据服务和集群主机规模也会随之增加，此时，需要进行监听的服务状态也会越来越多。在 USDP 控制台中，提供了诸多便于使用者管理告警规则的一些功能。
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/2522588582.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/2522588582.png)
 
 如上图所示，告警规则管理页面中，支持逐条/批量的操作控制已添加的告警规则，如是否“启用”、“禁用”规则。
 
@@ -87,13 +87,13 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 ### 6.4.2 活跃告警
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/2985213674.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/2985213674.png)
 
 如上图所示，对于集群已配置并已“启用”的告警规则，会根据规则中的 PromQL 条件按执行频率执行监听，当被监听的服务产生了某种异常情况，并且该异常有告警规则可以匹配到，即会触发告警规则，产生一条告警信息。所有未处理的告警，即会进入到活跃告警管理页面中来。
 
 #### 6.4.2.1 活跃告警查找
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/862787243.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/862787243.png)
 
 活跃告警管理页面中，支持按照时间段、事件等级辅助使用者过滤查找，还可按照规则名称和标签进行模糊查询。
 
@@ -101,7 +101,7 @@ USDP 提供了非常丰富的告警规则和指标，使用者可直接导入使
 
 ### 6.4.3 历史告警
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/alarm_mgt/3631833702.png)
+![](../../../images/3.0.x/userguide/single_cluster/alarm_mgt/3631833702.png)
 
 如上图所示，若使用者对当前集群所有已产生的告警信息进行处理，解除告警状态了，或系统自动恢复正常状态后，相关的告警信息将从“活跃告警”列表中转存至“历史告警”管理页面中，便于使用者对集群及服务的历史状况进行查阅。
 

@@ -12,7 +12,7 @@
 
 * [专业版-v2.1.x](usdpdc/2.1.x/README)，请查看产品 [功能描述](/usdpdc/2.1.x/release_notes)。
 
-<!--[专业版-v3.0.x](usdpdc/3.0.0-unopened/README)，请查看产品 [功能描述](usdpdc/3.0.0-unopened/introduction/README?id=_14-功能简介)。-->
+<!--[专业版-v3.0.x](usdpdc/3.0.x/README)，请查看产品 [功能描述](usdpdc/3.0.x/introduction/README?id=_14-功能简介)。-->
 
 
 

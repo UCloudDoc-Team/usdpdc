@@ -12,7 +12,7 @@ UCloud 基于多年大数据平台开发经验，发布了针对私有化部署�
 
 USDP作为UCloud大数据团队自主研发的一站式智能大数据平台，其整体架构如下图所示：
 
-​                 ![img](../images/3.0.0-unopened/4031342576.png)        
+​                 ![img](../images/3.0.x/4031342576.png)        
 
 Manager Server 为 USDP 管理端服务，需配备一个 MySQL 实例存储集群相关的元数据信息。Agent 为 USDP 工作节点控制端服务，用于管理、操作所在节点以及所在节点上的大数据服务。其中 BigData Service为各类大数据服务（例如：HDFS、YARN 等）。
 

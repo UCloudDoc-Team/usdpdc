@@ -6,54 +6,54 @@
 
 切换至某个集群时，首先将会看到整个集群的首页面，如下图所示：
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/cluster_mgt/1290126347.png)
+![](../../../images/3.0.x/userguide/single_cluster/cluster_mgt/1290126347.png)
 
 在该页面中，主要包含集群级控制、集群主机管理、集群大数据服务预览、集群监控数据概览四方面的管理内容。
 
 ### 6.1.1 集群级控制
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/cluster_mgt/2813352610.png)
+![](../../../images/3.0.x/userguide/single_cluster/cluster_mgt/2813352610.png)
 
 如上图所示的部分，会展示集群的状态（绿色圆点表示运行中），集群名称，针对集群的操作等。
 
 关于集群的状态，主要有：
 
-| **状态**                                                     | **说明**   |
-| ------------------------------------------------------------ | ---------- |
-| ![img](../../../images/3.0.0-unopened/status/state_green.png) | 运行中     |
-| ![img](../../../images/3.0.0-unopened/status/state_yellow.png) | 集群新建中 |
-| ![img](../../../images/3.0.0-unopened/status/state_yellow.png) | 集群部署中 |
-| ![img](../../../images/3.0.0-unopened/status/state_blue.png) | 集群维护中 |
-| ![img](../../../images/3.0.0-unopened/status/state_blue.png) | 集群变更中 |
+| **状态**                                              | **说明**   |
+| ----------------------------------------------------- | ---------- |
+| ![img](../../../images/3.0.x/status/state_green.png)  | 运行中     |
+| ![img](../../../images/3.0.x/status/state_yellow.png) | 集群新建中 |
+| ![img](../../../images/3.0.x/status/state_yellow.png) | 集群部署中 |
+| ![img](../../../images/3.0.x/status/state_blue.png)   | 集群维护中 |
+| ![img](../../../images/3.0.x/status/state_blue.png)   | 集群变更中 |
 
 目前支持对集群进行“添加主机”、“添加服务”的操作，这些将在后续章节中具体介绍。
 
 ### 6.1.2 集群主机管理
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/cluster_mgt/1315927073.png)
+![](../../../images/3.0.x/userguide/single_cluster/cluster_mgt/1315927073.png)
 
 在此处，统计展示了当前集群所管理的所有的主机节点数量，点击此处，即可进入集群主机统一管理页面，这些将在后续章节中具体介绍。
 
 ### 6.1.3 集群大数据服务预览
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/cluster_mgt/485274408.png)
+![](../../../images/3.0.x/userguide/single_cluster/cluster_mgt/485274408.png)
 
 集群首页的左侧部分，展示了当前集群中已安装部署的大数据生态服务列表，并逐一展示了各服务的状态、服务 Logo 及名称、操作状态、服务级便捷操作按钮等。
 
 关于服务的状态，包括：
 
-| **状态**                                                     | **说明** |
-| ------------------------------------------------------------ | -------- |
-| ![img](../../../images/3.0.0-unopened/status/state_2_green.png) | 可用     |
-| ![img](../../../images/3.0.0-unopened/status/state_2_yellow.png) | 部分可用 |
-| ![img](../../../images/3.0.0-unopened/status/state_2_red.png) | 不可用   |
-| ![img](../../../images/3.0.0-unopened/status/state_2_gray.png) | 未知状态 |
+| **状态**                                                | **说明** |
+| ------------------------------------------------------- | -------- |
+| ![img](../../../images/3.0.x/status/state_2_green.png)  | 可用     |
+| ![img](../../../images/3.0.x/status/state_2_yellow.png) | 部分可用 |
+| ![img](../../../images/3.0.x/status/state_2_red.png)    | 不可用   |
+| ![img](../../../images/3.0.x/status/state_2_gray.png)   | 未知状态 |
 
 目前支持对大数据服务进行“启动”、“停止”、“重启”、“滚动启动”、“滚动重启”、“删除”的操作，这些将在后续章节中具体介绍。
 
 ### 6.1.4 集群监控数据概览
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/cluster_mgt/3173224538.png)
+![](../../../images/3.0.x/userguide/single_cluster/cluster_mgt/3173224538.png)
 
 集群首页的左侧部分，展示了当前集群整体的监控数据，如各节点 CPU 使用率情况、各节点内存使用率情况等。
 

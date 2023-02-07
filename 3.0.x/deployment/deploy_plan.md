@@ -16,15 +16,15 @@ USDP 开始安装前，需用户根据目标集群的规模大小做参考，合
 
 **用户可根据自身需求，选择参考以下三类部署方案：**
 
-- [最小规模部署](usdpdc/3.0.0-unopened/deployment/deploy_plan?id=_1-最小规模部署)
-- [单集群多节点规划](usdpdc/3.0.0-unopened/deployment/deploy_plan?id=_2-单集群多节点规划)
-- [多集群多节点规划（集群间网络互通可独立控制）](usdpdc/3.0.0-unopened/deployment/deploy_plan?id=_3-多集群多节点规划)
+- [最小规模部署](usdpdc/3.0.x/deployment/deploy_plan?id=_1-最小规模部署)
+- [单集群多节点规划](usdpdc/3.0.x/deployment/deploy_plan?id=_2-单集群多节点规划)
+- [多集群多节点规划（集群间网络互通可独立控制）](usdpdc/3.0.x/deployment/deploy_plan?id=_3-多集群多节点规划)
 
 
 
 ## 2.1 最小规模部署
 
-![](../../images/3.0.0-unopened/deployment/deploy_plan/1582370515.png)
+![](../../images/3.0.x/deployment/deploy_plan/1582370515.png)
 
 **本规划方案适用于：**当业务量较小、资源较为紧俏时，以及用户希望搭建一个最小规模的环境时。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
@@ -40,7 +40,7 @@ USDP 开始安装前，需用户根据目标集群的规模大小做参考，合
 
 ## 2.2 单集群多节点规划
 
-![](../../images/3.0.0-unopened/deployment/deploy_plan/4278236545.png)
+![](../../images/3.0.x/deployment/deploy_plan/4278236545.png)
 
 **本规划方案适用于：**当业务量较小、资源较为紧俏时，以及用户希望搭建一个最小规模的环境，但 USDP Server、NTP 服务器、MySQL 服务器能与大数据集群相对独立的场景。参考本章节内容，来协助实现智能大数据服务的部署参考。
 
@@ -85,7 +85,7 @@ USDP 开始安装前，需用户根据目标集群的规模大小做参考，合
 
 ##### 效果示意图：
 
- ![](../../images/3.0.0-unopened/deployment/deploy_plan/4249449187.png)
+ ![](../../images/3.0.x/deployment/deploy_plan/4249449187.png)
 
 图解：因三个 VPC 均两两互通，因此，“大数据集群 Cluster1”集群与“大数据集群 Cluster2之间”集群可进行跨集群复制数据等操作。
 
@@ -101,7 +101,7 @@ USDP 开始安装前，需用户根据目标集群的规模大小做参考，合
 
 ##### 效果示意图：
 
-![](../../images/3.0.0-unopened/deployment/deploy_plan/443566542.png)
+![](../../images/3.0.x/deployment/deploy_plan/443566542.png)
 
 图解：因 VPC-M 与 VPC-C1 互通、VPC-M 与 VPC-C2 互通，而 VPC-C1 与 VPC-C2 不互通，因此，“大数据集群 Cluster1”集群与“大数据集群 Cluster2 之间”集群无通讯网络条件；此模式，适合在多个分析系统业务，需要灵活控制、且需要分类管理的场景中，以满足控制需求，达到提供数据分析业务安全性的目的。
 

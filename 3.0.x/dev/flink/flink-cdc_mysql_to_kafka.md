@@ -18,7 +18,7 @@
 
 如果你是更高版本的 Flink，可以自行https://github.com/ververica/flink-cdc-connectors下载新版 `mvn clean install -DskipTests` 自己编译。   包下载好之后，放在 Flink lib 目录 `/srv/udp/2.0.0.0/flink/lib` 下：
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/flink-lib.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/flink-lib.png)
 
 ## 3. 启动 Flink SQL Client
 
@@ -30,7 +30,7 @@
 ./yarn-session.sh -d -s 1 -jm 1024 -tm 2048 -qu root.sparkstreaming -nm flink-cdc-kafka
 ```
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/yarn-applications.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/yarn-applications.png)
 
 ### 3.2 进入 Flink SQL 命令行
 
@@ -40,7 +40,7 @@
 ./sql-client.sh embedded -s flink-cdc-kafka
 ```
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/flink-sql-client.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/flink-sql-client.png)
 
 ## 4. 测试数据准备
 
@@ -79,7 +79,7 @@ INSERT INTO `user_view` VALUES ('9', '8', '菲尔·科尔森', '42', '2020-05-13
 
 检查数据
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/mysql-table-select.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/mysql-table-select.png)
 
 ## 5. 同步数据
 
@@ -138,7 +138,7 @@ Flink SQL> select * from user_view_source;
 
 若查询正常，则如下显示
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/flink-sql-select.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/flink-sql-select.png)
 
 此时，在 Flink SQL Client 中操作这张表，就相当于在操作 Mysql 里面对应的那张 `user_view` 表。
 
@@ -182,9 +182,9 @@ Flink SQL> insert into user_view_kafka_sink select * from user_view_source;
 
 此时，可退出 flink sql-client，并进入 flink web-ui ，即可看到 mysql 表数据已经同步到 kafka topic 中了。
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/flink-webui-yarn-tracking-url.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/flink-webui-yarn-tracking-url.png)
 
 并且，对 mysql 表再次进行数据插入，kafka 仍会保持同步更新。
 
-![](../../../images/3.0.0-unopened/dev/flink/flink_cdc_mtk/kafka-console-consumer.png)
+![](../../../images/3.0.x/dev/flink/flink_cdc_mtk/kafka-console-consumer.png)
 
