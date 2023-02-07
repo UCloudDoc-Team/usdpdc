@@ -54,7 +54,7 @@ bash repair.sh initSingle
 
 ## 2. 用新增服务节点创建新集群
 
-USDP支持多集群管理，可前往参考 [新增大数据集群](usdpdc/plan&create/first_create)。
+USDP支持多集群管理，可前往参考 [新增大数据集群](usdpdc/2.1.x/plan&create/first_create)。
 
 
 

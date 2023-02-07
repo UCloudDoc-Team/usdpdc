@@ -2,7 +2,7 @@
 
 **补充操作说明：**
 
-!> 以下操作步骤，请基于[USDP2.1.x部署流程文档](https://docs.ucloud.cn/usdpdc/2.1.x/plan&create/install_v2) -> 4.1节之后开始操作，待所有步骤执行完成后，再执行 部署流程文档 -> [4.2章节](https://docs.ucloud.cn/usdpdc/2.1.x/plan&create/install_v2?id=_42-%e6%89%a7%e8%a1%8c%e7%8e%af%e5%a2%83%e5%88%9d%e5%a7%8b%e5%8c%96)。
+!> 以下操作步骤，请基于[USDP2.1.x部署流程文档](usdpdc/2.1.x/plan&create/install_v2) -> 4.1节之后开始操作，待所有步骤执行完成后，再执行 部署流程文档 -> [4.2章节](usdpdc/2.1.x/plan&create/install_v2?id=_42-执行环境初始化)。
 
 ### 1.install nginx （仅需在安装节点上执行）
 

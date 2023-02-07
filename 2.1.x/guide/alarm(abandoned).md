@@ -2,18 +2,6 @@
 
 在智能大数据平台USDP中，为便于用户快速获知集群相关健康状态，USDP提供较为友好的告警管理功能，譬如集群节点的系统级告警、大数据服务的基本告警配置、以及USDP提供的统一的告警模板管理等，辅助用户更好的管理和使用USDP。
 
-
-
-#### 本篇将涉及到：
-
-- [告警模板管理](usdpdc/guide_v2/alarm?id=_2-告警模板管理)
-- [设置告警邮件发送服务](usdpdc/guide_v2/alarm?id=_3-设置告警邮件发送服务)
-- [通知对象管理](usdpdc/guide_v2/alarm?id=_4-通知对象管理)
-- [通知组管理](usdpdc/guide_v2/alarm?id=_5-通知组管理)
-- [告警设置](usdpdc/guide_v2/alarm?id=_6-告警设置)
-
-
-
 ## 1. 浏览器访问USDP管理控制台
 
 在浏览器中打开 USDP Web Console：

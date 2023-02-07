@@ -17,7 +17,7 @@
 ![img](../../images/2.1.x/clusters/2020123035003.png)
 
 
-此时，即可进入创建新集群的向导流程中，接下来，您可参考 [通过向导创建大数据集群](/usdpdc/plan&create/first_create?id=_31-向导-选择软件版本) 章节，流程一致，此处就不在赘述了。
+此时，即可进入创建新集群的向导流程中，接下来，您可参考 [通过向导创建大数据集群](usdpdc/2.1.x/plan&create/first_create?id=_1-向导-选择软件版本) 章节，流程一致，此处就不在赘述了。
 
 
 
@@ -27,9 +27,3 @@
 
 ![img](../../images/2.1.x/clusters/2021012665254.png)
 
-后续针对该集群的管理和使用，可参考如下章节进行操作：
-
-* [集群节点管理](usdpdc/1.0.x/webconsole/node)
-* [集群服务管理](usdpdc/1.0.x/webconsole/service)
-* [集群监控管理](usdpdc/1.0.x/webconsole/monitor)
-* [集群告警管理](usdpdc/1.0.x/webconsole/alarm)

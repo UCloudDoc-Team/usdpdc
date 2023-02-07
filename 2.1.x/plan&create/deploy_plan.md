@@ -16,11 +16,7 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 
 
-**用户可根据自身需求，选择参考以下三类部署方案：**
-
-- [最小规模部署](usdpdc/2.1.x/plan&create/deploy_plan?id=_1-最小规模部署)
-- [单集群多节点规划](usdpdc/2.1.x/plan&create/deploy_plan?id=_2-单集群多节点规划)
-- [多集群多节点规划（集群间网络互通可独立控制）](usdpdc/2.1.x/plan&create/deploy_plan?id=_3-多集群多节点规划)
+**用户可根据自身需求，选择参考下文中的三类部署方案：**
 
 
 
@@ -125,5 +121,5 @@ USDP开始安装前，需用户根据目标集群的规模大小做参考，合�
 
 
 
-当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](/usdpdc/2.1.x/plan&create/install_v2)。
+当您已完成资源规划后，接下来就开始安装USDP吧。请前往 [USDP私有化部署流程](usdpdc/2.1.x/plan&create/install_v2)。
 

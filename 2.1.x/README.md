@@ -1,12 +1,6 @@
 # USDP 专业版 V2.1.x 技术文档
 
-
-
-### <center>[产品概述](usdpdc/2.1.x/?id=产品概述)   |   [核心优势](usdpdc/2.1.x/?id=二、USDP一站式智能大数据平台的核心优势)   |   [功能简介](usdpdc/2.1.x/?id=三、功能简介)   |   [规划安装](usdpdc/2.1.x/?id=四、规划及安装)   |   [操作指南](usdpdc/2.1.x/?id=五、控制台操作指南)  |   [集群说明](usdpdc/2.1.x/?id=六、集群信息说明)  |   [开发指南](usdpdc/2.1.x/?id=七、开发指南)  |   [任务调度](usdpdc/2.1.x/?id=八、任务调度)</center>  
-
-
-
-### 一、产品概述
+## 一、产品概述
 
 UCloud Smart Data Platform（简称 USDP）专业版，是 UCloud 推出的智能化、轻量级的大数据基础服务平台，能够帮您快速构建起大数据的分析处理能力。
 
@@ -30,7 +24,7 @@ USDP支持最少3个节点，最多上千节点的集群规模，同时，允许
 
 
 
-### 二、USDP一站式智能大数据平台的核心优势
+## 二、USDP一站式智能大数据平台的核心优势
 
 #### 1. 无需担心业务绑定
 
@@ -82,71 +76,20 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 
 
-### 三、功能简介
+## 三、功能简介
 
 关于USDP平台的功能介绍，请点击前往 [功能介绍](usdpdc/2.1.x/release_notes) 查看。
 
 
 
-### 四、规划及安装
+## 四、规划及安装
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
 * [资源规划](usdpdc/2.1.x/plan&create/deploy_plan)
 * [部署流程](usdpdc/2.1.x/plan&create/install_v2)
 * [首次创建](usdpdc/2.1.x/plan&create/first_create)
-* [扩展节点](usdpdc/guide_v2/node_add)
-
-
-
-### 五、控制台操作指南
-
-大数据环境的管理员用户或开发者用户，可通过本章节了解到 USDP 各个模块的文档介绍，帮助您快速上手 USDP，了解如何在公有云环境中使用及管理 USDP 集群及服务的具体操作方法。
-
-- 多集群管理
-
-  * [管理多集群](usdpdc/clusters/clusters)
-
-  * [存储与计算分离](usdpdc/clusters/clusters_separation)
-
-  * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
-
-* 单集群管理
-  * [集群节点管理](usdpdc/guide_v2/node)
-  * [集群服务管理](usdpdc/guide_v2/service_state)
-  * [集群监控管理](usdpdc/guide_v2/monitor)
-  * [集群告警管理](usdpdc/guide_v2/alarmTemplate)
-* [USDP License管理](usdpdc/license/license)
-
-
-
-### 六、集群信息说明
-
-如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
-
-* [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
-* [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
-* [各组件服务部署规则说明](usdpdc/2.1.x/cluster_notes/rule)
-
-
-
-### 七、开发指南
-
-大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境实现业务场景时，本章节内容为您介绍 USDP 所提供的各个开源大数据服务组件的部署及使用方式，帮助您快速开启数据分析业务开发之旅。
-
-* [HDFS-开发指南](usdpdc/developer/hdfs)
-* [Hive-开发指南](usdpdc/developer/hive)
-* [HBase-开发指南](usdpdc/developer/hbase)
-* [Ranger-开发指南](usdpdc/developer/ranger)
-* [Atlas-开发指南](usdpdc/developer/atlas)
-
-
-
-### 八、任务调度
-
-大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
-
-* [调度服务-Airflow](usdpdc/schedule/airflow)
+* [扩展节点](usdpdc/2.1.x/guide/node_add_v2.1)
 
 ### 合作咨询
 
