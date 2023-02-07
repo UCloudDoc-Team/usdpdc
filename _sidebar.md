@@ -16,7 +16,5 @@
     * [aarch64_2.0.x](usdpdc/xc_aarch64_2.0.x/README)
     * [x86_2.1.x](usdpdc/xc_x86_2.1.x/README)
     * [版本差异](usdpdc/component/xc_version)
-
-* [了解USDP更多版本](usdpdc/component/version)
 * [合作咨询](https://spt.ucloud.cn/30001)
 
