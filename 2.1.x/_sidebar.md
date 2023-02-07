@@ -17,22 +17,22 @@
     * [非Hadoop生态数据集群](usdpdc/2.1.x/clusters/clusters_others)
   * 单集群管理
     * 集群节点
-      * [节点管理](usdpdc/guide_v2/node)
-      * [节点扩展](usdpdc/guide_v2/node_add_v2.1)
+      * [节点管理](usdpdc/2.1.x/guide/node)
+      * [节点扩展](usdpdc/2.1.x/guide/node_add_v2.1)
     * 服务管理
-      * [服务概况查看](usdpdc/guide_v2/service_state)
-      * [服务配置修改](usdpdc/guide_v2/service_config)
-      * [服务组件管理](usdpdc/guide_v2/service_component)
-      * [添加服务或组件](usdpdc/guide_v2/service_extension)
-      * [服务Web UI访问](usdpdc/guide_v2/service_web)
-    * [监控管理](usdpdc/guide_v2/monitor)
+      * [服务概况查看](usdpdc/2.1.x/guide/service_state)
+      * [服务配置修改](usdpdc/2.1.x/guide/service_config)
+      * [服务组件管理](usdpdc/2.1.x/guide/service_component)
+      * [添加服务或组件](usdpdc/2.1.x/guide/service_extension)
+      * [服务Web UI访问](usdpdc/2.1.x/guide/service_web)
+    * [监控管理](usdpdc/2.1.x/guide/monitor)
     * 告警管理
-      * [告警模板管理](usdpdc/guide_v2/alarmTemplate)
+      * [告警模板管理](usdpdc/2.1.x/guide/alarmTemplate)
       * 通知方式管理
-        * [通知组](usdpdc/guide_v2/alarmInform_group)
-        * [通知对象](usdpdc/guide_v2/alarmInform_object)
-        * [邮件发送设置](usdpdc/guide_v2/alarmInform_email)
-      * [告警生效](usdpdc/guide_v2/alarmTemplate_work)
+        * [通知组](usdpdc/2.1.x/guide/alarmInform_group)
+        * [通知对象](usdpdc/2.1.x/guide/alarmInform_object)
+        * [邮件发送设置](usdpdc/2.1.x/guide/alarmInform_email)
+      * [告警生效](usdpdc/2.1.x/guide/alarmTemplate_work)
 * 集群说明
   * [各服务WebUIs账号](usdpdc/2.1.x/cluster_notes/login)
   * [各服务常用端口](usdpdc/2.1.x/cluster_notes/ports)
