@@ -3,6 +3,7 @@
 
 
 * [产品概述](usdpdc/xc_x86_2.1.x/README)
+* [版权申明](usdpdc/xc_x86_2.1.x/copyright)
 * [功能介绍](usdpdc/xc_x86_2.1.x/release_notes)
 * 规划及安装
   * [资源规划](usdpdc/xc_x86_2.1.x/plan&create/deploy_plan)
@@ -42,7 +43,6 @@
     * [HDFS-开发指南](usdpdc/xc_x86_2.1.x/developer/hdfs)
     * [Hive-开发指南](usdpdc/xc_x86_2.1.x/developer/hive)
     * [HBase-开发指南](usdpdc/xc_x86_2.1.x/developer/hbase)
-  
 * [了解USDP更多版本](usdpdc/component/version)
 * [合作咨询](https://spt.ucloud.cn/30001)
 

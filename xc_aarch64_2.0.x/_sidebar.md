@@ -4,6 +4,8 @@
 
 * [产品概述](usdpdc/xc_aarch64_2.0.x/README)
 
+* [版权申明](usdpdc/xc_aarch64_2.0.x/copyright)
+
 * [功能介绍](usdpdc/xc_aarch64_2.0.x/release_notes)
 
 * 规划及安装
