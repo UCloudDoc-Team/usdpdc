@@ -38,18 +38,18 @@
   * [各服务WebUIs账号](usdpdc/1.0.x/cluster_notes/login)
 * 开发指南
    * 存储开发指南
-      * [HDFS-开发指南](usdpdc/developer/hdfs)
-      * [Hive-开发指南](usdpdc/developer/hive)
-      * [HBase-开发指南](usdpdc/developer/hbase)
+      * [HDFS-开发指南](usdpdc/1.0.x/developer/hdfs)
+      * [Hive-开发指南](usdpdc/1.0.x/developer/hive)
+      * [HBase-开发指南](usdpdc/1.0.x/developer/hbase)
    
    * 任务调度指南
-      * [调度服务-Airflow](usdpdc/schedule/airflow)
+      * [调度服务-Airflow](usdpdc/1.0.x/developer/airflow)
    
    * 元数据开发指南
-      * [Atlas-开发指南](usdpdc/developer/atlas)
+      * [Atlas-开发指南](usdpdc/1.0.x/developer/atlas)
    
    * 安全开发指南
-      * [Ranger-开发指南](usdpdc/developer/ranger)
+      * [Ranger-开发指南](usdpdc/1.0.x/developer/ranger)
 * [了解USDP更多版本](usdpdc/component/version)
 * [合作咨询](https://spt.ucloud.cn/30001)
 
