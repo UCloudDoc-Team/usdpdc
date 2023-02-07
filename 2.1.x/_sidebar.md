@@ -12,9 +12,9 @@
   * [USDP许可证管理](usdpdc/2.1.x/license/license)
   * 多集群管理
   
-    * [管理多集群](usdpdc/clusters/clusters)
-    * [存储与计算分离](usdpdc/clusters/clusters_separation)
-    * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
+    * [管理多集群](usdpdc/2.1.x/clusters/clusters)
+    * [存储与计算分离](usdpdc/2.1.x/clusters/clusters_separation)
+    * [非Hadoop生态数据集群](usdpdc/2.1.x/clusters/clusters_others)
   * 单集群管理
     * 集群节点
       * [节点管理](usdpdc/guide_v2/node)

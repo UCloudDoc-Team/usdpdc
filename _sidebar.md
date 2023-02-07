@@ -10,7 +10,6 @@
     * [专业版安装](usdpdc/plan&create/select&install)
 * 控制台操作指南
   
-    * [USDP许可证管理](usdpdc/license/license)
     * 多集群管理
     
         * [管理多集群](usdpdc/clusters/clusters)
