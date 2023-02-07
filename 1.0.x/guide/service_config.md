@@ -2,14 +2,14 @@
 
 在智能大数据平台USDP中，无论USDP提供的哪种集群组件服务，对于这些服务的配置文件修改，均可采用以下两种方式：
 
-- [在USDP控制台中更改服务配置文件](usdpdc/guide_v2/service_config?id=_1-在usdp控制台中更改服务配置文件)，这是我们 `强烈推荐` 的方式。
-- [逐一登陆服务分布式节点并更改其配置文件](usdpdc/guide_v2/service_config?id=_2-逐一登陆服务分布式节点并更改其配置文件) 
+- [在USDP控制台中更改服务配置文件](usdpdc/1.0.x/guide/service_config?id=_1-在usdp控制台中更改服务配置文件)，这是我们 `强烈推荐` 的方式。
+- [逐一登陆服务分布式节点并更改其配置文件](usdpdc/1.0.x/guide/service_config?id=_2-逐一登陆服务分布式节点并更改其配置文件) 
 
 
 
 USDP会主动检查用户对配置文件的修改情况，及该修改操作是否需要关联重启其他服务，并提示用户重启各服务生效配置修改。参见：
 
-- [服务组件重启提示](usdpdc/guide_v2/service_config?id=_13-服务组件重启提示)
+- [服务组件重启提示](usdpdc/1.0.x/guide/service_config?id=_13-服务组件重启提示)
 
 
 

@@ -4,14 +4,6 @@
 
 
 
-#### 本篇将涉及到：
-
-- [集群各节点运行的组件查看](usdpdc/guide_v2/node?id=_1-集群各节点运行的组件查看)
-- [集群单节点管理](usdpdc/guide_v2/node?id=_2-集群单节点管理)
-- [集群单节点上的组件管理](usdpdc/guide_v2/node?id=_3-集群单节点上的组件管理)
-
-
-
 在浏览器中打开 USDP Web Console：
 ~~~URL
 http://<your_master1_ip>

@@ -2,10 +2,6 @@
 
 
 
-### <center>[功能点概述](usdpdc/xc_aarch64_2.0.x/release_notes?id=一、信创版功能点概述)   |  [适配兼容详情](usdpdc/xc_aarch64_2.0.x/release_notes?id=二、适配兼容详情)  |  [支持的大数据生态服务](usdpdc/xc_aarch64_2.0.x/release_notes?id=三、信创版支持的大数据生态服务)</center>
-
-
-
 ### 一、信创版功能点概述
 
 - 支持完善的服务器初装时初始化修复工具；

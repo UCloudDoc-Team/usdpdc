@@ -2,11 +2,6 @@
 
 在智能大数据平台USDP中，为便于用户对集群及相关服务的管理，USDP提供较为友好的服务管理功能，譬如对某个服务的组件启停及组件扩展等管理功能，辅助用户更好的管理和使用USDP。
 
-下文以Zookeeper服务的组件管理为示例，本篇将涉及到：
-
-- [Zookeeper服务相关组件管理](usdpdc/guide_v2/service_component?id=zookeeper服务相关组件管理)
-- [Zookeeper服务组件扩展](usdpdc/guide_v2/service_component?id=zookeeper服务组件扩展)
-
 
 
 ## Zookeeper服务相关组件管理
@@ -37,7 +32,7 @@
 
 ## Zookeeper服务组件扩展
 
-该操作请参考 [为当前集群已使用的大数据服务扩展组件](usdpdc/guide_v2/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件) 操作。
+该操作请参考 [为当前集群已使用的大数据服务扩展组件](usdpdc/xc_aarch64_2.0.x/guide/service_extension?id=_2-为当前集群已使用的大数据服务扩展组件) 操作。
 
 
 

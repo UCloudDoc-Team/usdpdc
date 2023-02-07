@@ -199,27 +199,27 @@ http://<your_host_ip>
 
 进入USDP管理控制台时，首次登录需要设置admin用户名的登录密码。如下图所示：
 
-![](../../images/plan&create/install/login.png)
+![](../../images/1.0.x/plan&create/install/login.png)
 
 ?> **提示：**</br>- 集群部署完成后，可在USDP控制台中，更改admin管理员的密码。
 
 ### 5.5 获取并导入LICENSE
 
-![](../../images/license/imput_license.png)
+![](../../images/1.0.x/license/imput_license.png)
 
 点击 <kbd>导入许可证</kbd> 按钮，USDP将自动是被服务器的硬件识别码，并显示在弹出的对话框中，如下图所示：
 
-![](../../images/license/imput_license01.png)
+![](../../images/1.0.x/license/imput_license01.png)
 
 请将对话框中的 `硬件识别码` 字符串，及您计划通过USDP管理的`服务器节点数量`，联系并告知UCloud客户经理，其会协助您获得License许可文件。
 
 获得license文件后，点击 <kbd>选择license文件</kbd> 按钮，选择你们的license文件，点击对话框 <kbd>导入</kbd> 按钮，完成license验证。验证通过后，即可开始创建集群。
 
-?> **提示：**</br>- License 是一个 `xxx.tar.gz` 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/license/license) 查看。
+?> **提示：**</br>- License 是一个 `xxx.tar.gz` 的文件，无需解压，直接导入即可。</br></br>关于更多 “许可证” 的内容，请前往 [USDP许可证管理](usdpdc/1.0.x/license/license) 查看。
 
 若License文件有效，此时，USDP管理控制台中即会显示 ”新建集群“ 的向导入口，如下图所示：
 
-![](../../images/plan&create/install/1621830111378.png)
+![](../../images/1.0.x/plan&create/install/1621830111378.png)
 
 
 
