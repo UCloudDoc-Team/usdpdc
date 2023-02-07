@@ -33,7 +33,7 @@
 
 #### Setp2：指定集群节点
 
-参考《部署 USDP》章节中 hosts.yml 文件的“work_node”列表中已配置的主机信息，用户仅需输入相应节点的完全限定域名（hostname）即可，若无节点的 hostname 修改，根据 hosts.yml 文件填写默认 hostname。
+参考 [部署 USDP](usdpdc/3.0.x/deployment/install?id=_32-部署usdp) 章节中 hosts.yml 文件的“work_node”列表中已配置的主机信息，用户仅需输入相应节点的完全限定域名（hostname）即可，若无节点的 hostname 修改，根据 hosts.yml 文件填写默认 hostname。
 
 为了方便批量录入，USDP 支持用户按照表达的方式录入。
 
@@ -67,7 +67,7 @@ USDP 需要检查对应节点是否已经初始化完成，比如：JDK、MySQL�
 
 ![](../../images/3.0.x/deployment/1st_cluster/3506753823.png)
 
-USDP 需要通过 http 协议的源地址，为创建集群的各个主机提供安装包的支持，建议在创建集群前，前往 USDP Web 控制台“系统管理”-“UDH 源”中进行配置。此处参见本文档《UDH 源》章节内容。
+USDP 需要通过 http 协议的源地址，为创建集群的各个主机提供安装包的支持，建议在创建集群前，前往 USDP Web 控制台“系统管理”-“UDH 源”中进行配置。此处参见本文档 [UDH 源](usdpdc/3.0.x/userguide/sys_mgt/udh?id=_81-udh-源) 章节内容。
 
 #### Setp5：选择服务
 
