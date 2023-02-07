@@ -4,6 +4,7 @@
   - [管理多个大数据集群](usdpdc/3.0.x/userguide/multi_cluster/multi_cluster_mgt?id=_51-管理多个大数据集群)
     - [新增大数据集群](usdpdc/3.0.x/userguide/multi_cluster/multi_cluster_mgt?id=_511-新增大数据集群)
   - [非 Hadoop 生态数据集群](usdpdc/3.0.x/userguide/multi_cluster/multi_cluster_mgt?id=_52-非-hadoop-生态数据集群)
+
 - [单集群管理](usdpdc/3.0.x/userguide/single_cluster/cluster_mgt)
   - [集群管理](usdpdc/3.0.x/userguide/single_cluster/cluster_mgt?id=_61-集群管理)
     - [集群级控制](usdpdc/3.0.x/userguide/single_cluster/cluster_mgt?id=_611-集群级控制)
@@ -29,3 +30,13 @@
     - [告警规则](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_641-告警规则)
     - [活跃告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_642-活跃告警)
     - [历史告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_643-历史告警)
+
+- [系统管理](usdpdc/3.0.x/userguide/sys_mgt/README)
+
+  * [UDH源管理](usdpdc/3.0.x/userguide/sys_mgt/udh?id=_81-udh-源)
+
+  * [安全管理](usdpdc/3.0.x/userguide/sys_mgt/kerberos)
+
+  * [授权管理](usdpdc/3.0.x/userguide/sys_mgt/auth)
+
+<!-- [用户管理](usdpdc/3.0.x/userguide/user_mgt/user_mgt) -->
