@@ -84,7 +84,11 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 - 部署在国产信创X86_64、aarch64架构CPU物理服务器、虚拟机；
 
-具体版本选择，请查看 [USDP私有化版本列表](usdpdc/component/version)。
+适用于 **普通** 服务器部署的具体私有化版本选择，请查看 [USDP普通版本列表](usdpdc/component/version)。
+
+适用于 **信创** 服务器部署的具体私有化版本选择，请查看 [USDP信创版本列表](usdpdc/component/xc_version)。
+
+
 
 
 
