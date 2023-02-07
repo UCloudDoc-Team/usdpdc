@@ -4,16 +4,6 @@
 
 
 
-#### 本篇将涉及到：
-
-- [告警模板管理](usdpdc/guide_v2/alarm?id=_2-告警模板管理)
-- [设置告警邮件发送服务](usdpdc/guide_v2/alarm?id=_3-设置告警邮件发送服务)
-- [通知对象管理](usdpdc/guide_v2/alarm?id=_4-通知对象管理)
-- [通知组管理](usdpdc/guide_v2/alarm?id=_5-通知组管理)
-- [告警设置](usdpdc/guide_v2/alarm?id=_6-告警设置)
-
-
-
 ## 1. 浏览器访问USDP管理控制台
 
 在浏览器中打开 USDP Web Console：

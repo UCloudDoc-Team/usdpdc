@@ -1,6 +1,6 @@
 # 告警模板管理
 
-告警模板与USDP集群绑定，及可对该集群实施监控，当触发监控规则是，即及时向 [通知组](usdpdc/guide_v2/alarmInform_group) 中的各个 [通知对象](usdpdc/guide_v2/alarmInform_object) 发送告警信息。
+告警模板与USDP集群绑定，及可对该集群实施监控，当触发监控规则是，即及时向 [通知组](usdpdc/1.0.x/guide/alarmInform_group) 中的各个 [通知对象](usdpdc/1.0.x/guide/alarmInform_object) 发送告警信息。
 
 > **名词解释：**
 >
@@ -8,15 +8,6 @@
 > 2. **监控指标：**即为一组监控规则的集合，由监控指标来控制是否启用及通知组的绑定。
 
 在智能大数据平台USDP中，已默认提供了丰富的集群的服务告警模板，诸如计算类、存储类、监控类、调度类、可视化类、安全类等在内的6大类服务及组件的告警模板。用户亦可自定义设置告警模板、监控指标、监控规则等。
-
-
-
-#### 本篇将涉及到：
-
-- [模板监控指标管理](usdpdc/guide_v2/alarmTemplate?id=_1-模板监控指标管理)
-- [告警模板快速绑定集群并生效](usdpdc/guide_v2/alarmTemplate?id=_2-告警模板快速绑定集群并生效)
-- [新建告警模板](usdpdc/guide_v2/alarmTemplate?id=_3-新建告警模板)
-- [删除告警模板](usdpdc/guide_v2/alarmTemplate?id=_4-删除告警模板)
 
 
 
@@ -40,7 +31,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![img](../../images/1.0.x/guide/alarm/alarm_template/alarm_usdp_hive_content.png)
 
-!> USDP提供的 默认告警模板 不允许修改告警项。如需调整，可复制默认告警模板来调整具体告警指标，参见 [新建告警模板](usdpdc/guide_v2/alarmTemplate?id=_3-新建告警模板) 。
+!> USDP提供的 默认告警模板 不允许修改告警项。如需调整，可复制默认告警模板来调整具体告警指标，参见 [新建告警模板](usdpdc/1.0.x/guide/alarmTemplate?id=_3-新建告警模板) 。
 
 上图以Hive服务的告警模板为例，该模板包含9项具体监控指标。
 
@@ -56,7 +47,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![img](../../images/1.0.x/guide/alarm/alarm_template/alarm_usdp_hdfs_rule_modify.png)
 
-关于自定义告警模板，参见 [新建告警模板](usdpdc/guide_v2/alarmTemplate?id=_3-新建告警模板) 。
+关于自定义告警模板，参见 [新建告警模板](usdpdc/1.0.x/guide/alarmTemplate?id=_3-新建告警模板) 。
 
 ### 1.2 删除监控指标
 
@@ -66,7 +57,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ![img](../../images/1.0.x/guide/alarm/alarm_template/alarm_usdp_tamplate_rule_delete.png)
 
-!> USDP预置的 “监控指标” 不允许用户自行删除，用户可选择将相应的 “监控指标” 设为不启用，参考 [给监控指标设置启停](usdpdc/guide_v2/alarmTemplate?id=_14-给监控指标设置启停) 即可。
+!> USDP预置的 “监控指标” 不允许用户自行删除，用户可选择将相应的 “监控指标” 设为不启用，参考 [给监控指标设置启停](usdpdc/1.0.x/guide/alarmTemplate?id=_14-给监控指标设置启停) 即可。
 
 
 
@@ -98,9 +89,9 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 在弹出的 “修改绑定” 对话框中 “设置绑定” 处左侧 “可选集群” 部分，列出来可以绑定该模板的集群信息，用户仅需勾选对应的集群复选框，点击 <kbd>></kbd> 按钮，即可将已选集群添加到右侧 “已选集群” 栏，此后，点击对话框 <kbd>确定</kbd> 按钮，即可完成当前告警模板与所选集群的绑定操作。
 
-用户亦可在您自己的集群上来设置绑定哪些告警模板，相关操作请参考 [告警生效](usdpdc/guide_v2/alarmTemplate_work?id=_方式2-集群告警设置) 章节。
+用户亦可在您自己的集群上来设置绑定哪些告警模板，相关操作请参考 [告警生效](usdpdc/1.0.x/guide/alarmTemplate_work?id=方式2-集群告警设置) 章节。
 
-?> 为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](usdpdc/guide_v2/alarmInform_group) 来发送告警详细信息。
+?> 为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](usdpdc/1.0.x/guide/alarmInform_group) 来发送告警详细信息。
 
 
 

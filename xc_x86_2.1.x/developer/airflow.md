@@ -20,7 +20,7 @@ Airflow 是一个工作流分配管理系统，它通过有向无环图的方式
 
 - ## Airflow 的使用实例
 
-设置 Airflow  Web 访问端口为 28999，通过安装节点  IP:28999 访问 ，如 http://106.75.16.72:28999/admin。进入如下界面：
+设置 Airflow  Web 访问端口为 28999，通过安装节点  `IP:28999` 访问 ，如 `http://106.75.16.72:28999/admin`。进入如下界面：
 
 ![](../../images/xc_x86_2.1.x/developer/airflow/airflow-16061397625039.png)
 
@@ -28,7 +28,7 @@ Airflow 是一个工作流分配管理系统，它通过有向无环图的方式
 
 ![](../../images/xc_x86_2.1.x/developer/airflow/airflow-16061401802630.png)
 
-在 /srv/udp/1.0.0.0/airflow/dags/  放入需要执行的 dag 任务代码 example2.py ，刷新 DAGS 页面， 示例代码如下：
+在 `/srv/udp/1.0.0.0/airflow/dags/`  放入需要执行的 dag 任务代码 example2.py ，刷新 DAGS 页面， 示例代码如下：
 
 ```python
 # -*- coding: utf-8 -*-

@@ -12,7 +12,7 @@ Apache Atlas 是 Hadoop 社区为解决 Hadoop 生态系统的元数据治理问
 
 ![img](../../images/1.0.x/developer/atlas/atlas_login.png)
 
-Atlas管理员账号，《操作指南-各服务Web UIs登录口令》文档
+Atlas管理员账号，操作指南-[各服务Web UIs账号](usdpdc/1.0.x/cluster_notes/login)文档
 
 ### 2. Atlas Web UI首页
 

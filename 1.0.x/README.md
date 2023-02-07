@@ -1,8 +1,6 @@
 # USDP 专业版 V1.0.x 技术文档
 
-### <center>[产品概述](usdpdc/1.0.x/?id=_1-产品概述)   |   [核心优势](usdpdc/1.0.x/?id=_2-一站式智能大数据平台的核心优势)   |   [功能简介](usdpdc/1.0.x/?id=_3-功能简介)   |   [规划安装](usdpdc/1.0.x/?id=_4-规划及安装)   |   [操作指南](usdpdc/1.0.x/?id=_5-控制台操作指南)  |   [集群说明](usdpdc/1.0.x/?id=_6-集群信息说明)  |   [开发指南](usdpdc/1.0.x/?id=_7-开发指南)  |   [任务调度](usdpdc/1.0.x/?id=_8-任务调度)</center>  
-
-### 1. 产品概述
+## 1. 产品概述
 
 UCloud Smart Data Platform（简称 USDP）专业版，是 UCloud 推出的智能化、轻量级的大数据基础服务平台，能够帮您快速构建起大数据的分析处理能力。
 
@@ -26,7 +24,7 @@ USDP支持最少3个节点，最多上千节点的集群规模，同时，允许
 
 
 
-### 2. 一站式智能大数据平台的核心优势
+## 2. 一站式智能大数据平台的核心优势
 
 #### 2.1 无需担心业务绑定
 
@@ -78,68 +76,23 @@ UCloud大数据团队积淀了多年公有云大数据运维和业务调优经�
 
 
 
-### 3. 功能简介
+## 3. 功能简介
 
 关于USDP平台的功能介绍，请点击前往 [V1.0.x 功能简介](https://docs.ucloud.cn/usdpdc/1.0.x/release_notes) 章节查看。
 
 
 
-### 4. 规划及安装
+## 4. 规划及安装
 
 通过本章节，我们将协助您完成初装前，对将要使用的服务器资源做出相应的合理规划，并提供安装部署、首个集群创建的参考文档，指导您快速部署。
 
 * [资源规划](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/deploy_plan)
 * [部署流程](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/install)
 * [首次创建](https://docs.ucloud.cn/usdpdc/1.0.x/plan&create/first_create)
-* [扩展节点](https://docs.ucloud.cn/usdpdc/guide_v2/node_add)
+* [扩展节点](https://docs.ucloud.cn/usdpdc/1.0.x/guide/node_add)
 
 
 
-### 5. 控制台操作指南
-
-大数据环境的管理员用户或开发者用户，可通过本章节了解到 USDP 各个模块的文档介绍，帮助您快速上手 USDP，了解如何在公有云环境中使用及管理 USDP 集群及服务的具体操作方法。
-
-- 多集群管理
-  * [管理多集群](https://docs.ucloud.cn/usdpdc/clusters/clusters)
-  * [存储与计算分离](usdpdc/clusters/clusters_separation)
-  * [非Hadoop生态数据集群](usdpdc/clusters/clusters_others)
-
-* 单集群管理
-  * [集群节点管理](https://docs.ucloud.cn/usdpdc/guide_v2/node)
-  * [集群服务管理](https://docs.ucloud.cn/usdpdc/guide_v2/service_state)
-  * [集群监控管理](https://docs.ucloud.cn/usdpdc/guide_v2/monitor)
-  * [集群告警管理](https://docs.ucloud.cn/usdpdc/guide_v2/alarmTemplate)
-* [USDP License管理](https://docs.ucloud.cn/usdpdc/license/license)
-
-
-
-### 6. 集群信息说明
-
-如USDP安装后，服务的安装目录、数据存储目录等信息，服务的WebUIs登陆口令等信息，可参考如下内容。
-
-* [各服务部署规则](https://docs.ucloud.cn/usdpdc/1.0.x/cluster_notes/rule)
-* [各服务WebUIs账号](https://docs.ucloud.cn/usdpdc/1.0.x/cluster_notes/login)
-
-
-
-### 7. 开发指南
-
-大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境实现业务场景时，本章节内容为您介绍 USDP 所提供的各个开源大数据服务组件的部署及使用方式，帮助您快速开启数据分析业务开发之旅。
-
-* [HDFS-开发指南](https://docs.ucloud.cn/usdpdc/developer/hdfs)
-* [Hive-开发指南](https://docs.ucloud.cn/usdpdc/developer/hive)
-* [HBase-开发指南](https://docs.ucloud.cn/usdpdc/developer/hbase)
-* [Ranger-开发指南](https://docs.ucloud.cn/usdpdc/developer/ranger)
-* [Atlas-开发指南](https://docs.ucloud.cn/usdpdc/developer/atlas)
-
-
-
-### 8. 任务调度
-
-大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
-
-* [调度服务-Airflow](https://docs.ucloud.cn/usdpdc/schedule/airflow)
-
-### 合作咨询
+## 合作咨询
 
 USDP专业版 [合作咨询](https://spt.ucloud.cn/30001)
