@@ -45,14 +45,16 @@
     * [告警规则](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_641-告警规则)
     * [活跃告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_642-活跃告警)
     * [历史告警](usdpdc/3.0.x/userguide/single_cluster/alarm_mgt?id=_643-历史告警)
-  * 系统管理<!-- [](usdpdc/3.0.x/userguide/sys_mgt/README) -->
-    * [UDH源管理](usdpdc/3.0.x/userguide/sys_mgt/udh?id=_81-udh-源)
-    * [安全管理](usdpdc/3.0.x/userguide/sys_mgt/kerberos)
-    * [授权管理](usdpdc/3.0.x/userguide/sys_mgt/auth)<!-- [用户管理](usdpdc/3.0.x/userguide/user_mgt/user_mgt) -->
-  * 维护手册<!-- [](usdpdc/3.0.x/maintain/README) -->
-    * [各服务常用端口](usdpdc/3.0.x/maintain/services_ports)
-    * [各组件服务部署规则说明](usdpdc/3.0.x/maintain/regulations)
-  
+
+* 系统管理<!-- [](usdpdc/3.0.x/userguide/sys_mgt/README) -->
+  * [UDH源管理](usdpdc/3.0.x/userguide/sys_mgt/udh?id=_81-udh-源)
+  * [安全管理](usdpdc/3.0.x/userguide/sys_mgt/kerberos)
+  * [授权管理](usdpdc/3.0.x/userguide/sys_mgt/auth)<!-- [用户管理](usdpdc/3.0.x/userguide/user_mgt/user_mgt) -->
+
+* 维护手册<!-- [](usdpdc/3.0.x/maintain/README) -->
+  * [各服务常用端口](usdpdc/3.0.x/maintain/services_ports)
+  * [各组件服务部署规则说明](usdpdc/3.0.x/maintain/regulations)
+
 * [返回主页](usdpdc/README)
 
 * [合作咨询](https://spt.ucloud.cn/30001)
