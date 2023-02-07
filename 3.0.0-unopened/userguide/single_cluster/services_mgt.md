@@ -141,8 +141,6 @@ USDP 会以实例组的方式展示当前服务的各个实例在分布式集群
 
 因部分大数据服务配置复杂，且配置项较多，USDP 控制台支持实例和配置类别过滤的策略，辅助使用者快速查找到需要调整的配置项，如上图所示，HDFS 配置可以按照“范围”、“类别”两个维度进行过滤筛选配置项。
 
-![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/4018616381.png)
-
 #### 6.3.3.1 服务高级配置
 
 ![](../../../images/3.0.0-unopened/userguide/single_cluster/services_mgt/3630021291.png)
