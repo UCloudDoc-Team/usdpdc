@@ -67,3 +67,7 @@ UDH-3.0.0 中，已支持的大数据生态服务组件有：
 | Prometheus       | 2.38.0   | Prometheus 是一个开源的系统监控和报警系统用于拉取大数据平台监控数据。 |
 | Ranger           | 2.3.0    | Apache Ranger 授权服务。                                     |
 | ZooKeeper        | 3.5.10   | Apache ZooKeeper 是用于维护和同步配置数据的集中服务。        |
+
+## 合作咨询
+
+USDP专业版 [解决方案及合作咨询](usdpdc/consult)

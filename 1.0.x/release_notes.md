@@ -75,4 +75,4 @@ USDP-1.0.x 中，已支持的大数据生态服务有：
 
 ### 合作咨询
 
-USDP专业版 [合作咨询](https://spt.ucloud.cn/30001)
+USDP专业版 [解决方案及合作咨询](usdpdc/consult)

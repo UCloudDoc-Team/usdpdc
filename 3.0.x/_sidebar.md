@@ -57,7 +57,7 @@
 
 * [了解USDP更多版本](usdpdc/component/version)
 
-* [合作咨询](https://spt.ucloud.cn/30001)
+* [解决方案及合作咨询](usdpdc/consult)
 
   <!-- 开发者指南 -->
 
