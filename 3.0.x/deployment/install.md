@@ -91,11 +91,12 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@10.76.198.52
 
 通过给定地址，下载以下文件：
 
-| 安装包                 | 描述           | 文件大小 |
-| ---------------------- | -------------- | -------- |
-| ansible-xxx.tar.gz     | Ansible 安装包 | 约25MB   |
-| env-prepare-xxx.tar.gz | USDP 安装包    | 约500MB  |
-| udh-xxx.tar.gz         | UDH 资源包     | 约7GB    |
+| 安装包                 | 描述                                                         | 文件大小 |
+| ---------------------- | ------------------------------------------------------------ | -------- |
+| ansible-xxx.tar.gz     | Ansible 安装包                                               | 约 25MB  |
+| env-prepare-xxx.tar.gz | USDP 安装包                                                  | 约 500MB |
+| udh-xxx.tar.gz         | UDH 资源包                                                   | 约 7GB   |
+| mirror-xxx.tar.gz      | CentOS 7.6 离线 yum 源（如果主机能访问互联网，则不需要下载） | 约 35GB  |
 
 ### 3.2.2 解压安装包
 
@@ -103,6 +104,11 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@10.76.198.52
 mkdir -p /data/usdp-srv/
 tar -zxvf ansible-xxx.tar.gz -C /data/usdp-srv/
 tar -zxvf env-prepare-xxx.tar.gz -C /data/usdp-srv/
+```
+
+```shell
+# 解压 CentOS 7.6 离线 yum 源（如果主机能访问互联网，则不需要下载和解压，直接用互联网 yum 源）
+tar -xvf mirror-xxx.tar.gz -C /data/
 ```
 
 ### 3.2.3 安装ansbile
