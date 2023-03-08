@@ -125,13 +125,19 @@ yum install -y ansible/*.rpm
 ```yaml
 all:
   vars:
+    # 如果是信创环境，操作系统是 Kylin V10，则需要打开下面的注释，指定 python 版本为 python3
+    #ansible_python_interpreter: /usr/bin/python3
+
     # 如果下面指定的 3 个 ntp_server 不能访问互联网，请设置 with_internet_ntp: false
     # 并且打开 internal_ntp_servers 的注释设置至少一个内部可访问的 ntp server
     with_internet_ntp: true
     #internal_ntp_servers:
     #  - 10.0.1.11
     #  - 10.0.1.12
- 
+
+    # 设置时区，缺省设置为 Asia/Shanghai
+    #timezone: Asia/Shanghai
+
     # SSH root 密码，按实际情况修改，如果已经配置了 ssh key 免密登录，则该变量无效
     ansible_password: ssh_password_of_root
     # MySQL root 密码，按实际情况修改
