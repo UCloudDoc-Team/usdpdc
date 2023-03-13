@@ -38,7 +38,7 @@ Ranger 管理员可通过 Ranger 为 YARN 用户配置 YARN 管理员权限以�
    | 设置用户在指定 YARN 队列提交任务的权限 | 1. 在“Queue”配置队列名。<br/>2. 在“Allow Conditions”区域，单击“Select User”下选择框选择用户。<br/>3. 单击“Add Permissions”，勾选“submit-app”。 |
    | 设置用户在指定 YARN 队列管理任务的权限 | 1. 在“Queue”配置队列名。<br/>2. 在“Allow Conditions”区域，单击“Select User”下选择框选择用户。<br/>3. 单击“Add Permissions”，勾选“admin-queue”。 |
 
-5. （可选）添加策略有效期。在页面右上角单击"Add Validity period"，设置"Start Time"和"End Time"，选择"Time Zone"。单击"Save"保存。如需添加多条策略有效期，可单击 ![img](assets/be66f4ad611209b10b8e90a03800879b5658f1d6.png) 按钮添加。如需删除策略有效期，可单击 ![img](assets/2997bbe39865ff5d241003e1a9d108851c43235e.png) 按钮删除。
+5. （可选）添加策略有效期。在页面右上角单击"Add Validity period"，设置"Start Time"和"End Time"，选择"Time Zone"。单击"Save"保存。如需添加多条策略有效期，可单击 ➕ 按钮添加。如需删除策略有效期，可单击 ❌ 按钮删除。
 
 6. 单击"Add"，在策略列表可查看策略的基本信息。等待策略生效后，验证相关权限是否正常。
 
