@@ -46,7 +46,7 @@ Ranger 管理员可通过 Ranger 为 YARN 用户配置 YARN 管理员权限以�
 
    d. 在 USDP 控制台 YARN 配置页面中，搜索 `yarn_yarn_site_xml_extend` 配置项，添加如下配置：
 
-   - yarn.authorization-provider = org.apache.ranger.authorization.yarn.authorizer.RangerYarnAuthorizer
+   - `yarn.authorization-provider` = `org.apache.ranger.authorization.yarn.authorizer.RangerYarnAuthorizer`
 
    e. 在 USDP 控制台 YARN 实例列表中重启 ResourceManager。
 
