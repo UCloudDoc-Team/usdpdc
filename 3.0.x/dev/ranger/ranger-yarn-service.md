@@ -54,4 +54,5 @@ Ranger 管理员可通过 Ranger 为 YARN 用户配置 YARN 管理员权限以�
 
    图 3 查看 Ranger YARN 插件状态
    ![](assets/2023-03-10-18-38-22.png)
-   !> 注意每个 Ranger YARN 插件的 Active 时间是否为最新时间
+
+   !> 注意查看每个 Ranger YARN 插件的 Active 时间是否为最新时间
