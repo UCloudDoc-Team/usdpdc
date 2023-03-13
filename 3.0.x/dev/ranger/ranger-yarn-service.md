@@ -23,7 +23,7 @@ Ranger 管理员可通过 Ranger 为 YARN 用户配置 YARN 管理员权限以�
    | Username | 可以任意填写。 | yarn |
    | Password | 可以任意填写。 | yarn |
    | YARN REST URL | 连接 YARN ResourceManager 的 URL。 | http://z3:8088,http://z4:8088 |
-   | Add New Configurations | 增加额外配置。 | **Name**: policy.download.auth.users, **Value**: yarn |
+   | Add New Configurations | 增加额外配置。 | **Name**: policy.download.auth.users<br/>**Value**: yarn |
 
    图 2 添加 YARN Service
    ![](assets/2023-03-10-18-08-25.png)
