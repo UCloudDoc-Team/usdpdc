@@ -7,3 +7,4 @@
   - [组件服务配置文件目录](usdpdc/3.0.x/maintain/regulations?id=_922-组件服务配置文件目录)
   - [组件服务默认的数据存储路径](usdpdc/3.0.x/maintain/regulations?id=_923-组件服务默认的数据存储路径)
   - [组件服务的日志存储路径](usdpdc/3.0.x/maintain/regulations?id=_924-组件服务的日志存储路径)
+- [大数据组件起停顺序](usdpdc/3.0.x/maintain/start_stop)
