@@ -70,7 +70,7 @@ UDH-3.0.0 中，已支持的大数据生态服务组件有：
 | DolphinScheduler | 3.1.0    | Apache DolphinScheduler 是一个分布式易扩展的可视化DAG工作流任务调度开源系统。 |
 | Solr             | 8.11.2   | Apache Solr 基于Lucene的流行、高性能的开源企业级搜索平台。   |
 | Prometheus       | 2.38.0   | Prometheus 是一个开源的系统监控和报警系统用于拉取大数据平台监控数据。 |
-| ATLAS            | 2.3.0    | 元数据管理服务                                               |
+| Atlas            | 2.3.0    | 元数据管理服务                                               |
 | Ranger           | 2.3.0    | Apache Ranger 授权服务。                                     |
 | ZooKeeper        | 3.5.10   | Apache ZooKeeper 是用于维护和同步配置数据的集中服务。        |
 
