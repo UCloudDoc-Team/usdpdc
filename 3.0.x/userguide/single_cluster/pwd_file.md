@@ -8,5 +8,8 @@
 | Ranger           | admin        | USDPadmin123        |
 | Dolphinscheduler | admin        | dolphinscheduler123 |
 | Atlas            | admin        | admin               |
+| EFAK             | admin        | 123456              |
+| Canal            | admin        | 123456              |
+| ZKUI             | admin        | admin               |
 
 其他大数据服务原生 Web UI 不需要登陆即可打开。
